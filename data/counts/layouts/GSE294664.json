@@ -1,0 +1,95 @@
+{
+ "request_sha256": "8bff4100c14b7c036df79c90410407dce9e016ecc0148c6ca7850ce04e41dcf3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE294664_Processed_data_matrix.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8914464",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8914465",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8914466",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8914467",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8914468",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8914469",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8914470",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8914471",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8914472",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8914473",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8914474",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8914475",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8914476",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8914477",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8914478",
+      "member": "",
+      "column": 16
+     }
+    ]
+   }
+  ],
+  "note": "The matrix holds whole-number values per gene symbol (e.g. 22, 114, 0, 1), consistent with raw read counts despite the 'Processed' file name. The columns \"Sample 1\" to \"Sample 15\" map to the samples through the library names in the sample descriptions, and all 15 samples are given."
+ }
+}

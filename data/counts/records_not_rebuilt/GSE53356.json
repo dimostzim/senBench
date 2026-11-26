@@ -1,0 +1,36 @@
+{
+ "table": {
+  "dataset": "GSE53356",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 4,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of bigWig coverage tracks (one per sample), which are not per-gene counts, so no raw read counts or normalised per-gene values are given. No samples are listed in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE53356",
+   "sample": "GSM1290015",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE53356",
+   "sample": "GSM1290016",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE53356",
+   "sample": "GSM1290017",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE53356",
+   "sample": "GSM1290018",
+   "match": "no column"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "request_sha256": "b1e510a5e4f719d2982bcd7366fea15957b3f60aae86009ad225120346dd8153",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE255546_Tongetal_gene_count_table.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8074498",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8074499",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8074500",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8074501",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8074502",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8074503",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8074504",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8074505",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8074506",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8074507",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8074508",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8074509",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8074510",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8074511",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8074512",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM8074513",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM8074514",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM8074515",
+      "member": "",
+      "column": 19
+     }
+    ]
+   }
+  ],
+  "note": "The count table has Ensembl gene IDs with whole-number values per sample (e.g. 540288, 13294), consistent with raw counts. The column names are the sample descriptions (e.g. C_CTL_3), which match the samples' description fields, so all 18 samples are given."
+ }
+}

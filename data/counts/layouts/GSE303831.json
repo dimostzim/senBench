@@ -1,0 +1,140 @@
+{
+ "request_sha256": "b5b869b18d316de5102471901ca586cc4faaba4b8962352c52578d596a2e65d4",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE303831_bulkRNA_Count.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9136684",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM9136685",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM9136686",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM9136687",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM9136688",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM9136689",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM9136690",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM9136691",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM9136692",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM9136693",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM9136694",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM9136695",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM9136696",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM9136697",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM9136698",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM9136699",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM9136700",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM9136701",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM9136702",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM9136703",
+      "member": "",
+      "column": 26
+     },
+     {
+      "sample": "GSM9136704",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM9136705",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM9136706",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM9136707",
+      "member": "",
+      "column": 19
+     }
+    ]
+   }
+  ],
+  "note": "The file is named \"Count\" and holds whole-number values per gene symbol, many zeros and small integers, so these are raw counts. All 24 samples are mapped through the library name (e.g. GBM12.1 = column GBM12-1); columns GBM12-9 and GBM28-9 match no sample and are left out."
+ }
+}

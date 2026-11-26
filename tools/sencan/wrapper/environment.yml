@@ -1,0 +1,10 @@
+name: sencan
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.0.5
+  - bioconductor-edger=3.32.1
+  - r-glmnet=4.1_2
+  - r-pcapp=2.0_2
+  - r-jsonlite=1.8.0

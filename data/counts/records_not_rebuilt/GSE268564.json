@@ -1,0 +1,61 @@
+{
+ "table": {
+  "dataset": "GSE268564",
+  "count_table_state": "none",
+  "source_file": "GSE268564_raw_counts_table.txt.gz",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 9,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "check failed: 122066 of 162106 rows repeat a gene identifier; agent: The file is named raw_counts_table and its values are whole numbers (e.g. 0, 25, 27, 17). Columns S1Y to S3S match the sample descriptions, so all nine samples are given. Rows are per transcript or region, so a gene_id can repeat."
+ },
+ "columns": [
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294314",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294315",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294316",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294317",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294318",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294319",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294320",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294321",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE268564",
+   "sample": "GSM8294322",
+   "match": "no column"
+  }
+ ]
+}

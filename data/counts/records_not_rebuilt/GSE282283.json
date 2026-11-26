@@ -1,0 +1,81 @@
+{
+ "table": {
+  "dataset": "GSE282283",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 13,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The two TPM files hold decimal TPM values (e.g. 12.51, 63.56), which are normalised, so they are not raw counts. The only integer counts are the 10x matrices in the tar, which belong to GSM8640501 and GSM8640502; these are not among the listed samples (GSM8640503–GSM8640515), so no sample is given in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640503",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640504",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640505",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640506",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640507",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640508",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640509",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640510",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640511",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640512",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640513",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640514",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282283",
+   "sample": "GSM8640515",
+   "match": "no column"
+  }
+ ]
+}

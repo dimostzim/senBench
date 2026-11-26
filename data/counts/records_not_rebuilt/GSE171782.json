@@ -1,0 +1,86 @@
+{
+ "table": {
+  "dataset": "GSE171782",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE171782_RAW.tar",
+  "source_sha256": "94ee055508548500f979c8e4bfa48e5f28165924744d7168bb5d5e20c32cef04",
+  "gene_identifier_kind": "Ensembl gene",
+  "genes": 63677,
+  "samples_of_dataset": 10,
+  "samples_in_table": 4,
+  "column_match": "accession: 4",
+  "note": "63677 of 63677 gene identifiers are of the kind Ensembl gene; 6 samples have no column; agent: The featureCounts outputs (Ensembl gene IDs, one column per BAM file) hold whole-number counts such as 1, 160 and 222 for GSM5234100-103. GSM5234110-115 (RNA tsv files) split counts across region columns (5_UTR, CDS, 3_UTR, ncRNA and others) with no single whole-sample column, so they are not given. The Ribo-seq RPF files, CLIP files and bigWigs belong to no sample of this dataset."
+ },
+ "columns": [
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234100",
+   "file": "GSE171782_RAW.tar",
+   "member": "GSM5234100_K002000252_91180_sorted_featurecounts.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "K002000252_91180_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234101",
+   "file": "GSE171782_RAW.tar",
+   "member": "GSM5234101_K002000252_91182_sorted_featurecounts.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "K002000252_91182_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234102",
+   "file": "GSE171782_RAW.tar",
+   "member": "GSM5234102_K002000252_91184_sorted_featurecounts.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "K002000252_91184_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234103",
+   "file": "GSE171782_RAW.tar",
+   "member": "GSM5234103_K002000252_91186_sorted_featurecounts.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "K002000252_91186_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234110",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234111",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234112",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234113",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234114",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE171782",
+   "sample": "GSM5234115",
+   "match": "no column"
+  }
+ ]
+}

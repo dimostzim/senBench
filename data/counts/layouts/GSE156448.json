@@ -1,0 +1,107 @@
+{
+ "request_sha256": "eafacf5f3328be1ef6f4715862fc553a0432e331fc5280b0ca8dad4faeb19882",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE156448_A.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4731644",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4731645",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4731646",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE156448_B.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4731647",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4731648",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4731649",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE156448_H.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4731650",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4731651",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4731652",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE156448_I.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4731653",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4731654",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4731655",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "The files are gene count matrices (columns such as A01_count) with mostly integer values and some fractional ones (e.g. 2015.39), which look like expected counts from RSEM-style quantification rather than normalised values such as FPKM or TPM. All 12 samples are given, matched via the well codes (A01–A03, B01–B03, H01–H03, I01–I03) in the sample descriptions."
+ }
+}

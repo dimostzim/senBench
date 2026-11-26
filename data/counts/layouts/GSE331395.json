@@ -1,0 +1,140 @@
+{
+ "request_sha256": "49b228a487444c81538de2b524aa59c807e4da47f512e028d121c085ac6fe551",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE331395_gene_counts.tsv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9745193",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM9745194",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM9745195",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM9745196",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM9745197",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM9745198",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM9745199",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM9745200",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM9745201",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM9745202",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM9745203",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM9745204",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM9745205",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM9745206",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM9745207",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM9745208",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM9745209",
+      "member": "",
+      "column": 26
+     },
+     {
+      "sample": "GSM9745210",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM9745211",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM9745212",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM9745213",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM9745214",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM9745215",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM9745216",
+      "member": "",
+      "column": 24
+     }
+    ]
+   }
+  ],
+  "note": "The file gene_counts.tsv holds whole-number values (0 and 1) per Ensembl gene, consistent with raw counts. All 24 samples are matched by the column names given in each sample description."
+ }
+}

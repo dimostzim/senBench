@@ -1,0 +1,65 @@
+{
+ "request_sha256": "1d10d23c69ba1c5353bfa9d5669cff501a1d4461591e5584968e230a2f11aa8e",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE307723_raw_counts_all_samples.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9229921",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM9229922",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM9229923",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM9229924",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM9229925",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM9229926",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM9229927",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM9229928",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM9229929",
+      "member": "",
+      "column": 10
+     }
+    ]
+   }
+  ],
+  "note": "The file is named raw counts and holds whole-number values per Ensembl gene, including many small values like 0 and 2. Column names \"Passage N\" match the sample titles, so all 9 samples are given."
+ }
+}

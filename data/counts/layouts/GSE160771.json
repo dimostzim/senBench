@@ -1,0 +1,83 @@
+{
+ "request_sha256": "e59ff718db7611adeae16a0f029c4cf8ce20be4693a529b62dbbc46131f79dc6",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE160771_A.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4878977",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4878978",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4878979",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE160771_B.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4878980",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4878981",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4878982",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE160771_C.gene.count.matrix.annot.xls.gz",
+    "sheet": "gene.count.matrix.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4878983",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4878984",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4878985",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "The columns are named \"*_count\" in \"gene.count.matrix\" files and hold unscaled per-gene counts, many of them whole numbers (0, 5, 9, 544). Some are fractional (e.g. 2015.39), which suggests expected counts from a quantifier such as RSEM, not normalised values; the sample columns (A01–C03) map to the GSMs through the titles. All nine samples are given."
+ }
+}

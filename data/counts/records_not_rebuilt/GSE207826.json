@@ -1,0 +1,76 @@
+{
+ "table": {
+  "dataset": "GSE207826",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 12,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is GSE207826_RAW.tar, which holds only ATAC/ChIP/MINT-seq bigWig coverage tracks (.bw), not per-gene count tables. The RNA-seq samples (GSM6319699-GSM6319710) are described as having a processed table with normalised expression and DESeq2 output, but no such table is among the files given."
+ },
+ "columns": [
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319699",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319700",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319701",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319702",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319703",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319704",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319705",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319706",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319707",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319708",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319709",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE207826",
+   "sample": "GSM6319710",
+   "match": "no column"
+  }
+ ]
+}

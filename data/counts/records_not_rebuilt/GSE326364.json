@@ -1,0 +1,61 @@
+{
+ "table": {
+  "dataset": "GSE326364",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 9,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: Each member file of the tar has one value column headed \"TPM\" with decimal values (e.g. 13.68, 0.25), so the values are normalised and not raw counts. No other files hold raw read counts."
+ },
+ "columns": [
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629912",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629913",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629914",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629915",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629916",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629917",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629918",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629919",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE326364",
+   "sample": "GSM9629920",
+   "match": "no column"
+  }
+ ]
+}

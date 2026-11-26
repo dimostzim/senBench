@@ -1,0 +1,105 @@
+{
+ "request_sha256": "a932c744158c1205f4ad6153caa7928fbf94b41122b02fcceb4586c1e806339c",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE288940_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8779535",
+      "member": "GSM8779535_IMR90_D0_1.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779536",
+      "member": "GSM8779536_IMR90_D0_3.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779537",
+      "member": "GSM8779537_IMR90_D0_4.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779538",
+      "member": "GSM8779538_IMR90_D0_5.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779539",
+      "member": "GSM8779539_IMR90_D0_6.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779540",
+      "member": "GSM8779540_IMR90_D7_1.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779541",
+      "member": "GSM8779541_IMR90_D7_2.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779542",
+      "member": "GSM8779542_IMR90_D7_3.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779543",
+      "member": "GSM8779543_IMR90_D7_4.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779544",
+      "member": "GSM8779544_IMR90_D7_5.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779545",
+      "member": "GSM8779545_IMR90_D7_6.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779546",
+      "member": "GSM8779546_IMR90_D28_1.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779547",
+      "member": "GSM8779547_IMR90_D28_2.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779548",
+      "member": "GSM8779548_IMR90_D28_3.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779549",
+      "member": "GSM8779549_IMR90_D28_4.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779550",
+      "member": "GSM8779550_IMR90_D28_5.tabular.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8779551",
+      "member": "GSM8779551_IMR90_D28_6.tabular.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each per-sample tar member has gene symbols in column 1 and whole-number values in column 2 (e.g. PEX10 984, RPL21P21 0), with no header, consistent with raw counts. Row 1 has no gene name, so gene rows start at row 2. In five members, column 3 is a constant per-gene value (likely gene length), not counts. All 17 samples are given."
+ }
+}

@@ -1,0 +1,576 @@
+{
+ "table": {
+  "dataset": "GSE175533",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 112,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only per-gene bulk table is GSE175533_hTERT.RS.RIS.CD.TPM_table.xlsx, which could not be read. Its name and the sample descriptions show it holds TPM, so the values are normalised. The other files are bigWig tracks, ATAC peak and atlas files, and a single-cell h5ad, and none of them is a bulk raw count table."
+ },
+ "columns": [
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340959",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340960",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340961",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340962",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340963",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340964",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340965",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340966",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340967",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340968",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340969",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340970",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340971",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340972",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340973",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340974",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340975",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340976",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340977",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340978",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340979",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340980",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340981",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340982",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340983",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340984",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340985",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340986",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340987",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340988",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340989",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340990",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340991",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340992",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340993",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340994",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340995",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340996",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340997",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340998",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5340999",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341000",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341001",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341002",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341003",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341004",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341005",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341006",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341007",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341008",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341009",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341010",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341011",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341012",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341013",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341014",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341015",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341016",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341017",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341018",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341019",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341020",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341021",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341022",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341023",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341024",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341025",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341026",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341027",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341028",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341029",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341030",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341031",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341032",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341033",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341034",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341035",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341036",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341037",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341038",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341039",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341040",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341041",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341042",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341043",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341044",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341045",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341046",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341047",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341048",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341049",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341050",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341051",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341052",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341053",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341054",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341090",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341091",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341092",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341093",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341094",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341095",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341096",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341097",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341098",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341099",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341100",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341101",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341102",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341103",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341104",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE175533",
+   "sample": "GSM5341105",
+   "match": "no column"
+  }
+ ]
+}

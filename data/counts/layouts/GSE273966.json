@@ -1,0 +1,50 @@
+{
+ "request_sha256": "cfb784942c8d9b60b72eb9307ee3a6100906074e60230919076b514963b55e92",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE273966_Raw_gene_counts_matrix.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8440410",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8440411",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8440412",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8440413",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8440414",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8440415",
+      "member": "",
+      "column": 4
+     }
+    ]
+   }
+  ],
+  "note": "The file is named a raw gene counts matrix and holds whole-number values per gene (e.g. 99, 87, 0, 1, 4). Columns A9_1–3 and NC_1–3 map to the samples via their descriptions (A9_n = OE-n, NC_n = NC-n), so all six samples are given."
+ }
+}

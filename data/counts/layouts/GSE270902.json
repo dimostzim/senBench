@@ -1,0 +1,80 @@
+{
+ "request_sha256": "64be6778151a44c7d2c7dc5265a35b9146df8a79a441454f394a97769da3f4ca",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE270902_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8354684",
+      "member": "GSM8354684_HCE1.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354685",
+      "member": "GSM8354685_HCE2.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354686",
+      "member": "GSM8354686_HCE3.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354687",
+      "member": "GSM8354687_HCH1.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354688",
+      "member": "GSM8354688_HCH2.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354689",
+      "member": "GSM8354689_HCH3.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354690",
+      "member": "GSM8354690_HFH1.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354691",
+      "member": "GSM8354691_HFH2.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354692",
+      "member": "GSM8354692_HFH3.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354693",
+      "member": "GSM8354693_HTH1.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354694",
+      "member": "GSM8354694_HTH2.sorted_by_name.exon.counts.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8354695",
+      "member": "GSM8354695_HTH3.sorted_by_name.exon.counts.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each tar member is a headerless two-column file of Ensembl gene IDs and whole-number values, named \"exon.counts\", with a different value per sample (e.g. 288, 790, 131), which fits raw read counts. All 12 samples are given, each matched by the GSM accession in its member name."
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "request_sha256": "0614f8f3c47d941f6a13a742dd73d388cdd2e0cc42ab2d378706d50ae035d819",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE155904_Read_counts_AHCY_Ana.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM4715457",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM4715458",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM4715459",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM4715460",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM4715461",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM4715462",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM4715463",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM4715464",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM4715465",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM4715466",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM4715467",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM4715468",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM4715469",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM4715470",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM4715471",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM4715472",
+      "member": "",
+      "column": 17
+     }
+    ]
+   }
+  ],
+  "note": "The file is named read counts and holds small whole-number values (0, 1, 2) per Ensembl gene, consistent with raw counts. All 16 samples are given, matched by the titles in the header row (EV_49 to shAHCY4_64)."
+ }
+}

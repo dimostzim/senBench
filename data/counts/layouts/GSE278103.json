@@ -1,0 +1,200 @@
+{
+ "request_sha256": "001935881efab1cbc9115f703bc15c76a203d8e0687757b798bd9499fcda5aea",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE278103_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8539676",
+      "member": "GSM8539676_Day2_WT1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539677",
+      "member": "GSM8539677_Day2_WT2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539678",
+      "member": "GSM8539678_Day2_WT3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539679",
+      "member": "GSM8539679_Day2_U1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539680",
+      "member": "GSM8539680_Day2_U2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539681",
+      "member": "GSM8539681_Day2_U3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539682",
+      "member": "GSM8539682_Day2_D1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539683",
+      "member": "GSM8539683_Day2_D2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539684",
+      "member": "GSM8539684_Day2_D3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539685",
+      "member": "GSM8539685_Day2_UD1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539686",
+      "member": "GSM8539686_Day2_UD2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539687",
+      "member": "GSM8539687_Day2_UD3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539688",
+      "member": "GSM8539688_Day6_WT1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539689",
+      "member": "GSM8539689_Day6_WT2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539690",
+      "member": "GSM8539690_Day6_WT3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539691",
+      "member": "GSM8539691_Day6_U1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539692",
+      "member": "GSM8539692_Day6_U2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539693",
+      "member": "GSM8539693_Day6_U3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539694",
+      "member": "GSM8539694_Day6_D1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539695",
+      "member": "GSM8539695_Day6_D2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539696",
+      "member": "GSM8539696_Day6_D3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539697",
+      "member": "GSM8539697_Day6_UD1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539698",
+      "member": "GSM8539698_Day6_UD2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539699",
+      "member": "GSM8539699_Day6_UD3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539700",
+      "member": "GSM8539700_Day8_WT1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539701",
+      "member": "GSM8539701_Day8_WT2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539702",
+      "member": "GSM8539702_Day8_WT3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539703",
+      "member": "GSM8539703_Day8_U1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539704",
+      "member": "GSM8539704_Day8_U2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539705",
+      "member": "GSM8539705_Day8_U3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539706",
+      "member": "GSM8539706_Day8_D1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539707",
+      "member": "GSM8539707_Day8_D2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539708",
+      "member": "GSM8539708_Day8_D3_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539709",
+      "member": "GSM8539709_Day8_UD1_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539710",
+      "member": "GSM8539710_Day8_UD2_countGenes.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8539711",
+      "member": "GSM8539711_Day8_UD3_countGenes.tsv.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each tar member is a headerless two-column table: an Ensembl gene ID in column 1 and a whole-number count in column 2 (e.g. 1, 139, 7, 0). The file names say \"countGenes\". All 36 samples are given, one member each, matched by the GSM accession in the member name."
+ }
+}

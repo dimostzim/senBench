@@ -1,0 +1,256 @@
+{
+ "table": {
+  "dataset": "GSE113060",
+  "count_table_state": "GEO uniform",
+  "source_file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+  "source_sha256": "d87724d23a0c7b3290c0fb8861511781509a362d67129280e72a7fab09621655",
+  "gene_identifier_kind": "NCBI gene id",
+  "genes": 39376,
+  "samples_of_dataset": 24,
+  "samples_in_table": 24,
+  "column_match": "accession: 24",
+  "note": "39376 of 39376 gene identifiers are of the kind NCBI gene id"
+ },
+ "columns": [
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095576",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 2,
+   "column_name": "GSM3095576",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095577",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 3,
+   "column_name": "GSM3095577",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095578",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 4,
+   "column_name": "GSM3095578",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095579",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 5,
+   "column_name": "GSM3095579",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095580",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 6,
+   "column_name": "GSM3095580",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095581",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 7,
+   "column_name": "GSM3095581",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095582",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 8,
+   "column_name": "GSM3095582",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095583",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 9,
+   "column_name": "GSM3095583",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095584",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 10,
+   "column_name": "GSM3095584",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095585",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 11,
+   "column_name": "GSM3095585",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095586",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 12,
+   "column_name": "GSM3095586",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095587",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 13,
+   "column_name": "GSM3095587",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095588",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 14,
+   "column_name": "GSM3095588",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095589",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 15,
+   "column_name": "GSM3095589",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095590",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 16,
+   "column_name": "GSM3095590",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095591",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 17,
+   "column_name": "GSM3095591",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095592",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 18,
+   "column_name": "GSM3095592",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095593",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 19,
+   "column_name": "GSM3095593",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095594",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 20,
+   "column_name": "GSM3095594",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095595",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 21,
+   "column_name": "GSM3095595",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095596",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 22,
+   "column_name": "GSM3095596",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095597",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 23,
+   "column_name": "GSM3095597",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095598",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 24,
+   "column_name": "GSM3095598",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE113060",
+   "sample": "GSM3095599",
+   "file": "GSE113060_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 25,
+   "column_name": "GSM3095599",
+   "match": "accession"
+  }
+ ]
+}

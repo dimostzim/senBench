@@ -1,0 +1,140 @@
+{
+ "request_sha256": "324a76fb2736cec6169a67c3562add92545c6c11668022acdc49fad14d98d8f7",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE248294_RAW.tar",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7911061",
+      "member": "GSM7911061_1-md0-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911062",
+      "member": "GSM7911062_2-md0-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911063",
+      "member": "GSM7911063_3-md1-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911064",
+      "member": "GSM7911064_4-md1-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911065",
+      "member": "GSM7911065_5-md3-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911066",
+      "member": "GSM7911066_6-md3-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911067",
+      "member": "GSM7911067_7-md5-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911068",
+      "member": "GSM7911068_8-md5-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911069",
+      "member": "GSM7911069_9-md21-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911070",
+      "member": "GSM7911070_10-md21-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911071",
+      "member": "GSM7911071_11-md29-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911072",
+      "member": "GSM7911072_12-md29-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911073",
+      "member": "GSM7911073_13-pd0-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911074",
+      "member": "GSM7911074_14-pd0-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911075",
+      "member": "GSM7911075_15-pd1-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911076",
+      "member": "GSM7911076_16-pd1-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911077",
+      "member": "GSM7911077_17-pd3-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911078",
+      "member": "GSM7911078_18-pd3-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911079",
+      "member": "GSM7911079_19-pd5-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911080",
+      "member": "GSM7911080_20-pd5-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911081",
+      "member": "GSM7911081_21-pd21-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911082",
+      "member": "GSM7911082_22-pd21-2.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911083",
+      "member": "GSM7911083_23-pd29-1.counts.txt.gz",
+      "column": 7
+     },
+     {
+      "sample": "GSM7911084",
+      "member": "GSM7911084_24-pd29-2.counts.txt.gz",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "Each tar member is a featureCounts output (Geneid, Chr, Start, End, Strand, Length, then one count column) with integer values per Ensembl gene, so these are raw read counts. All 24 samples are given, one member per sample, each with its GSM accession in the member name."
+ }
+}

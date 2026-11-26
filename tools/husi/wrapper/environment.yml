@@ -1,0 +1,12 @@
+# Environment of the hUSI wrapper: R 4.0.5 (the version the hUSI README states) and the compilers that build
+# the R packages. setup_env.sh installs the R packages (dplyr 1.1.4, mclust 6.0.1, jsonlite 1.8.8 and what they
+# import) from source out of a dated CRAN snapshot, because conda-forge has no build of dplyr 1.1.4 or
+# mclust 6.0.1 for R 4.0. The exact builds are in conda_explicit_lock.txt and r_packages_lock.tsv.
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.0.5
+  - gcc_linux-64=12.4.0
+  - gxx_linux-64=12.4.0
+  - gfortran_linux-64=12.4.0
+  - make=4.4.1

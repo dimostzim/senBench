@@ -1,0 +1,136 @@
+{
+ "table": {
+  "dataset": "GSE350722",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 24,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file is a tar of 10x Cell Ranger single-cell matrices (integer sparse mtx, barcodes, features) for GSM10118300–GSM10118303. These accessions are not among the 24 listed samples (GSM10112544–GSM10112567), and each matrix has cells as columns, so no single column holds the counts of a whole sample; no sample is given."
+ },
+ "columns": [
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112544",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112545",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112546",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112547",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112548",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112549",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112550",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112551",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112552",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112553",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112554",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112555",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112556",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112557",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112558",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112559",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112560",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112561",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112562",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112563",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112564",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112565",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112566",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE350722",
+   "sample": "GSM10112567",
+   "match": "no column"
+  }
+ ]
+}

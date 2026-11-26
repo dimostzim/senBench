@@ -1,0 +1,90 @@
+{
+ "request_sha256": "aa2ea2e370364280686f3d15bf41f14ee59e348bcc72d42e55a3be9e655c75f0",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE345642_all_samples.fragments_per_gene.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM10012156",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM10012157",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM10012158",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM10012159",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM10012160",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM10012161",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM10012162",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM10012163",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM10012164",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM10012165",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM10012166",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM10012167",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM10012168",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM10012169",
+      "member": "",
+      "column": 17
+     }
+    ]
+   }
+  ],
+  "note": "The file gives whole-number fragment counts per Ensembl gene (many zeros, varying integer values), so they are raw counts, not normalised. All 14 samples are matched by library name to columns; columns 14 and 15 (HFCK7DSXY ...R, the earlier runs of 003 and 005) match no sample and are left out."
+ }
+}

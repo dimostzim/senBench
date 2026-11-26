@@ -1,0 +1,26 @@
+# Environment of the markeR wrapper: R, the packages that markeR 1.3.1 imports, and jsonlite for run_info.json.
+# markeR itself is installed from the unchanged clone by setup_env.sh. The exact builds are in conda_explicit_lock.txt.
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.5.3
+  - bioconductor-edger=4.10.7
+  - bioconductor-limma=3.68.5
+  - bioconductor-fgsea=1.36.2
+  - bioconductor-complexheatmap=2.26.1
+  - r-circlize=0.4.18
+  - r-effectsize=1.0.3
+  - r-ggh4x=0.3.1
+  - r-ggplot2=3.5.2
+  - r-ggpubr=1.0.0
+  - r-ggrepel=0.9.8
+  - r-gridextra=2.3.1
+  - r-jsonlite=2.0.0
+  - r-msigdbr=26.1.1
+  - r-proc=1.19.1
+  - r-rcolorbrewer=1.1_3
+  - r-reshape2=1.4.5
+  - r-rstatix=1.1.0
+  - r-scales=1.4.0
+  - r-tibble=3.3.1

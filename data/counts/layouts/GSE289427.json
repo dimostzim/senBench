@@ -1,0 +1,130 @@
+{
+ "request_sha256": "f5f90e0c92a6ca8fcf0fe904803a175c80715306d886e2699c684d06f09fc568",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE289427_counts.sf_raw.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8791335",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8791336",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8791337",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8791338",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8791339",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8791340",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8791341",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8791342",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8791343",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8791344",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8791345",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8791346",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8791347",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8791348",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8791349",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM8791350",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM8791351",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM8791352",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM8791353",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM8791354",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM8791355",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM8791356",
+      "member": "",
+      "column": 23
+     }
+    ]
+   }
+  ],
+  "note": "GSE289427_counts.sf_raw.txt.gz holds whole-number gene counts per Ensembl gene. The sf_norm file holds decimal size-factor-normalised values, so it is not used. Samples were matched to columns through the library names (M_x) in the sample descriptions, and all 22 samples are given."
+ }
+}

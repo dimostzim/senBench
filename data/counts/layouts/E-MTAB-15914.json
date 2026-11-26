@@ -1,0 +1,179 @@
+{
+ "request_sha256": "193809271bee5c585a09c37c411fcbc3c37f7f338fcb6e4132b953541201808f",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "sharp_beli_2022_01_01_timepoint_1_1.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 1",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_02_timepoint_1_2.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 2",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_03_timepoint_1_3.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 3",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_04_timepoint_2_1.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 4",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_05_timepoint_2_2.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 5",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_06_timepoint_2_3.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 6",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_07_timepoint_3_1.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 7",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_08_timepoint_3_2.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 8",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_09_timepoint_3_3.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 9",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_10_timepoint_4_1.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 10",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_11_timepoint_4_2.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 11",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "sharp_beli_2022_01_12_timepoint_4_3.raw_readcounts.tsv",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "Sample 12",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "Each file is featureCounts v2.0.0 output (Ensembl gene IDs in column 1, integer counts in column 7, file names say raw_readcounts), so these are raw read counts. The 12 files map one-to-one to Samples 1–12 by file number and by timepoint_N_R matching the sample's Age N and Replicate R; all samples are given."
+ }
+}

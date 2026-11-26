@@ -1,0 +1,110 @@
+{
+ "request_sha256": "17252f39aec497a0dda404cb3d13b5a1b372fe3c9919fc7d56028e99e2b9cd93",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE291621_RAW.tar",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8838692",
+      "member": "GSM8838692_Sen-Ctrl_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838693",
+      "member": "GSM8838693_Sen-Ctrl_2.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838694",
+      "member": "GSM8838694_Sen-sip300_CBP_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838695",
+      "member": "GSM8838695_Sen-sip300_CBP_2.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838696",
+      "member": "GSM8838696_Sen-Ctrl_3.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838697",
+      "member": "GSM8838697_Sen-Ctrl_4.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838698",
+      "member": "GSM8838698_Sen-siFOXF1_2_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM8838699",
+      "member": "GSM8838699_Sen-siFOXF1_2_2.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356921",
+      "member": "GSM9356921_Sen-Ctrl_5.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356922",
+      "member": "GSM9356922_Sen-Ctrl_6.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356923",
+      "member": "GSM9356923_Sen-cJUNJUND-KD_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356924",
+      "member": "GSM9356924_Sen-cJUNJUND-KD_2.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356925",
+      "member": "GSM9356925_TIG3-Pro-Ctrl_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356926",
+      "member": "GSM9356926_TIG3-Pro-Ctrl_2.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356927",
+      "member": "GSM9356927_TIG3-Sen-Ctrl_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356928",
+      "member": "GSM9356928_TIG3-Sen-Ctrl_2.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356929",
+      "member": "GSM9356929_TIG3-Sen-siFOXF12_1.genes.results.gz",
+      "column": 5
+     },
+     {
+      "sample": "GSM9356930",
+      "member": "GSM9356930_TIG3-Sen-siFOXF12_2.genes.results.gz",
+      "column": 5
+     }
+    ]
+   }
+  ],
+  "note": "Each member is an RSEM genes.results file whose expected_count column (5) holds per-gene estimated read counts, in the same files as the TPM and FPKM columns. The values are mostly non-integer (e.g. 242.84) because RSEM estimates them. All 18 samples are given, one member each."
+ }
+}

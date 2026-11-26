@@ -1,0 +1,76 @@
+{
+ "table": {
+  "dataset": "GSE304272",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 12,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file is named \"Normalized_counts\", and its values are non-integer (e.g. 65.36959515, 1.804670323), so they look like counts divided by size factors, not raw read counts. No file holds raw counts, so no samples are given in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146524",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146525",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146526",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146527",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146528",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146529",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146530",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146531",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146532",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146533",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146534",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE304272",
+   "sample": "GSM9146535",
+   "match": "no column"
+  }
+ ]
+}

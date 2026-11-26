@@ -1,0 +1,110 @@
+{
+ "request_sha256": "2b7a112cb40b21b3ebd579ac7bc61e61b85d1b54c5f6690935c167d69938d07a",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE298654_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9020039",
+      "member": "GSM9020039_MCF7-CONTROL-1-1_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020040",
+      "member": "GSM9020040_MCF7-CONTROL-1-2_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020041",
+      "member": "GSM9020041_MCF7-CONTROL-1-3_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020042",
+      "member": "GSM9020042_MCF7-CONTROL-2-1_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020043",
+      "member": "GSM9020043_MCF7-CONTROL-2-2_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020044",
+      "member": "GSM9020044_MCF7-CONTROL-2-3_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020045",
+      "member": "GSM9020045_MCF7-DOXO-1-1_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020046",
+      "member": "GSM9020046_MCF7-DOXO-1-2_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020047",
+      "member": "GSM9020047_MCF7-DOXO-1-3_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020048",
+      "member": "GSM9020048_MCF7-DOXO-2-1_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020049",
+      "member": "GSM9020049_MCF7-DOXO-2-2_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020050",
+      "member": "GSM9020050_MCF7-DOXO-2-3_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020051",
+      "member": "GSM9020051_MCF7-ENRICH-1-1_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020052",
+      "member": "GSM9020052_MCF7-ENRICH-1-2_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020053",
+      "member": "GSM9020053_MCF7-ENRICH-1-3_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020054",
+      "member": "GSM9020054_MCF7-ENRICH-2-1_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020055",
+      "member": "GSM9020055_MCF7-ENRICH-2-2_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9020056",
+      "member": "GSM9020056_MCF7-ENRICH-2-3_counts.txt.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each tar member is a headerless two-column file of Ensembl gene IDs and whole-number values (e.g. 139, 0, 972) in files named \"_counts.txt\", which fits raw read counts. All 18 samples are given, each matched to its member by its GSM accession."
+ }
+}

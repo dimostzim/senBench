@@ -1,0 +1,230 @@
+{
+ "request_sha256": "a2692a339ea4f414e76f7230bea42900fa93bc7bb3dd837dec4396a261cd6031",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE293695_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9464163",
+      "member": "GSM9464163_XP_iMC_ctrl_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464164",
+      "member": "GSM9464164_XP_iMC_ctrl_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464165",
+      "member": "GSM9464165_XP_iMC_cisplatin_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464166",
+      "member": "GSM9464166_XP_iMC_cisplatin_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464167",
+      "member": "GSM9464167_XP_iMC_cisplatin_EF24_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464168",
+      "member": "GSM9464168_XP_iMC_cisplatin_EF24_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464169",
+      "member": "GSM9464169_XP_iMC_cisplatin_curcumin_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464170",
+      "member": "GSM9464170_XP_iMC_cisplatin_curcumin_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464171",
+      "member": "GSM9464171_XP_iMC_cisplatin_Baricitinib_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464172",
+      "member": "GSM9464172_XP_iMC_cisplatin_Baricitinib_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464173",
+      "member": "GSM9464173_XP_iMC_cisplatin_Upadacitinib_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464174",
+      "member": "GSM9464174_XP_iMC_cisplatin_Upadacitinib_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464175",
+      "member": "GSM9464175_HC_iMC_UV_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464176",
+      "member": "GSM9464176_HC_iMC_UV_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464177",
+      "member": "GSM9464177_HC_iMC_noUV_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464178",
+      "member": "GSM9464178_HC_iMC_noUV_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464179",
+      "member": "GSM9464179_XPA_iMC_UV_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464180",
+      "member": "GSM9464180_XPA_iMC_UV_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464181",
+      "member": "GSM9464181_XPA_iMC_noUV_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464182",
+      "member": "GSM9464182_XPA_iMC_noUV_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464183",
+      "member": "GSM9464183_UV0_Day0_Control_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464184",
+      "member": "GSM9464184_UV0_Day0_Control_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464185",
+      "member": "GSM9464185_UV40_Day3_Control_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464186",
+      "member": "GSM9464186_UV40_Day3_Control_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464187",
+      "member": "GSM9464187_UV40_Day3_EF24_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464188",
+      "member": "GSM9464188_UV40_Day3_EF24_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464189",
+      "member": "GSM9464189_UV40_Day3_Curcumin_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464190",
+      "member": "GSM9464190_UV40_Day3_Curcumin_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464191",
+      "member": "GSM9464191_UV40_Day3_Baricitinib_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464192",
+      "member": "GSM9464192_UV40_Day3_Baricitinib_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464193",
+      "member": "GSM9464193_UV40_Day3_Upadacitinib_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464194",
+      "member": "GSM9464194_UV40_Day3_Upadacitinib_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464195",
+      "member": "GSM9464195_UV40_Day6_Control_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464196",
+      "member": "GSM9464196_UV40_Day6_Control_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464197",
+      "member": "GSM9464197_UV40_Day6_EF24_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464198",
+      "member": "GSM9464198_UV40_Day6_EF24_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464199",
+      "member": "GSM9464199_UV40_Day6_Curcumin_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464200",
+      "member": "GSM9464200_UV40_Day6_Curcumin_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464201",
+      "member": "GSM9464201_UV40_Day6_Baricitinib_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464202",
+      "member": "GSM9464202_UV40_Day6_Baricitinib_02.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464203",
+      "member": "GSM9464203_UV40_Day6_Upadacitinib_01.htseq.tsv.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM9464204",
+      "member": "GSM9464204_UV40_Day6_Upadacitinib_02.htseq.tsv.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each tar member is a per-sample HTSeq output with Ensembl gene IDs in column 1 and whole-number counts in column 2, with no header row. Values such as 619, 361 and 0 are integers and differ between samples. All 42 samples are given, each identified by its GSM accession in the member name."
+ }
+}

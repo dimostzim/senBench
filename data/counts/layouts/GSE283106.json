@@ -1,0 +1,50 @@
+{
+ "request_sha256": "ef5a8c2d6409116f57802a1bdae8f927803384397d047750239be1b5ecd1a051",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE283106_readcount_RNAseq_231_shPML.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8656112",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8656113",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8656114",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8656115",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8656116",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8656117",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "The readcount file holds whole-number values per Ensembl gene (e.g. 430, 426, 328), whereas the FPKM file holds decimals and is normalised. All six samples are given, mapped by the column names shC_1–3 and shPML_1–3, which match the sample titles."
+ }
+}

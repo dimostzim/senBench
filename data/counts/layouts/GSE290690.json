@@ -1,0 +1,110 @@
+{
+ "request_sha256": "9d7df4268a066547e90844ce5dd00640829fe8d4044017cf75df0252cc774904",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE290690_counts.tsv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8819644",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8819645",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8819646",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8819647",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8819648",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8819649",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8819650",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8819651",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8819652",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8819653",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8819654",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8819655",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8819656",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8819657",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8819658",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM8819659",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM8819660",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM8819661",
+      "member": "",
+      "column": 19
+     }
+    ]
+   }
+  ],
+  "note": "The file is named counts and holds whole-number values (zeros for unexpressed genes) per Ensembl_symbol gene row, consistent with raw read counts. All 18 samples are given; each column name is the library name from the sample description (the column 8 name has a trailing space)."
+ }
+}

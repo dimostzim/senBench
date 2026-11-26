@@ -1,0 +1,46 @@
+{
+ "table": {
+  "dataset": "GSE297404",
+  "count_table_state": "none",
+  "source_file": "GSE297404_expression-sen.xlsx",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 6,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "check failed: GSE297404_expression-sen.xlsx: 6372 values are not numbers, the first '' of GSM8990422; agent: The values are whole numbers (e.g. 34352, 722034) per gene symbol, which fits raw read counts and not scaled values. The shown rows are only mitochondrial genes, so this is a judgement from the integers alone. Columns T1–T3 and C1–C3 map to the samples through the library names in the sample descriptions, and all six samples are given."
+ },
+ "columns": [
+  {
+   "dataset": "GSE297404",
+   "sample": "GSM8990421",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE297404",
+   "sample": "GSM8990422",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE297404",
+   "sample": "GSM8990423",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE297404",
+   "sample": "GSM8990424",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE297404",
+   "sample": "GSM8990425",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE297404",
+   "sample": "GSM8990426",
+   "match": "no column"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "table": {
+  "dataset": "GSE228472",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 6,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar with a 10x single-cell matrix (barcodes, features, sparse matrix.mtx) for GSM7122463, which is not one of the six listed samples (GSM7122457-62). The counts file named in their descriptions is not among the files, and no column identifies any of the six samples."
+ },
+ "columns": [
+  {
+   "dataset": "GSE228472",
+   "sample": "GSM7122457",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE228472",
+   "sample": "GSM7122458",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE228472",
+   "sample": "GSM7122459",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE228472",
+   "sample": "GSM7122460",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE228472",
+   "sample": "GSM7122461",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE228472",
+   "sample": "GSM7122462",
+   "match": "no column"
+  }
+ ]
+}

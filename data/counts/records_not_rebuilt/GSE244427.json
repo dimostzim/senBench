@@ -1,0 +1,66 @@
+{
+ "table": {
+  "dataset": "GSE244427",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 10,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file has negative and non-integer values (e.g. -1.67, 0.57), so they are normalised, scaled TPM-like values, not raw read counts. No file holds raw counts for any sample."
+ },
+ "columns": [
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815982",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815983",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815984",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815985",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815986",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815987",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815988",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815989",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815990",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244427",
+   "sample": "GSM7815991",
+   "match": "no column"
+  }
+ ]
+}

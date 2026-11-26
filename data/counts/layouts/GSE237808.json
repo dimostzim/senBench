@@ -1,0 +1,143 @@
+{
+ "request_sha256": "e1612285d31b915d53cfeb6392146de05460d1c7add6fee074b55302757ddfdb",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE237808_F3KD_gene_count_matrix.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7653894",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM7653895",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM7653896",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM7653897",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM7653898",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM7653899",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE237808_FOXO3Act_gene_count_matrix.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7653885",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM7653886",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM7653887",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM7653888",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM7653889",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM7653890",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM7653891",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM7653892",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM7653893",
+      "member": "",
+      "column": 10
+     }
+    ]
+   },
+   {
+    "file": "GSE237808_Senescence_gene_count_matrix.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7653900",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM7653901",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM7653902",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM7653903",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM7653904",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM7653905",
+      "member": "",
+      "column": 10
+     }
+    ]
+   }
+  ],
+  "note": "The three gene_count_matrix files hold whole-number, unscaled per-gene values (0, 3, 33251, ...), consistent with raw counts. All 21 samples are given; the ABR1-ABR3 columns of the Senescence file are not listed again because those samples are already given from the FOXO3Act file. The F3KD columns are matched to samples by the names shControlRNA1-3 and shFOXO3RNA1-3 and the replicate numbers in the sample titles."
+ }
+}

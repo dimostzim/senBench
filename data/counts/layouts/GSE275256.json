@@ -1,0 +1,65 @@
+{
+ "request_sha256": "f83dafbd4cbb56066257bab982dcfbaee059abca8579ca6d076d0a47e33fb7e4",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE275256_summary_star_genes_readcount.stranded.annotated.tsv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 6,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8473665",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8473666",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8473667",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8473668",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8473669",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8473670",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8473662",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8473663",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8473664",
+      "member": "",
+      "column": 10
+     }
+    ]
+   }
+  ],
+  "note": "The readcount file is a STAR per-gene count table with integer values (N_unmapped, N_multimapping, N_noFeature summary rows, as in STAR ReadsPerGene output); the TPM file holds normalised values and is not used. The gene rows are not shown, so first_values_row 6 is inferred (the STAR N_ambiguous row is presumably row 5); all nine samples are given, matched through the column names, which are the sample descriptions."
+ }
+}

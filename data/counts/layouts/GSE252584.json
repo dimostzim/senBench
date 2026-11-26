@@ -1,0 +1,70 @@
+{
+ "request_sha256": "7bf983b03b70141e8134ce7749b2fd3654b48605b36a394cd22238a2bf5d4a58",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE252584_raw_count_matrix.tsv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8003522",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8003523",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8003524",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8003525",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8003526",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8003527",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8003528",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8003529",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8003530",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8003531",
+      "member": "",
+      "column": 11
+     }
+    ]
+   }
+  ],
+  "note": "The file is named a raw count matrix and holds whole-number values per Ensembl gene. The header row has no name for column 1, so the 10 names (B1-NR to B6-IR) sit over columns 2-11. These names match the sample descriptions, so all 10 samples are given."
+ }
+}

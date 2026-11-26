@@ -1,0 +1,46 @@
+{
+ "table": {
+  "dataset": "GSE312500",
+  "count_table_state": "none",
+  "source_file": "GSE312500_gene.count.matrix.annotation.xls.gz",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 6,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "check failed: GSE312500_gene.count.matrix.annotation.xls.gz: 150 values are not numbers, the first 'ATRX' of GSM9347414; agent: The matrix is a gene count matrix with Ensembl IDs. Most values are integers (e.g. 593, 705, 0), and a few have decimals (e.g. 1300.85, 1654.68), which look like estimated (expected) counts rather than FPKM/TPM. Columns D and S are group means and are not used. All six samples are given, mapped through the column names in the description (D1–D3 and S1–S3)."
+ },
+ "columns": [
+  {
+   "dataset": "GSE312500",
+   "sample": "GSM9347414",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE312500",
+   "sample": "GSM9347415",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE312500",
+   "sample": "GSM9347416",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE312500",
+   "sample": "GSM9347417",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE312500",
+   "sample": "GSM9347418",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE312500",
+   "sample": "GSM9347419",
+   "match": "no column"
+  }
+ ]
+}

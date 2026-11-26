@@ -1,0 +1,61 @@
+{
+ "table": {
+  "dataset": "GSE46818",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 9,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of Affymetrix CEL files (microarray, not read counts) and bigWig alignment coverage tracks; neither holds per-gene read counts, so no sample has usable counts."
+ },
+ "columns": [
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138580",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138581",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138786",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138787",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138788",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138789",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138790",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138791",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE46818",
+   "sample": "GSM1138792",
+   "match": "no column"
+  }
+ ]
+}

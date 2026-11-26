@@ -1,0 +1,71 @@
+{
+ "table": {
+  "dataset": "GSE307575",
+  "count_table_state": "none",
+  "source_file": "GSE307575_RAW.tar",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 11,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "check failed: GSM9227089_1.quant.sf.gz: values are not whole numbers, and 251645 of 251645 rows are named by a transcript accession; agent: Each member is a Salmon quant.sf file whose NumReads column (5) holds estimated read counts (non-integer, 3 decimals) beside TPM; the rows are keyed by Ensembl transcript ID (ENST), not gene ID, so they would need aggregating to genes. All 11 samples are given, one member each."
+ },
+ "columns": [
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227089",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227090",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227091",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227092",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227093",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227094",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227095",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227096",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227097",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227098",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE307575",
+   "sample": "GSM9227099",
+   "match": "no column"
+  }
+ ]
+}

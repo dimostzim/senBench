@@ -1,0 +1,140 @@
+{
+ "request_sha256": "cb987d386b287d4abe98af4f95b1dc3c20d34a5e36bd3633f72f301a273df250",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE103590_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM3095576",
+      "member": "GSM3095576_Vector_G_1_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095577",
+      "member": "GSM3095577_Vector_G_2_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095578",
+      "member": "GSM3095578_Vector_G_3_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095579",
+      "member": "GSM3095579_Vector_G_4_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095580",
+      "member": "GSM3095580_Vector_G_5_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095581",
+      "member": "GSM3095581_Vector_G_6_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095582",
+      "member": "GSM3095582_ShA1_G_1_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095583",
+      "member": "GSM3095583_ShA1_G_2_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095584",
+      "member": "GSM3095584_ShA1_G_3_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095585",
+      "member": "GSM3095585_ShA1_G_4_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095586",
+      "member": "GSM3095586_ShA1_G_5_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095587",
+      "member": "GSM3095587_ShA1_G_6_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095588",
+      "member": "GSM3095588_Vector_S_1_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095589",
+      "member": "GSM3095589_Vector_S_2_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095590",
+      "member": "GSM3095590_Vector_S_3_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095591",
+      "member": "GSM3095591_Vector_S_4_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095592",
+      "member": "GSM3095592_Vector_S_5_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095593",
+      "member": "GSM3095593_Vector_S_6_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095594",
+      "member": "GSM3095594_ShA1_S_1_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095595",
+      "member": "GSM3095595_ShA1_S_2_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095596",
+      "member": "GSM3095596_ShA1_S_3_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095597",
+      "member": "GSM3095597_ShA1_S_4_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095598",
+      "member": "GSM3095598_ShA1_S_5_Rsubread_counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM3095599",
+      "member": "GSM3095599_ShA1_S_6_Rsubread_counts.txt.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each GSM3095576–599 member of the tar is a headerless two-column Rsubread counts file (NCBI gene ID, whole-number count, many zeros), so the values are raw read counts. All 24 samples are given; the ChIP-seq peak and bedgraph members belong to other GSM accessions and hold no gene counts."
+ }
+}

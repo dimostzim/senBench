@@ -1,0 +1,106 @@
+{
+ "table": {
+  "dataset": "GSE305002",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 18,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file, GSE305002_fpkm.txt.gz, holds FPKM values (column names end in _fpkm, values are non-integer decimals), which are normalised; no raw read counts are given."
+ },
+ "columns": [
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160838",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160839",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160840",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160841",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160842",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160843",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160844",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160845",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160846",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160847",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160848",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160849",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160850",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160851",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160852",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160853",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160854",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE305002",
+   "sample": "GSM9160855",
+   "match": "no column"
+  }
+ ]
+}

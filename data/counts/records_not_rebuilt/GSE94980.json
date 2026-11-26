@@ -1,0 +1,6216 @@
+{
+ "table": {
+  "dataset": "GSE94980",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE94980_RAW.tar",
+  "source_sha256": "e722042f7e356ecbd7939fa9bd38b0b79a87a10f5d25bb1d069e8d353cc9e06e",
+  "gene_identifier_kind": "Ensembl gene",
+  "genes": 62161,
+  "samples_of_dataset": 620,
+  "samples_in_table": 620,
+  "column_match": "accession: 620",
+  "note": "62069 of 62161 gene identifiers are of the kind Ensembl gene; agent: Each tar member is a headerless two-column table of Ensembl gene ID and an integer count (values 0, 1, 2, ...), in files named \".Counts.txt.gz\", so they are raw per-gene read counts. All 620 samples have a member whose name starts with the sample accession, so every sample is given."
+ },
+ "columns": [
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493107",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493107_Neg_01_S261_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493108",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493108_Neg_01_S261_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493109",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493109_Neg_02_S262_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493110",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493110_Neg_02_S262_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493111",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493111_Neg_03_S263_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493112",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493112_Neg_03_S263_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493113",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493113_Neg_04_S264_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493114",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493114_Neg_04_S264_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493115",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493115_Neg_05_S265_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493116",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493116_Neg_05_S265_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493117",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493117_Neg_06_S266_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493118",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493118_Neg_06_S266_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493119",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493119_Neg_07_S267_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493120",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493120_Neg_07_S267_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493121",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493121_Neg_08_S268_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493122",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493122_Neg_08_S268_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493123",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493123_Neg_09_S269_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493124",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493124_Neg_09_S269_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493125",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493125_Neg_10_S270_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493126",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493126_Neg_10_S270_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493127",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493127_OSKM_01_S221_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493128",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493128_OSKM_01_S221_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493129",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493129_OSKM_02_S222_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493130",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493130_OSKM_02_S222_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493131",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493131_OSKM_03_S223_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493132",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493132_OSKM_03_S223_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493133",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493133_OSKM_04_S224_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493134",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493134_OSKM_04_S224_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493135",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493135_OSKM_05_S225_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493136",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493136_OSKM_05_S225_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493137",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493137_OSKM_06_S226_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493138",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493138_OSKM_06_S226_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493139",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493139_OSKM_07_S227_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493140",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493140_OSKM_07_S227_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493141",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493141_OSKM_08_S228_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493142",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493142_OSKM_08_S228_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493143",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493143_OSKM_09_S229_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493144",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493144_OSKM_09_S229_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493145",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493145_OSKM_10_S230_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493146",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493146_OSKM_10_S230_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493147",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493147_OSKM_11_S231_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493148",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493148_OSKM_11_S231_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493149",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493149_OSKM_12_S232_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493150",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493150_OSKM_12_S232_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493151",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493151_OSKM_13_S233_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493152",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493152_OSKM_13_S233_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493153",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493153_OSKM_14_S234_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493154",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493154_OSKM_14_S234_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493155",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493155_OSKM_15_S235_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493156",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493156_OSKM_15_S235_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493157",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493157_OSKM_16_S236_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493158",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493158_OSKM_16_S236_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493159",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493159_OSKM_17_S237_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493160",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493160_OSKM_17_S237_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493161",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493161_OSKM_18_S238_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493162",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493162_OSKM_18_S238_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493163",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493163_OSKM_19_S239_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493164",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493164_OSKM_19_S239_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493165",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493165_OSKM_20_S240_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493166",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493166_OSKM_20_S240_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493167",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493167_OSKM_21_S241_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493168",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493168_OSKM_21_S241_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493169",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493169_OSKM_22_S242_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493170",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493170_OSKM_22_S242_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493171",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493171_OSKM_23_S243_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493172",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493172_OSKM_23_S243_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493173",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493173_OSKM_24_S244_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493174",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493174_OSKM_24_S244_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493175",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493175_OSKM_25_S245_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493176",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493176_OSKM_25_S245_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493177",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493177_OSKM_26_S246_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493178",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493178_OSKM_26_S246_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493179",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493179_OSKM_27_S247_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493180",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493180_OSKM_27_S247_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493181",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493181_OSKM_28_S248_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493182",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493182_OSKM_28_S248_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493183",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493183_OSKM_29_S249_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493184",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493184_OSKM_29_S249_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493185",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493185_OSKM_30_S250_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493186",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493186_OSKM_30_S250_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493187",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493187_OSKM_31_S251_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493188",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493188_OSKM_31_S251_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493189",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493189_OSKM_32_S252_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493190",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493190_OSKM_32_S252_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493191",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493191_OSKM_33_S253_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493192",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493192_OSKM_33_S253_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493193",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493193_OSKM_34_S254_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493194",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493194_OSKM_34_S254_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493195",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493195_OSKM_35_S255_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493196",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493196_OSKM_35_S255_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493197",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493197_OSKM_36_S256_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493198",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493198_OSKM_36_S256_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493199",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493199_OSKM_37_S257_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493200",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493200_OSKM_37_S257_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493201",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493201_OSKM_38_S258_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493202",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493202_OSKM_38_S258_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493203",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493203_OSKM_39_S259_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493204",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493204_OSKM_39_S259_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493205",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493205_OSKM_40_S260_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493206",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493206_OSKM_40_S260_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493207",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493207_OSKM_MTOR_01_S181_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493208",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493208_OSKM_MTOR_01_S181_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493209",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493209_OSKM_MTOR_02_S182_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493210",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493210_OSKM_MTOR_02_S182_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493211",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493211_OSKM_MTOR_03_S183_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493212",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493212_OSKM_MTOR_03_S183_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493213",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493213_OSKM_MTOR_04_S184_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493214",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493214_OSKM_MTOR_04_S184_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493215",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493215_OSKM_MTOR_05_S185_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493216",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493216_OSKM_MTOR_05_S185_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493217",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493217_OSKM_MTOR_06_S186_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493218",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493218_OSKM_MTOR_06_S186_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493219",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493219_OSKM_MTOR_07_S187_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493220",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493220_OSKM_MTOR_07_S187_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493221",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493221_OSKM_MTOR_08_S188_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493222",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493222_OSKM_MTOR_08_S188_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493223",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493223_OSKM_MTOR_09_S189_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493224",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493224_OSKM_MTOR_09_S189_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493225",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493225_OSKM_MTOR_10_S190_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493226",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493226_OSKM_MTOR_10_S190_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493227",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493227_OSKM_MTOR_11_S191_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493228",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493228_OSKM_MTOR_11_S191_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493229",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493229_OSKM_MTOR_12_S192_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493230",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493230_OSKM_MTOR_12_S192_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493231",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493231_OSKM_MTOR_13_S193_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493232",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493232_OSKM_MTOR_13_S193_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493233",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493233_OSKM_MTOR_14_S194_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493234",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493234_OSKM_MTOR_14_S194_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493235",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493235_OSKM_MTOR_15_S195_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493236",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493236_OSKM_MTOR_15_S195_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493237",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493237_OSKM_MTOR_16_S196_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493238",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493238_OSKM_MTOR_16_S196_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493239",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493239_OSKM_MTOR_17_S197_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493240",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493240_OSKM_MTOR_17_S197_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493241",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493241_OSKM_MTOR_18_S198_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493242",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493242_OSKM_MTOR_18_S198_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493243",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493243_OSKM_MTOR_19_S199_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493244",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493244_OSKM_MTOR_19_S199_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493245",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493245_OSKM_MTOR_20_S200_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493246",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493246_OSKM_MTOR_20_S200_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493247",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493247_OSKM_MTOR_21_S201_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493248",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493248_OSKM_MTOR_21_S201_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493249",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493249_OSKM_MTOR_22_S202_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493250",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493250_OSKM_MTOR_22_S202_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493251",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493251_OSKM_MTOR_23_S203_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493252",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493252_OSKM_MTOR_23_S203_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493253",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493253_OSKM_MTOR_24_S204_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493254",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493254_OSKM_MTOR_24_S204_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493255",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493255_OSKM_MTOR_25_S205_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493256",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493256_OSKM_MTOR_25_S205_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493257",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493257_OSKM_MTOR_26_S206_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493258",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493258_OSKM_MTOR_26_S206_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493259",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493259_OSKM_MTOR_27_S207_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493260",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493260_OSKM_MTOR_27_S207_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493261",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493261_OSKM_MTOR_28_S208_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493262",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493262_OSKM_MTOR_28_S208_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493263",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493263_OSKM_MTOR_29_S209_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493264",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493264_OSKM_MTOR_29_S209_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493265",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493265_OSKM_MTOR_30_S210_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493266",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493266_OSKM_MTOR_30_S210_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493267",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493267_OSKM_MTOR_31_S211_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493268",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493268_OSKM_MTOR_31_S211_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493269",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493269_OSKM_MTOR_32_S212_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493270",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493270_OSKM_MTOR_32_S212_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493271",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493271_OSKM_MTOR_33_S213_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493272",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493272_OSKM_MTOR_33_S213_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493273",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493273_OSKM_MTOR_34_S214_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493274",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493274_OSKM_MTOR_34_S214_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493275",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493275_OSKM_MTOR_35_S215_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493276",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493276_OSKM_MTOR_35_S215_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493277",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493277_OSKM_MTOR_36_S216_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493278",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493278_OSKM_MTOR_36_S216_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493279",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493279_OSKM_MTOR_37_S217_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493280",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493280_OSKM_MTOR_37_S217_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493281",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493281_OSKM_MTOR_38_S218_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493282",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493282_OSKM_MTOR_38_S218_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493283",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493283_OSKM_MTOR_39_S219_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493284",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493284_OSKM_MTOR_39_S219_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493285",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493285_OSKM_MTOR_40_S220_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493286",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493286_OSKM_MTOR_40_S220_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493287",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493287_OSKM_MYOT_01_S141_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493288",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493288_OSKM_MYOT_01_S141_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493289",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493289_OSKM_MYOT_02_S142_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493290",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493290_OSKM_MYOT_02_S142_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493291",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493291_OSKM_MYOT_03_S143_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493292",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493292_OSKM_MYOT_03_S143_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493293",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493293_OSKM_MYOT_04_S144_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493294",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493294_OSKM_MYOT_04_S144_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493295",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493295_OSKM_MYOT_05_S145_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493296",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493296_OSKM_MYOT_05_S145_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493297",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493297_OSKM_MYOT_06_S146_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493298",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493298_OSKM_MYOT_06_S146_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493299",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493299_OSKM_MYOT_07_S147_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493300",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493300_OSKM_MYOT_07_S147_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493301",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493301_OSKM_MYOT_08_S148_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493302",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493302_OSKM_MYOT_08_S148_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493303",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493303_OSKM_MYOT_09_S149_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493304",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493304_OSKM_MYOT_09_S149_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493305",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493305_OSKM_MYOT_10_S150_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493306",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493306_OSKM_MYOT_10_S150_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493307",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493307_OSKM_MYOT_11_S151_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493308",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493308_OSKM_MYOT_11_S151_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493309",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493309_OSKM_MYOT_12_S152_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493310",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493310_OSKM_MYOT_12_S152_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493311",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493311_OSKM_MYOT_13_S153_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493312",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493312_OSKM_MYOT_13_S153_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493313",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493313_OSKM_MYOT_14_S154_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493314",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493314_OSKM_MYOT_14_S154_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493315",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493315_OSKM_MYOT_15_S155_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493316",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493316_OSKM_MYOT_15_S155_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493317",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493317_OSKM_MYOT_16_S156_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493318",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493318_OSKM_MYOT_16_S156_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493319",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493319_OSKM_MYOT_17_S157_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493320",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493320_OSKM_MYOT_17_S157_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493321",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493321_OSKM_MYOT_18_S158_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493322",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493322_OSKM_MYOT_18_S158_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493323",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493323_OSKM_MYOT_19_S159_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493324",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493324_OSKM_MYOT_19_S159_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493325",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493325_OSKM_MYOT_20_S160_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493326",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493326_OSKM_MYOT_20_S160_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493327",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493327_OSKM_MYOT_21_S161_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493328",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493328_OSKM_MYOT_21_S161_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493329",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493329_OSKM_MYOT_22_S162_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493330",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493330_OSKM_MYOT_22_S162_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493331",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493331_OSKM_MYOT_23_S163_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493332",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493332_OSKM_MYOT_23_S163_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493333",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493333_OSKM_MYOT_24_S164_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493334",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493334_OSKM_MYOT_24_S164_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493335",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493335_OSKM_MYOT_25_S165_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493336",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493336_OSKM_MYOT_25_S165_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493337",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493337_OSKM_MYOT_26_S166_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493338",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493338_OSKM_MYOT_26_S166_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493339",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493339_OSKM_MYOT_27_S167_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493340",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493340_OSKM_MYOT_27_S167_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493341",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493341_OSKM_MYOT_28_S168_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493342",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493342_OSKM_MYOT_28_S168_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493343",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493343_OSKM_MYOT_29_S169_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493344",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493344_OSKM_MYOT_29_S169_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493345",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493345_OSKM_MYOT_30_S170_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493346",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493346_OSKM_MYOT_30_S170_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493347",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493347_OSKM_MYOT_31_S171_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493348",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493348_OSKM_MYOT_31_S171_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493349",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493349_OSKM_MYOT_32_S172_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493350",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493350_OSKM_MYOT_32_S172_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493351",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493351_OSKM_MYOT_33_S173_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493352",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493352_OSKM_MYOT_33_S173_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493353",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493353_OSKM_MYOT_34_S174_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493354",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493354_OSKM_MYOT_34_S174_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493355",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493355_OSKM_MYOT_35_S175_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493356",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493356_OSKM_MYOT_35_S175_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493357",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493357_OSKM_MYOT_36_S176_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493358",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493358_OSKM_MYOT_36_S176_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493359",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493359_OSKM_MYOT_37_S177_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493360",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493360_OSKM_MYOT_37_S177_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493361",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493361_OSKM_MYOT_38_S178_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493362",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493362_OSKM_MYOT_38_S178_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493363",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493363_OSKM_MYOT_39_S179_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493364",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493364_OSKM_MYOT_39_S179_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493365",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493365_OSKM_MYOT_40_S180_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493366",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493366_OSKM_MYOT_40_S180_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493367",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493367_OSKM_shp21_01_S101_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493368",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493368_OSKM_shp21_01_S101_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493369",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493369_OSKM_shp21_02_S102_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493370",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493370_OSKM_shp21_02_S102_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493371",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493371_OSKM_shp21_03_S103_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493372",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493372_OSKM_shp21_03_S103_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493373",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493373_OSKM_shp21_04_S104_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493374",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493374_OSKM_shp21_04_S104_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493375",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493375_OSKM_shp21_05_S105_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493376",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493376_OSKM_shp21_05_S105_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493377",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493377_OSKM_shp21_06_S106_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493378",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493378_OSKM_shp21_06_S106_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493379",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493379_OSKM_shp21_07_S107_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493380",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493380_OSKM_shp21_07_S107_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493381",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493381_OSKM_shp21_08_S108_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493382",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493382_OSKM_shp21_08_S108_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493383",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493383_OSKM_shp21_09_S109_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493384",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493384_OSKM_shp21_09_S109_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493385",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493385_OSKM_shp21_10_S110_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493386",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493386_OSKM_shp21_10_S110_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493387",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493387_OSKM_shp21_11_S111_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493388",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493388_OSKM_shp21_11_S111_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493389",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493389_OSKM_shp21_12_S112_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493390",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493390_OSKM_shp21_12_S112_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493391",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493391_OSKM_shp21_13_S113_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493392",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493392_OSKM_shp21_13_S113_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493393",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493393_OSKM_shp21_14_S114_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493394",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493394_OSKM_shp21_14_S114_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493395",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493395_OSKM_shp21_15_S115_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493396",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493396_OSKM_shp21_15_S115_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493397",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493397_OSKM_shp21_16_S116_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493398",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493398_OSKM_shp21_16_S116_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493399",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493399_OSKM_shp21_17_S117_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493400",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493400_OSKM_shp21_17_S117_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493401",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493401_OSKM_shp21_18_S118_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493402",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493402_OSKM_shp21_18_S118_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493403",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493403_OSKM_shp21_19_S119_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493404",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493404_OSKM_shp21_19_S119_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493405",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493405_OSKM_shp21_20_S120_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493406",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493406_OSKM_shp21_20_S120_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493407",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493407_OSKM_shp21_21_S121_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493408",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493408_OSKM_shp21_21_S121_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493409",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493409_OSKM_shp21_22_S122_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493410",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493410_OSKM_shp21_22_S122_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493411",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493411_OSKM_shp21_23_S123_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493412",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493412_OSKM_shp21_23_S123_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493413",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493413_OSKM_shp21_24_S124_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493414",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493414_OSKM_shp21_24_S124_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493415",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493415_OSKM_shp21_25_S125_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493416",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493416_OSKM_shp21_25_S125_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493417",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493417_OSKM_shp21_26_S126_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493418",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493418_OSKM_shp21_26_S126_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493419",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493419_OSKM_shp21_27_S127_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493420",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493420_OSKM_shp21_27_S127_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493421",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493421_OSKM_shp21_28_S128_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493422",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493422_OSKM_shp21_28_S128_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493423",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493423_OSKM_shp21_29_S129_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493424",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493424_OSKM_shp21_29_S129_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493425",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493425_OSKM_shp21_30_S130_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493426",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493426_OSKM_shp21_30_S130_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493427",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493427_OSKM_shp21_31_S131_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493428",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493428_OSKM_shp21_31_S131_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493429",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493429_OSKM_shp21_32_S132_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493430",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493430_OSKM_shp21_32_S132_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493431",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493431_OSKM_shp21_33_S133_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493432",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493432_OSKM_shp21_33_S133_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493433",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493433_OSKM_shp21_34_S134_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493434",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493434_OSKM_shp21_34_S134_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493435",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493435_OSKM_shp21_35_S135_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493436",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493436_OSKM_shp21_35_S135_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493437",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493437_OSKM_shp21_36_S136_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493438",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493438_OSKM_shp21_36_S136_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493439",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493439_OSKM_shp21_37_S137_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493440",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493440_OSKM_shp21_37_S137_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493441",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493441_OSKM_shp21_38_S138_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493442",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493442_OSKM_shp21_38_S138_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493443",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493443_OSKM_shp21_39_S139_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493444",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493444_OSKM_shp21_39_S139_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493445",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493445_OSKM_shp21_40_S140_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493446",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493446_OSKM_shp21_40_S140_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493447",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493447_OSKM_shp53_01_S61_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493448",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493448_OSKM_shp53_01_S61_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493449",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493449_OSKM_shp53_02_S62_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493450",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493450_OSKM_shp53_02_S62_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493451",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493451_OSKM_shp53_03_S63_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493452",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493452_OSKM_shp53_03_S63_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493453",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493453_OSKM_shp53_04_S64_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493454",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493454_OSKM_shp53_04_S64_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493455",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493455_OSKM_shp53_05_S65_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493456",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493456_OSKM_shp53_05_S65_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493457",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493457_OSKM_shp53_06_S66_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493458",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493458_OSKM_shp53_06_S66_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493459",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493459_OSKM_shp53_07_S67_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493460",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493460_OSKM_shp53_07_S67_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493461",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493461_OSKM_shp53_08_S68_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493462",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493462_OSKM_shp53_08_S68_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493463",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493463_OSKM_shp53_09_S69_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493464",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493464_OSKM_shp53_09_S69_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493465",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493465_OSKM_shp53_10_S70_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493466",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493466_OSKM_shp53_10_S70_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493467",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493467_OSKM_shp53_11_S71_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493468",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493468_OSKM_shp53_11_S71_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493469",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493469_OSKM_shp53_12_S72_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493470",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493470_OSKM_shp53_12_S72_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493471",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493471_OSKM_shp53_13_S73_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493472",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493472_OSKM_shp53_13_S73_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493473",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493473_OSKM_shp53_14_S74_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493474",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493474_OSKM_shp53_14_S74_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493475",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493475_OSKM_shp53_15_S75_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493476",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493476_OSKM_shp53_15_S75_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493477",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493477_OSKM_shp53_16_S76_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493478",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493478_OSKM_shp53_16_S76_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493479",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493479_OSKM_shp53_17_S77_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493480",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493480_OSKM_shp53_17_S77_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493481",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493481_OSKM_shp53_18_S78_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493482",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493482_OSKM_shp53_18_S78_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493483",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493483_OSKM_shp53_19_S79_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493484",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493484_OSKM_shp53_19_S79_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493485",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493485_OSKM_shp53_20_S80_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493486",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493486_OSKM_shp53_20_S80_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493487",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493487_OSKM_shp53_21_S81_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493488",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493488_OSKM_shp53_21_S81_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493489",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493489_OSKM_shp53_22_S82_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493490",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493490_OSKM_shp53_22_S82_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493491",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493491_OSKM_shp53_23_S83_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493492",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493492_OSKM_shp53_23_S83_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493493",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493493_OSKM_shp53_24_S84_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493494",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493494_OSKM_shp53_24_S84_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493495",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493495_OSKM_shp53_25_S85_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493496",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493496_OSKM_shp53_25_S85_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493497",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493497_OSKM_shp53_26_S86_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493498",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493498_OSKM_shp53_26_S86_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493499",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493499_OSKM_shp53_27_S87_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493500",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493500_OSKM_shp53_27_S87_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493501",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493501_OSKM_shp53_28_S88_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493502",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493502_OSKM_shp53_28_S88_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493503",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493503_OSKM_shp53_29_S89_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493504",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493504_OSKM_shp53_29_S89_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493505",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493505_OSKM_shp53_30_S90_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493506",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493506_OSKM_shp53_30_S90_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493507",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493507_OSKM_shp53_31_S91_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493508",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493508_OSKM_shp53_31_S91_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493509",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493509_OSKM_shp53_32_S92_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493510",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493510_OSKM_shp53_32_S92_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493511",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493511_OSKM_shp53_33_S93_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493512",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493512_OSKM_shp53_33_S93_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493513",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493513_OSKM_shp53_34_S94_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493514",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493514_OSKM_shp53_34_S94_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493515",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493515_OSKM_shp53_35_S95_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493516",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493516_OSKM_shp53_35_S95_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493517",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493517_OSKM_shp53_36_S96_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493518",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493518_OSKM_shp53_36_S96_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493519",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493519_OSKM_shp53_37_S97_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493520",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493520_OSKM_shp53_37_S97_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493521",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493521_OSKM_shp53_38_S98_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493522",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493522_OSKM_shp53_38_S98_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493523",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493523_OSKM_shp53_39_S99_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493524",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493524_OSKM_shp53_39_S99_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493525",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493525_OSKM_shp53_40_S100_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493526",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493526_OSKM_shp53_40_S100_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493527",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493527_OSKM_UBE_01_S21_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493528",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493528_OSKM_UBE_01_S21_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493529",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493529_OSKM_UBE_02_S22_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493530",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493530_OSKM_UBE_02_S22_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493531",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493531_OSKM_UBE_03_S23_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493532",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493532_OSKM_UBE_03_S23_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493533",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493533_OSKM_UBE_04_S24_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493534",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493534_OSKM_UBE_04_S24_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493535",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493535_OSKM_UBE_05_S25_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493536",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493536_OSKM_UBE_05_S25_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493537",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493537_OSKM_UBE_06_S26_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493538",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493538_OSKM_UBE_06_S26_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493539",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493539_OSKM_UBE_07_S27_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493540",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493540_OSKM_UBE_07_S27_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493541",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493541_OSKM_UBE_08_S28_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493542",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493542_OSKM_UBE_08_S28_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493543",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493543_OSKM_UBE_09_S29_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493544",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493544_OSKM_UBE_09_S29_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493545",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493545_OSKM_UBE_10_S30_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493546",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493546_OSKM_UBE_10_S30_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493547",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493547_OSKM_UBE_11_S31_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493548",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493548_OSKM_UBE_11_S31_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493549",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493549_OSKM_UBE_12_S32_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493550",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493550_OSKM_UBE_12_S32_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493551",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493551_OSKM_UBE_13_S33_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493552",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493552_OSKM_UBE_13_S33_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493553",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493553_OSKM_UBE_14_S34_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493554",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493554_OSKM_UBE_14_S34_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493555",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493555_OSKM_UBE_15_S35_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493556",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493556_OSKM_UBE_15_S35_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493557",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493557_OSKM_UBE_16_S36_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493558",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493558_OSKM_UBE_16_S36_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493559",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493559_OSKM_UBE_17_S37_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493560",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493560_OSKM_UBE_17_S37_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493561",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493561_OSKM_UBE_18_S38_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493562",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493562_OSKM_UBE_18_S38_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493563",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493563_OSKM_UBE_19_S39_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493564",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493564_OSKM_UBE_19_S39_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493565",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493565_OSKM_UBE_20_S40_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493566",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493566_OSKM_UBE_20_S40_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493567",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493567_OSKM_UBE_21_S41_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493568",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493568_OSKM_UBE_21_S41_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493569",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493569_OSKM_UBE_22_S42_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493570",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493570_OSKM_UBE_22_S42_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493571",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493571_OSKM_UBE_23_S43_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493572",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493572_OSKM_UBE_23_S43_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493573",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493573_OSKM_UBE_24_S44_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493574",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493574_OSKM_UBE_24_S44_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493575",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493575_OSKM_UBE_25_S45_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493576",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493576_OSKM_UBE_25_S45_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493577",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493577_OSKM_UBE_26_S46_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493578",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493578_OSKM_UBE_26_S46_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493579",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493579_OSKM_UBE_27_S47_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493580",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493580_OSKM_UBE_27_S47_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493581",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493581_OSKM_UBE_28_S48_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493582",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493582_OSKM_UBE_28_S48_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493583",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493583_OSKM_UBE_29_S49_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493584",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493584_OSKM_UBE_29_S49_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493585",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493585_OSKM_UBE_30_S50_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493586",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493586_OSKM_UBE_30_S50_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493587",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493587_OSKM_UBE_31_S51_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493588",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493588_OSKM_UBE_31_S51_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493589",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493589_OSKM_UBE_32_S52_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493590",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493590_OSKM_UBE_32_S52_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493591",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493591_OSKM_UBE_33_S53_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493592",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493592_OSKM_UBE_33_S53_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493593",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493593_OSKM_UBE_34_S54_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493594",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493594_OSKM_UBE_34_S54_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493595",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493595_OSKM_UBE_35_S55_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493596",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493596_OSKM_UBE_35_S55_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493597",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493597_OSKM_UBE_36_S56_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493598",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493598_OSKM_UBE_36_S56_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493599",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493599_OSKM_UBE_37_S57_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493600",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493600_OSKM_UBE_37_S57_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493601",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493601_OSKM_UBE_38_S58_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493602",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493602_OSKM_UBE_38_S58_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493603",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493603_OSKM_UBE_39_S59_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493604",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493604_OSKM_UBE_39_S59_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493605",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493605_OSKM_UBE_40_S60_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493606",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493606_OSKM_UBE_40_S60_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493607",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493607_Pos_01_S1_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493608",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493608_Pos_01_S1_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493609",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493609_Pos_02_S2_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493610",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493610_Pos_02_S2_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493611",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493611_Pos_03_S3_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493612",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493612_Pos_03_S3_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493613",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493613_Pos_04_S4_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493614",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493614_Pos_04_S4_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493615",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493615_Pos_05_S5_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493616",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493616_Pos_05_S5_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493617",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493617_Pos_06_S6_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493618",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493618_Pos_06_S6_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493619",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493619_Pos_07_S7_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493620",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493620_Pos_07_S7_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493621",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493621_Pos_08_S8_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493622",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493622_Pos_08_S8_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493623",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493623_Pos_09_S9_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493624",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493624_Pos_09_S9_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493625",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493625_Pos_10_S10_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493626",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493626_Pos_10_S10_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493627",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493627_Pos_11_S11_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493628",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493628_Pos_11_S11_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493629",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493629_Pos_12_S12_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493630",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493630_Pos_12_S12_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493631",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493631_Pos_13_S13_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493632",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493632_Pos_13_S13_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493633",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493633_Pos_14_S14_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493634",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493634_Pos_14_S14_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493635",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493635_Pos_15_S15_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493636",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493636_Pos_15_S15_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493637",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493637_Pos_16_S16_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493638",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493638_Pos_16_S16_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493639",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493639_Pos_17_S17_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493640",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493640_Pos_17_S17_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493641",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493641_Pos_18_S18_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493642",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493642_Pos_18_S18_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493643",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493643_Pos_19_S19_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493644",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493644_Pos_19_S19_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493645",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493645_Pos_20_S20_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493646",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493646_Pos_20_S20_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493647",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493647_Vector_01_S271_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493648",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493648_Vector_01_S271_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493649",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493649_Vector_02_S272_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493650",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493650_Vector_02_S272_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493651",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493651_Vector_03_S273_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493652",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493652_Vector_03_S273_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493653",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493653_Vector_04_S274_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493654",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493654_Vector_04_S274_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493655",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493655_Vector_05_S275_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493656",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493656_Vector_05_S275_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493657",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493657_Vector_06_S276_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493658",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493658_Vector_06_S276_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493659",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493659_Vector_07_S277_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493660",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493660_Vector_07_S277_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493661",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493661_Vector_08_S278_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493662",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493662_Vector_08_S278_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493663",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493663_Vector_09_S279_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493664",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493664_Vector_09_S279_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493665",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493665_Vector_10_S280_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493666",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493666_Vector_10_S280_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493667",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493667_Vector_11_S281_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493668",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493668_Vector_11_S281_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493669",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493669_Vector_12_S282_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493670",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493670_Vector_12_S282_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493671",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493671_Vector_13_S283_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493672",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493672_Vector_13_S283_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493673",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493673_Vector_14_S284_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493674",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493674_Vector_14_S284_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493675",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493675_Vector_15_S285_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493676",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493676_Vector_15_S285_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493677",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493677_Vector_16_S286_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493678",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493678_Vector_16_S286_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493679",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493679_Vector_17_S287_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493680",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493680_Vector_17_S287_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493681",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493681_Vector_18_S288_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493682",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493682_Vector_18_S288_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493683",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493683_Vector_19_S289_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493684",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493684_Vector_19_S289_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493685",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493685_Vector_20_S290_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493686",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493686_Vector_20_S290_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493687",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493687_Vector_21_S291_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493688",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493688_Vector_21_S291_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493689",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493689_Vector_22_S292_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493690",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493690_Vector_22_S292_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493691",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493691_Vector_23_S293_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493692",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493692_Vector_23_S293_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493693",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493693_Vector_24_S294_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493694",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493694_Vector_24_S294_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493695",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493695_Vector_25_S295_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493696",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493696_Vector_25_S295_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493697",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493697_Vector_26_S296_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493698",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493698_Vector_26_S296_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493699",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493699_Vector_27_S297_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493700",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493700_Vector_27_S297_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493701",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493701_Vector_28_S298_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493702",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493702_Vector_28_S298_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493703",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493703_Vector_29_S299_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493704",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493704_Vector_29_S299_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493705",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493705_Vector_30_S300_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493706",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493706_Vector_30_S300_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493707",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493707_Vector_31_S301_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493708",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493708_Vector_31_S301_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493709",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493709_Vector_32_S302_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493710",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493710_Vector_32_S302_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493711",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493711_Vector_33_S303_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493712",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493712_Vector_33_S303_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493713",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493713_Vector_34_S304_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493714",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493714_Vector_34_S304_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493715",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493715_Vector_35_S305_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493716",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493716_Vector_35_S305_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493717",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493717_Vector_36_S306_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493718",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493718_Vector_36_S306_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493719",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493719_Vector_37_S307_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493720",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493720_Vector_37_S307_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493721",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493721_Vector_38_S308_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493722",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493722_Vector_38_S308_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493723",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493723_Vector_39_S309_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493724",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493724_Vector_39_S309_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493725",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493725_Vector_40_S310_L001_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE94980",
+   "sample": "GSM2493726",
+   "file": "GSE94980_RAW.tar",
+   "member": "GSM2493726_Vector_40_S310_L002_R1_001.Counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "table": {
+  "dataset": "E-MTAB-15019",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 6,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file, 230922_siSTAT3_allgenes.tsv.txt, holds non-integer per-gene values (e.g. 797.728, 0.00342655, 3.40451e-07) in the siCtrl_0-2 and siSTAT3_0-2 columns, alongside means, log2 fold change and q-values. These look like normalised expression values (FPKM-like), not raw counts. The column names also do not identify Samples 1-6, so no samples are given."
+ },
+ "columns": [
+  {
+   "dataset": "E-MTAB-15019",
+   "sample": "Sample 1",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-15019",
+   "sample": "Sample 2",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-15019",
+   "sample": "Sample 3",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-15019",
+   "sample": "Sample 4",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-15019",
+   "sample": "Sample 5",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-15019",
+   "sample": "Sample 6",
+   "match": "no column"
+  }
+ ]
+}

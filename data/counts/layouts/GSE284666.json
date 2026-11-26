@@ -1,0 +1,970 @@
+{
+ "request_sha256": "8159b598c2bd94ea536d726cd7c70f3d5309b37b91c6314b81cf61f8a5c42443",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "note": "Each tar member is a per-sample tab-delimited file named *_geneCOUNT with Ensembl gene IDs in column 1 and whole-number counts in column 2 (e.g. 6291, 0, 4733). The sample accession is in each member name, and all 190 samples are given.",
+  "sources": [
+   {
+    "file": "GSE284666_RAW.tar",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8690061",
+      "member": "GSM8690061_S_65_BJ_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690062",
+      "member": "GSM8690062_S_66_BJ_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690063",
+      "member": "GSM8690063_S_67_BJ_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690064",
+      "member": "GSM8690064_S_68_BJ_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690065",
+      "member": "GSM8690065_S_69_BJ_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690066",
+      "member": "GSM8690066_S_70_BJ_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690067",
+      "member": "GSM8690067_S_71_BJ_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690068",
+      "member": "GSM8690068_S_72_BJ_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690069",
+      "member": "GSM8690069_S_73_BJ_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690070",
+      "member": "GSM8690070_S_74_BJ_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690071",
+      "member": "GSM8690071_S_75_BJ_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690072",
+      "member": "GSM8690072_S_76_BJ_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690073",
+      "member": "GSM8690073_S_77_BJ_OSIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690074",
+      "member": "GSM8690074_S_78_BJ_OSIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690075",
+      "member": "GSM8690075_S_79_BJ_OSIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690076",
+      "member": "GSM8690076_S_80_BJ_OSIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690077",
+      "member": "GSM8690077_S_81_BJ_EV_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690078",
+      "member": "GSM8690078_S_82_BJ_EV_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690079",
+      "member": "GSM8690079_S_83_BJ_EV_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690080",
+      "member": "GSM8690080_S_84_BJ_EV_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690081",
+      "member": "GSM8690081_S_85_BJ_OIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690082",
+      "member": "GSM8690082_S_86_BJ_OIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690083",
+      "member": "GSM8690083_S_87_BJ_OIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690084",
+      "member": "GSM8690084_S_88_BJ_OIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690085",
+      "member": "GSM8690085_Sr_25_Orig_S_137_BMMSC_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690086",
+      "member": "GSM8690086_Sr_26_Orig_S_138_BMMSC_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690087",
+      "member": "GSM8690087_Sr_27_Orig_S_139_BMMSC_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690088",
+      "member": "GSM8690088_Sr_28_Orig_S_140_BMMSC_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690089",
+      "member": "GSM8690089_Sr_29_Orig_S_141_BMMSC_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690095",
+      "member": "GSM8690095_S_142_BMMSC_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690099",
+      "member": "GSM8690099_S_143_BMMSC_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690103",
+      "member": "GSM8690103_S_144_BMMSC_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690105",
+      "member": "GSM8690105_S_145_BMMSC_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690106",
+      "member": "GSM8690106_S_146_BMMSC_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690107",
+      "member": "GSM8690107_S_147_BMMSC_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690108",
+      "member": "GSM8690108_S_148_BMMSC_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690109",
+      "member": "GSM8690109_S_89_HCAEC_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690110",
+      "member": "GSM8690110_S_90_HCAEC_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690111",
+      "member": "GSM8690111_S_91_HCAEC_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690112",
+      "member": "GSM8690112_S_92_HCAEC_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690113",
+      "member": "GSM8690113_S_93_HCAEC_DIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690114",
+      "member": "GSM8690114_S_94_HCAEC_DIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690115",
+      "member": "GSM8690115_S_95_HCAEC_DIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690116",
+      "member": "GSM8690116_S_96_HCAEC_DIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690117",
+      "member": "GSM8690117_S_97_HCAEC_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690118",
+      "member": "GSM8690118_Sr_9_Orig_S_99_HCAEC_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690119",
+      "member": "GSM8690119_S_100_HCAEC_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690120",
+      "member": "GSM8690120_S_113_HEKn_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690121",
+      "member": "GSM8690121_S_114_HEKn_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690122",
+      "member": "GSM8690122_S_115_HEKn_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690123",
+      "member": "GSM8690123_Sr_14_Orig_S_116_HEKn_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690124",
+      "member": "GSM8690124_Sr_15_Orig_S_117_HEKn_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690125",
+      "member": "GSM8690125_Sr_16_Orig_S_118_HEKn_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690126",
+      "member": "GSM8690126_Sr_17_Orig_S_119_HEKn_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690127",
+      "member": "GSM8690127_Sr_18_Orig_S_120_HEKn_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690128",
+      "member": "GSM8690128_Sr_19_Orig_S_121_HEKn_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690129",
+      "member": "GSM8690129_S_122_HEKn_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690130",
+      "member": "GSM8690130_S_123_HEKn_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690131",
+      "member": "GSM8690131_S_124_HEKn_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690132",
+      "member": "GSM8690132_S_149_HeMn_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690133",
+      "member": "GSM8690133_S_150_HeMn_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690134",
+      "member": "GSM8690134_S_151_HeMn_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690135",
+      "member": "GSM8690135_S_152_HeMn_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690136",
+      "member": "GSM8690136_S_153_HeMn_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690137",
+      "member": "GSM8690137_S_154_HeMn_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690138",
+      "member": "GSM8690138_S_155_HeMn_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690139",
+      "member": "GSM8690139_S_156_HeMn_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690140",
+      "member": "GSM8690140_S_157_HeMn_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690141",
+      "member": "GSM8690141_S_158_HeMn_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690142",
+      "member": "GSM8690142_S_159_HeMn_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690143",
+      "member": "GSM8690143_S_160_HeMn_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690144",
+      "member": "GSM8690144_Sr_1_Orig_S_1_HSAEC_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690145",
+      "member": "GSM8690145_Sr_2_Orig_S_2_HSAEC_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690146",
+      "member": "GSM8690146_S_3_HSAEC_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690147",
+      "member": "GSM8690147_S_4_HSAEC_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690148",
+      "member": "GSM8690148_S_5_HSAEC_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690149",
+      "member": "GSM8690149_S_6_HSAEC_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690150",
+      "member": "GSM8690150_S_7_HSAEC_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690151",
+      "member": "GSM8690151_S_8_HSAEC_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690152",
+      "member": "GSM8690152_S_9_HSAEC_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690153",
+      "member": "GSM8690153_S_10_HSAEC_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690154",
+      "member": "GSM8690154_S_11_HSAEC_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690155",
+      "member": "GSM8690155_S_12_HSAEC_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690156",
+      "member": "GSM8690156_S_25_HUVEC_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690157",
+      "member": "GSM8690157_S_26_HUVEC_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690158",
+      "member": "GSM8690158_Sr_6_Orig_S_27_HUVEC_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690159",
+      "member": "GSM8690159_S_28_HUVEC_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690160",
+      "member": "GSM8690160_S_30_HUVEC_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690161",
+      "member": "GSM8690161_S_31_HUVEC_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690162",
+      "member": "GSM8690162_S_32_HUVEC_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690163",
+      "member": "GSM8690163_S_33_HUVEC_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690164",
+      "member": "GSM8690164_S_34_HUVEC_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690165",
+      "member": "GSM8690165_S_35_HUVEC_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690166",
+      "member": "GSM8690166_S_36_HUVEC_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690167",
+      "member": "GSM8690167_S_101_HVSMC_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690168",
+      "member": "GSM8690168_S_102_HVSMC_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690169",
+      "member": "GSM8690169_Sr_10_Orig_S_103_HVSMC_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690170",
+      "member": "GSM8690170_S_104_HVSMC_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690171",
+      "member": "GSM8690171_S_105_HVSMC_DIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690172",
+      "member": "GSM8690172_S_106_HVSMC_DIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690173",
+      "member": "GSM8690173_S_107_HVSMC_DIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690174",
+      "member": "GSM8690174_S_108_HVSMC_DIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690175",
+      "member": "GSM8690175_S_109_HVSMC_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690176",
+      "member": "GSM8690176_Sr_12_Orig_S_110_HVSMC_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690177",
+      "member": "GSM8690177_Sr_13_Orig_S_111_HVSMC_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690178",
+      "member": "GSM8690178_S_112_HVSMC_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690179",
+      "member": "GSM8690179_S_125_Myoblasts_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690180",
+      "member": "GSM8690180_S_126_Myoblasts_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690181",
+      "member": "GSM8690181_S_127_Myoblasts_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690182",
+      "member": "GSM8690182_S_128_Myoblasts_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690183",
+      "member": "GSM8690183_S_129_Myoblasts_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690184",
+      "member": "GSM8690184_S_130_Myoblasts_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690185",
+      "member": "GSM8690185_S_131_Myoblasts_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690186",
+      "member": "GSM8690186_Sr_22_Orig_S_132_Myoblasts_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690187",
+      "member": "GSM8690187_S_133_Myoblasts_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690188",
+      "member": "GSM8690188_Sr_23_Orig_S_134_Myoblasts_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690189",
+      "member": "GSM8690189_S_135_Myoblasts_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690190",
+      "member": "GSM8690190_Sr_24_Orig_S_136_Myoblasts_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690191",
+      "member": "GSM8690191_S_161_NHA_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690192",
+      "member": "GSM8690192_S_162_NHA_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690193",
+      "member": "GSM8690193_S_163_NHA_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690194",
+      "member": "GSM8690194_S_164_NHA_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690195",
+      "member": "GSM8690195_S_165_NHA_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690196",
+      "member": "GSM8690196_S_166_NHA_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690197",
+      "member": "GSM8690197_S_167_NHA_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690198",
+      "member": "GSM8690198_S_168_NHA_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690199",
+      "member": "GSM8690199_S_169_NHA_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690200",
+      "member": "GSM8690200_Sr_30_Orig_S_170_NHA_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690201",
+      "member": "GSM8690201_S_171_NHA_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690202",
+      "member": "GSM8690202_S_172_NHA_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690203",
+      "member": "GSM8690203_S_173_NHO_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690204",
+      "member": "GSM8690204_S_174_NHO_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690205",
+      "member": "GSM8690205_S_175_NHO_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690206",
+      "member": "GSM8690206_Sr_31_Orig_S_176_NHO_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690207",
+      "member": "GSM8690207_S_177_NHO_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690208",
+      "member": "GSM8690208_S_178_NHO_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690209",
+      "member": "GSM8690209_Sr_32_Orig_S_179_NHO_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690210",
+      "member": "GSM8690210_Sr_33_Orig_S_180_NHO_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690211",
+      "member": "GSM8690211_Sr_34_Orig_S_181_NHO_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690212",
+      "member": "GSM8690212_Sr_35_Orig_S_182_NHO_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690213",
+      "member": "GSM8690213_S_183_NHO_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690214",
+      "member": "GSM8690214_S_184_NHO_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690215",
+      "member": "GSM8690215_S197_PBMCs_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690216",
+      "member": "GSM8690216_S198_PBMCs_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690217",
+      "member": "GSM8690217_S199_PBMCs_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690218",
+      "member": "GSM8690218_S200_PBMCs_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690219",
+      "member": "GSM8690219_S201_PBMCs_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690220",
+      "member": "GSM8690220_S202_PBMCs_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690221",
+      "member": "GSM8690221_S203_PBMCs_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690222",
+      "member": "GSM8690222_S204_PBMCs_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690223",
+      "member": "GSM8690223_S205_PBMCs_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690224",
+      "member": "GSM8690224_S206_PBMCs_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690225",
+      "member": "GSM8690225_S207_PBMCs_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690226",
+      "member": "GSM8690226_S208_PBMCs_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690227",
+      "member": "GSM8690227_S_185_prAD_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690228",
+      "member": "GSM8690228_S_186_prAD_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690229",
+      "member": "GSM8690229_S_187_prAD_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690230",
+      "member": "GSM8690230_S_188_prAD_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690231",
+      "member": "GSM8690231_S_193_prAD_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690232",
+      "member": "GSM8690232_S_194_prAD_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690233",
+      "member": "GSM8690233_S_195_prAD_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690234",
+      "member": "GSM8690234_S_196_prAD_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690235",
+      "member": "GSM8690235_S_189_prAD_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690236",
+      "member": "GSM8690236_S_190_prAD_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690237",
+      "member": "GSM8690237_S_191_prAD_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690238",
+      "member": "GSM8690238_S_192_prAD_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690239",
+      "member": "GSM8690239_S_37_WI38_P_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690240",
+      "member": "GSM8690240_S_38_WI38_P_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690241",
+      "member": "GSM8690241_S_39_WI38_P_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690242",
+      "member": "GSM8690242_S_40_WI38_P_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690243",
+      "member": "GSM8690243_S_41_WI38_ETIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690244",
+      "member": "GSM8690244_S_42_WI38_ETIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690245",
+      "member": "GSM8690245_S_43_WI38_ETIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690246",
+      "member": "GSM8690246_S_44_WI38_ETIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690247",
+      "member": "GSM8690247_S_45_WI38_IRIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690248",
+      "member": "GSM8690248_S_46_WI38_IRIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690249",
+      "member": "GSM8690249_S_47_WI38_IRIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690250",
+      "member": "GSM8690250_S_48_WI38_IRIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690251",
+      "member": "GSM8690251_S_49_WI38_OSIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690252",
+      "member": "GSM8690252_S_50_WI38_OSIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690253",
+      "member": "GSM8690253_S_51_WI38_OSIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690254",
+      "member": "GSM8690254_S_52_WI38_OSIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690255",
+      "member": "GSM8690255_S_57_WI38_EV_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690256",
+      "member": "GSM8690256_S_58_WI38_EV_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690257",
+      "member": "GSM8690257_S_59_WI38_EV_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690258",
+      "member": "GSM8690258_S_60_WI38_EV_4_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690259",
+      "member": "GSM8690259_S_61_WI38_OIS_1_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690260",
+      "member": "GSM8690260_S_62_WI38_OIS_2_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690261",
+      "member": "GSM8690261_S_63_WI38_OIS_3_geneCOUNT.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM8690262",
+      "member": "GSM8690262_S_64_WI38_OIS_4_geneCOUNT.txt.gz",
+      "column": 2
+     }
+    ]
+   }
+  ]
+ }
+}

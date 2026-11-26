@@ -1,0 +1,388 @@
+{
+ "request_sha256": "5d6480ee6561c731f11cb72fb5d2176820a8a994500272078922b4c81d132fa6",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE245801_genes_counts_H1299_shHMGA1.txt.gz",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7849288",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM7849289",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM7849290",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM7849291",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM7849292",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM7849293",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM7849281",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM7849282",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM7849283",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM7849284",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM7849285",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM7849286",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM7849287",
+      "member": "",
+      "column": 19
+     }
+    ]
+   },
+   {
+    "file": "GSE245801_genes_counts_IMR90_shCEBPB_shp53.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7849294",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM7849299",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM7849309",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM7849304",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM7849314",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM7849295",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM7849300",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM7849310",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM7849305",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM7849315",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM7849296",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM7849301",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM7849311",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM7849306",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM7849316",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM7849297",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM7849302",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM7849312",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM7849307",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM7849317",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM7849298",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM7849303",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM7849313",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM7849308",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM7849318",
+      "member": "",
+      "column": 26
+     }
+    ]
+   },
+   {
+    "file": "GSE245801_genes_counts_IMR90_shHMGA1.txt.gz",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM7849265",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM7849266",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM7849267",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM7849268",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM7849269",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM7849270",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM7849271",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM7849272",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM7849273",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM7849274",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM7849275",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM7849276",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM7849277",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM7849278",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM7849279",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM7849280",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM7849249",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM7849250",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM7849251",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM7849252",
+      "member": "",
+      "column": 26
+     },
+     {
+      "sample": "GSM7849253",
+      "member": "",
+      "column": 27
+     },
+     {
+      "sample": "GSM7849254",
+      "member": "",
+      "column": 28
+     },
+     {
+      "sample": "GSM7849255",
+      "member": "",
+      "column": 29
+     },
+     {
+      "sample": "GSM7849256",
+      "member": "",
+      "column": 30
+     },
+     {
+      "sample": "GSM7849257",
+      "member": "",
+      "column": 31
+     },
+     {
+      "sample": "GSM7849258",
+      "member": "",
+      "column": 32
+     },
+     {
+      "sample": "GSM7849259",
+      "member": "",
+      "column": 33
+     },
+     {
+      "sample": "GSM7849260",
+      "member": "",
+      "column": 34
+     },
+     {
+      "sample": "GSM7849261",
+      "member": "",
+      "column": 35
+     },
+     {
+      "sample": "GSM7849262",
+      "member": "",
+      "column": 36
+     },
+     {
+      "sample": "GSM7849263",
+      "member": "",
+      "column": 37
+     },
+     {
+      "sample": "GSM7849264",
+      "member": "",
+      "column": 38
+     }
+    ]
+   }
+  ],
+  "note": "The files hold whole-number per-gene counts with Ensembl gene IDs, and two carry featureCounts headers, so they are raw read counts. All 70 samples are in the sources. In the IMR90 shHMGA1 file the BAM names are matched by inference: Sh_G = GrowshA1, Sh_S = RISshA1, V_G = Grow, V_S = RIS, each numbered 1 to 8. In the shCEBPB_shp53 file the header row has no name for column 1, so each name sits one column to its right."
+ }
+}

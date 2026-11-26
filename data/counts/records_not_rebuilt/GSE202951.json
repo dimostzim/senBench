@@ -1,0 +1,136 @@
+{
+ "table": {
+  "dataset": "GSE202951",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE202951_RAW.tar",
+  "source_sha256": "e12265f1577c5ac959c8c07ca935d0ca825e120c1962334b812b9157b579da86",
+  "gene_identifier_kind": "Ensembl gene",
+  "genes": 57773,
+  "samples_of_dataset": 12,
+  "samples_in_table": 12,
+  "column_match": "accession: 12",
+  "note": "57773 of 57773 gene identifiers are of the kind Ensembl gene; agent: Each per-sample member file has Ensembl gene IDs and whole-number values in a column named *_COUNT (e.g. 1663, 0, 1561), so they are raw read counts. All 12 samples are given; the GSM6139169 single-cell files in the tar are not among the listed samples."
+ },
+ "columns": [
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737364",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737364_1_siCtr_Prolif_1_S10_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "1_siCtr_Prolif_1_S10_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737365",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737365_2_siCtr_Prolif_2_S11_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "2_siCtr_Prolif_2_S11_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737366",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737366_3_siCtr_Prolif_3_S12_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "3_siCtr_Prolif_3_S12_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737367",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737367_4_Sen_1_S13_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "4_Sen_1_S13_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737368",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737368_5_Sen_2_S14_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "5_Sen_2_S14_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737369",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737369_6_Sen_3_S15_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "6_Sen_3_S15_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737370",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737370_7_SiNTRK2_Sen_1_S16_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "7_SiNTRK2_Sen_1_S16_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737371",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737371_8_SiNTRK2_Sen_2_S17_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "8_SiNTRK2_Sen_2_S17_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737372",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737372_9_SiNTRK2_Sen_3_S18_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "9_SiNTRK2_Sen_3_S18_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737373",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737373_10_SiBDNF_Sen_1_S19_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "10_SiBDNF_Sen_1_S19_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737374",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737374_11_SiBDNF_Sen_2_S20_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "11_SiBDNF_Sen_2_S20_COUNT",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE202951",
+   "sample": "GSM5737375",
+   "file": "GSE202951_RAW.tar",
+   "member": "GSM5737375_12_SiBDNF_Sen_3_S21_geneCOUNT.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "12_SiBDNF_Sen_3_S21_COUNT",
+   "match": "accession"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "table": {
+  "dataset": "GSE266081",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 12,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of per-sample StringTie GTF annotation files (coordinates and attributes, no count column) and BigWig coverage tracks, so no per-gene raw read counts or normalised expression values (FPKM/TPM) are present for any sample."
+ },
+ "columns": [
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240258",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240259",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240260",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240261",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240262",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240263",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240264",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240265",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240266",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240267",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240268",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE266081",
+   "sample": "GSM8240269",
+   "match": "no column"
+  }
+ ]
+}

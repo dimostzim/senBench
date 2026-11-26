@@ -1,0 +1,46 @@
+{
+ "table": {
+  "dataset": "GSE282274",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 6,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file, GSE282274_all_TPM.txt.gz, holds TPM values (fractional, e.g. 0.940485), which are normalised, not raw read counts; no raw count file is present."
+ },
+ "columns": [
+  {
+   "dataset": "GSE282274",
+   "sample": "GSM8640328",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282274",
+   "sample": "GSM8640329",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282274",
+   "sample": "GSM8640330",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282274",
+   "sample": "GSM8640331",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282274",
+   "sample": "GSM8640332",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE282274",
+   "sample": "GSM8640333",
+   "match": "no column"
+  }
+ ]
+}

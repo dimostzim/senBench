@@ -1,0 +1,141 @@
+{
+ "table": {
+  "dataset": "GSE267788",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 25,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no supplementary file"
+ },
+ "columns": [
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278693",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278694",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278695",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278696",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278697",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278698",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278699",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278700",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278707",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278708",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278709",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278710",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278711",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278712",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278713",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278832",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278833",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278834",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278835",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278836",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278837",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278838",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278839",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278840",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE267788",
+   "sample": "GSM8278841",
+   "match": "no column"
+  }
+ ]
+}

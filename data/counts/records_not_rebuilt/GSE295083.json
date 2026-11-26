@@ -1,0 +1,56 @@
+{
+ "table": {
+  "dataset": "GSE295083",
+  "count_table_state": "authors raw counts",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 8,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no table: no column was matched to a sample; agent: LU_RAS_counts_R1/R2 (tab text) and LU_RAS_KD_D10_WT_AA_R1R2.csv.gz hold whole-number per-gene counts (e.g. 259102, 1201), so raw read counts are present. Each of the 8 GEO samples has two replicates (R1, R2) in separate columns or files, with no replicate named in the sample fields. No single column holds the whole of any sample, so none are listed. The DEGs files hold normalised or statistical values."
+ },
+ "columns": [
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942094",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942095",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942096",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942097",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942098",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942099",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942100",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE295083",
+   "sample": "GSM8942101",
+   "match": "no column"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "request_sha256": "2cd4230b4b4765645221005596c743f4b2579224382de65a2358c768d4e8a563",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "values per sample",
+  "sources": [
+   {
+    "file": "GSE159551_RNAseq_counts_M3.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "values": "raw read counts",
+    "sample_columns": [
+     {
+      "sample": "GSM4832438",
+      "member": "",
+      "column": 2,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832439",
+      "member": "",
+      "column": 3,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832440",
+      "member": "",
+      "column": 4,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832441",
+      "member": "",
+      "column": 5,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832442",
+      "member": "",
+      "column": 6,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832443",
+      "member": "",
+      "column": 7,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832444",
+      "member": "",
+      "column": 8,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832445",
+      "member": "",
+      "column": 9,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832446",
+      "member": "",
+      "column": 10,
+      "basis": "names"
+     },
+     {
+      "sample": "GSM4832447",
+      "member": "",
+      "column": 11,
+      "basis": "names"
+     }
+    ]
+   }
+  ],
+  "note": "The file has Ensembl gene IDs with whole-number values (e.g. 833, 942, 0) per column, so these are raw read counts. All 10 samples are given: column names (ctr/RAS, siCTR/siMETTL3 vec/WT/MT, replicate number) match the sample titles; I did not check the counts against the sample records, since only the file description was available."
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_sha256": "2abb8fcb20b894f5e815634d4c46b9c3ddef6f82c2d61eee1767dcf2052ac451",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE314702_processed_data.xlsx",
+    "sheet": "gene_expression",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 2,
+    "sample_columns": [
+     {
+      "sample": "GSM9409550",
+      "member": "",
+      "column": 37
+     },
+     {
+      "sample": "GSM9409553",
+      "member": "",
+      "column": 28
+     },
+     {
+      "sample": "GSM9409556",
+      "member": "",
+      "column": 31
+     },
+     {
+      "sample": "GSM9409559",
+      "member": "",
+      "column": 34
+     }
+    ]
+   }
+  ],
+  "note": "Columns 28-39 are named read_count_<sample> and hold per-gene counts (mostly whole numbers, some with decimals such as 668.68, so probably estimated/expected counts) next to separate FPKM and TPM columns. Only the replicate-1 samples are listed, since their column names (…1A) match the library names; replicates 2 and 3 are left out because the columns are labelled 3A and 4A, which cannot be matched to rep2 and rep3 from the names."
+ }
+}

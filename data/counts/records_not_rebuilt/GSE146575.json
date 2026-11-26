@@ -1,0 +1,76 @@
+{
+ "table": {
+  "dataset": "GSE146575",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 12,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a RAW.tar holding bigWig coverage tracks (kind other), not per-gene tables, so neither raw counts nor normalised per-gene values are present for any sample."
+ },
+ "columns": [
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395604",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395605",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395606",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395607",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395608",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395609",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395610",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395611",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395612",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395613",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395614",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146575",
+   "sample": "GSM4395615",
+   "match": "no column"
+  }
+ ]
+}

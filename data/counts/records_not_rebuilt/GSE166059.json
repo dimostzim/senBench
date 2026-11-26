@@ -1,0 +1,906 @@
+{
+ "table": {
+  "dataset": "GSE166059",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE166059_RAW.tar",
+  "source_sha256": "071e3c0fd337d3c1e6a67040465aaa7c801a7373189ae2fb36b224993a40f561",
+  "gene_identifier_kind": "Ensembl gene",
+  "genes": 89029,
+  "samples_of_dataset": 90,
+  "samples_in_table": 88,
+  "column_match": "accession: 88",
+  "note": "58302 of 89029 gene identifiers are of the kind Ensembl gene; 89029 genes have no count in some samples, because the sources hold different genes; 2 samples have no column; agent: Each per-sample *_count.tsv.gz member holds a gene identifier (NCBI gene IDs such as 1, 10, 100 in most members; Ensembl IDs in the SAEC Matrigel/Plastic members) and a whole-number count in column 2, with the sample name as the header in row 1, so these are raw counts. GSM5060554 and GSM5060555 (EPCAM and CD90) are only given as 10x filtered_feature_bc_matrix.h5 single-cell files that were not read, so they are not listed."
+ },
+ "columns": [
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060466",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060466_DMSO_918_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "DMSO_918",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060467",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060467_DMSO_920_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "DMSO_920",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060468",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060468_DMSO_922_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "DMSO_922",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060469",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060469_DMSO_924_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "DMSO_924",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060470",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060470_DMSO_926_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "DMSO_926",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060471",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060471_Doxorubicin_919_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Doxorubicin_919",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060472",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060472_Doxorubicin_921_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Doxorubicin_921",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060473",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060473_Doxorubicin_923_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Doxorubicin_923",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060474",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060474_Doxorubicin_925_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Doxorubicin_925",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060475",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060475_Doxorubicin_927_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Doxorubicin_927",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060476",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060476_BEC_DMSO_444_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "BEC_DMSO_444",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060477",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060477_BEC_DMSO_445_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "BEC_DMSO_445",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060478",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060478_BEC_DMSO_446_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "BEC_DMSO_446",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060479",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060479_BEC_Doxorubicin_250nM_447_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "BEC_Doxorubicin_250nM_447",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060480",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060480_BEC_Doxorubicin_250nM_448_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "BEC_Doxorubicin_250nM_448",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060481",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060481_BEC_Doxorubicin_250nM_449_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "BEC_Doxorubicin_250nM_449",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060482",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060482_SAEC_DMSO_436_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_DMSO_436",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060483",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060483_SAEC_DMSO_437_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_DMSO_437",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060484",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060484_SAEC_Doxorubicin_500nM_438_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Doxorubicin_500nM_438",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060485",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060485_SAEC_Doxorubicin_500nM_439_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Doxorubicin_500nM_439",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060486",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060486_SAEC_H2O2_100uM_440_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_H2O2_100uM_440",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060487",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060487_SAEC_H2O2_100uM_441_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_H2O2_100uM_441",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060488",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060488_SAEC_H2O2_50uM_442_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_H2O2_50uM_442",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060489",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060489_SAEC_H2O2_50uM_443_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_H2O2_50uM_443",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060490",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060490_SAEC_Matrigel_Control_Day5_317_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Matrigel_Control_Day5_317",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060491",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060491_SAEC_Matrigel_Control_Day5_318_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Matrigel_Control_Day5_318",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060492",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060492_SAEC_Matrigel_Control_Day5_319_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Matrigel_Control_Day5_319",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060493",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060493_SAEC_Matrigel_Senescent_Day5_320_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Matrigel_Senescent_Day5_320",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060494",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060494_SAEC_Matrigel_Senescent_Day5_321_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Matrigel_Senescent_Day5_321",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060495",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060495_SAEC_Matrigel_Senescent_Day5_322_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Matrigel_Senescent_Day5_322",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060496",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060496_SAEC_Plastic_Control_Day5_323_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Control_Day5_323",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060497",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060497_SAEC_Plastic_Control_Day5_324_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Control_Day5_324",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060498",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060498_SAEC_Plastic_Control_Day5_325_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Control_Day5_325",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060499",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060499_SAEC_Plastic_Senescent_Day5_326_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Senescent_Day5_326",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060500",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060500_SAEC_Plastic_Senescent_Day5_327_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Senescent_Day5_327",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060501",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060501_SAEC_Plastic_Senescent_Day5_328_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Senescent_Day5_328",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060502",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060502_SAEC_Plastic_Senescent_Day12_329_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Senescent_Day12_329",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060503",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060503_SAEC_Plastic_Senescent_Day12_330_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Senescent_Day12_330",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060504",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060504_SAEC_Plastic_Senescent_Day12_331_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SAEC_Plastic_Senescent_Day12_331",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060505",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060505_IPF_BAL_037_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_037",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060506",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060506_IPF_BAL_043_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_043",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060507",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060507_IPF_BAL_049_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_049",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060508",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060508_IPF_BAL_055_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_055",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060509",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060509_IPF_BAL_058_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_058",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060510",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060510_IPF_BAL_070_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_070",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060511",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060511_IPF_BAL_075_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_075",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060512",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060512_IPF_BAL_192_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_BAL_192",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060513",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060513_IPF_Biopsy_035_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_035",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060514",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060514_IPF_Biopsy_041_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_041",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060515",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060515_IPF_Biopsy_047_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_047",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060516",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060516_IPF_Biopsy_053_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_053",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060517",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060517_IPF_Biopsy_056_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_056",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060518",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060518_IPF_Biopsy_068_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_068",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060519",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060519_IPF_Biopsy_071_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_071",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060520",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060520_IPF_Biopsy_073_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_073",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060521",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060521_IPF_Biopsy_076_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_076",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060522",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060522_IPF_Biopsy_190_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Biopsy_190",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060523",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060523_IPF_Digest_036_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_036",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060524",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060524_IPF_Digest_042_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_042",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060525",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060525_IPF_Digest_048_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_048",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060526",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060526_IPF_Digest_054_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_054",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060527",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060527_IPF_Digest_057_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_057",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060528",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060528_IPF_Digest_069_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_069",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060529",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060529_IPF_Digest_072_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_072",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060530",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060530_IPF_Digest_074_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_074",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060531",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060531_IPF_Digest_077_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_077",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060532",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060532_IPF_Digest_191_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "IPF_Digest_191",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060533",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060533_Normal_BAL_034_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_BAL_034",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060534",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060534_Normal_BAL_046_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_BAL_046",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060535",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060535_Normal_BAL_064_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_BAL_064",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060536",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060536_Normal_BAL_067_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_BAL_067",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060537",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060537_Normal_Biopsy_044_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Biopsy_044",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060538",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060538_Normal_Biopsy_062_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Biopsy_062",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060539",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060539_Normal_Biopsy_065_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Biopsy_065",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060540",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060540_Normal_Biopsy_078_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Biopsy_078",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060541",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060541_Normal_Digest_033_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Digest_033",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060542",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060542_Normal_Digest_045_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Digest_045",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060543",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060543_Normal_Digest_063_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Digest_063",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060544",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060544_Normal_Digest_066_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Digest_066",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060545",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060545_Normal_Digest_079_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "Normal_Digest_079",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060546",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060546_SSc_BAL_052_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_BAL_052",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060547",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060547_SSc_BAL_061_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_BAL_061",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060548",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060548_SSc_Biopsy_038_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_Biopsy_038",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060549",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060549_SSc_Biopsy_050_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_Biopsy_050",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060550",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060550_SSc_Biopsy_059_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_Biopsy_059",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060551",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060551_SSc_Digest_039_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_Digest_039",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060552",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060552_SSc_Digest_051_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_Digest_051",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060553",
+   "file": "GSE166059_RAW.tar",
+   "member": "GSM5060553_SSc_Digest_060_count.tsv.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "SSc_Digest_060",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060554",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE166059",
+   "sample": "GSM5060555",
+   "match": "no column"
+  }
+ ]
+}

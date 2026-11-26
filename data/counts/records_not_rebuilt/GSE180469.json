@@ -1,0 +1,106 @@
+{
+ "table": {
+  "dataset": "GSE180469",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 18,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of bigWig tracks (CEBPB ChIP-seq and input, GSM5461385-GSM5461392), which hold no per-gene counts. None of the listed RNA-seq samples (GSM5461461-GSM5461478) has a file with counts."
+ },
+ "columns": [
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461461",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461462",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461463",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461464",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461465",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461466",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461467",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461468",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461469",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461470",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461471",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461472",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461473",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461474",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461475",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461476",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461477",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE180469",
+   "sample": "GSM5461478",
+   "match": "no column"
+  }
+ ]
+}

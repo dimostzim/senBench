@@ -1,0 +1,136 @@
+{
+ "table": {
+  "dataset": "GSE76605",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 24,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of NimbleGen tiling microarray files (an .ndf design file and .pair probe intensity files), so there are no RNA-seq read counts per gene. The intensities are per probe, not per gene."
+ },
+ "columns": [
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961158",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961159",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961160",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961161",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961162",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961163",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961164",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961165",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961166",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961167",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961168",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961169",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961170",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961171",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961172",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961173",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961174",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961175",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961176",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961177",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961178",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961179",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961180",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE76605",
+   "sample": "GSM1961181",
+   "match": "no column"
+  }
+ ]
+}

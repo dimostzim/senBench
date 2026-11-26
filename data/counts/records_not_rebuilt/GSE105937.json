@@ -1,0 +1,96 @@
+{
+ "table": {
+  "dataset": "GSE105937",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 16,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is GSE105937_RAW.tar, which holds PRO-seq and ChIP-seq bigWig tracks (kind other), not per-gene count tables. None of the RNA-seq samples have a counts file."
+ },
+ "columns": [
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828805",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828806",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828807",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828808",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828809",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828810",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828811",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828812",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828813",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828814",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828815",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828816",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM2828817",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM3426080",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM3426081",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE105937",
+   "sample": "GSM3426082",
+   "match": "no column"
+  }
+ ]
+}

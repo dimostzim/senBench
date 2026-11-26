@@ -1,0 +1,136 @@
+{
+ "table": {
+  "dataset": "GSE311038",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE311038_RAW.tar",
+  "source_sha256": "16fea8164d75999f8522dcf47dde032cfdcca739e97b4c5c074484f9281fe5b5",
+  "gene_identifier_kind": "gene symbol",
+  "genes": 43793,
+  "samples_of_dataset": 12,
+  "samples_in_table": 12,
+  "column_match": "accession: 12",
+  "note": "37388 of 43793 gene identifiers are of the kind gene symbol; 60 rows of reads that were not assigned to a gene were left out, summed over the files and members read; agent: Each tar member is a headerless two-column file (gene symbol, whole-number count) named \"read_counts\", with small integer values such as 34, 18, 0 and 5. All 12 samples are given; the EV samples show zeros in the first rows, but the members are the same kind of file and are far larger than a file of all zeros would be."
+ },
+ "columns": [
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315791",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315791_Celula-A-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315792",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315792_Celula-B-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315793",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315793_Celula-C-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315794",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315794_Celula-D-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315795",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315795_Celula-E-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315796",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315796_Celula-F-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315797",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315797_Vesicula-A-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315798",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315798_Vesicula-B-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315799",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315799_Vesicula-C-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315800",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315800_Vesicula-D-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315801",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315801_Vesicula-E-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE311038",
+   "sample": "GSM9315802",
+   "file": "GSE311038_RAW.tar",
+   "member": "GSM9315802_Vesicula-F-read_counts.txt.gz",
+   "sheet": "",
+   "column": 2,
+   "column_name": "",
+   "match": "accession"
+  }
+ ]
+}

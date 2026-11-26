@@ -1,0 +1,46 @@
+{
+ "table": {
+  "dataset": "GSE306985",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 6,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file is gene_FPKM.xlsx, which holds FPKM values (non-integer, e.g. 8.279), so these are normalised and not raw read counts. No file holds raw counts, so no sample is given in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE306985",
+   "sample": "GSM9213457",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE306985",
+   "sample": "GSM9213458",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE306985",
+   "sample": "GSM9213459",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE306985",
+   "sample": "GSM9213460",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE306985",
+   "sample": "GSM9213461",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE306985",
+   "sample": "GSM9213462",
+   "match": "no column"
+  }
+ ]
+}

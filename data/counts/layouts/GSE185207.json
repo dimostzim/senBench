@@ -1,0 +1,50 @@
+{
+ "request_sha256": "7fd49545ee5558fccc2ecf19920294636bff0eda5d000e67c4312252e85e6701",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE185207_A549-Group_D-VS-M_DE_significant_anno.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM5608096",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM5608097",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM5608098",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM5608099",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM5608100",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM5608101",
+      "member": "",
+      "column": 13
+     }
+    ]
+   }
+  ],
+  "note": "Columns named D1.rawreads ... M3.rawreads hold whole-number values (separate from the FPKM columns), so they are raw read counts per Ensembl gene. The sample mapping follows the sample titles ([D1]-[D3] = DMSO, [M1]-[M3] = mitoxantrone); all six samples are given, but the file only lists the significant DE genes, not every gene."
+ }
+}

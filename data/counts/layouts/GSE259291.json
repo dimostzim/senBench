@@ -1,0 +1,80 @@
+{
+ "request_sha256": "bf395def7a1d3ae13a3a280567e0b35fbb69c852de41e6dce81958b80fc03b0c",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE259291_gene_count.tsv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8113395",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8113396",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8113397",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8113398",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8113399",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8113400",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8113401",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8113402",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8113403",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8113404",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8113405",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8113406",
+      "member": "",
+      "column": 13
+     }
+    ]
+   }
+  ],
+  "note": "GSE259291_gene_count.tsv.gz holds whole-number values (many 0) per Ensembl gene, which indicates raw counts. The FPKM file is normalised and not used. All 12 samples are given, matched by column names (e.g. pEV1 to description pEV_1)."
+ }
+}

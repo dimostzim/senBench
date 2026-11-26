@@ -1,0 +1,61 @@
+{
+ "table": {
+  "dataset": "GSE244248",
+  "count_table_state": "authors raw counts",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 9,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no table: no column was matched to a sample; agent: The featureCounts file holds whole-number counts per gene (symbols in column 1, nine count columns in columns 2-10), so these are raw read counts. No sample is given in sources, because the column names (e.g. \"BAM:N1:GE_96h\", \"BAM:N3:GE_96h\", \"BAM:N5:GE_96h\") only name the treatment group and repeat for each replicate. They do not identify which column belongs to which GSM, and the column order alone cannot do that."
+ },
+ "columns": [
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM7809932",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM7809933",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM7809934",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM7809935",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM7809936",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM7809937",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM8969374",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM8969375",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE244248",
+   "sample": "GSM8969376",
+   "match": "no column"
+  }
+ ]
+}

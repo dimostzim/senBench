@@ -1,0 +1,541 @@
+{
+ "table": {
+  "dataset": "GSE110397",
+  "count_table_state": "GEO uniform",
+  "source_file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+  "source_sha256": "f5b8c5f383fed81658fe5f9e83eda542b9e72a6760f19c02f80e004ef8ed13ba",
+  "gene_identifier_kind": "NCBI gene id",
+  "genes": 39376,
+  "samples_of_dataset": 57,
+  "samples_in_table": 48,
+  "column_match": "accession: 48",
+  "note": "39376 of 39376 gene identifiers are of the kind NCBI gene id; 9 samples have no column"
+ },
+ "columns": [
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990626",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 2,
+   "column_name": "GSM2990626",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990627",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 3,
+   "column_name": "GSM2990627",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990628",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 4,
+   "column_name": "GSM2990628",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990629",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 5,
+   "column_name": "GSM2990629",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990630",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 6,
+   "column_name": "GSM2990630",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990631",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 7,
+   "column_name": "GSM2990631",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990632",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 8,
+   "column_name": "GSM2990632",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990633",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 9,
+   "column_name": "GSM2990633",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990634",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 10,
+   "column_name": "GSM2990634",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990635",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 11,
+   "column_name": "GSM2990635",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990636",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 12,
+   "column_name": "GSM2990636",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990637",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 13,
+   "column_name": "GSM2990637",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990638",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 14,
+   "column_name": "GSM2990638",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990639",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 15,
+   "column_name": "GSM2990639",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990640",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 16,
+   "column_name": "GSM2990640",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990641",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 17,
+   "column_name": "GSM2990641",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990642",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 18,
+   "column_name": "GSM2990642",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990643",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 19,
+   "column_name": "GSM2990643",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990644",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 20,
+   "column_name": "GSM2990644",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990645",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 21,
+   "column_name": "GSM2990645",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990646",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 22,
+   "column_name": "GSM2990646",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990647",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 23,
+   "column_name": "GSM2990647",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990648",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 24,
+   "column_name": "GSM2990648",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990649",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 25,
+   "column_name": "GSM2990649",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990650",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 26,
+   "column_name": "GSM2990650",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990651",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 27,
+   "column_name": "GSM2990651",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990652",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 28,
+   "column_name": "GSM2990652",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990653",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 29,
+   "column_name": "GSM2990653",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990654",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 30,
+   "column_name": "GSM2990654",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990655",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 31,
+   "column_name": "GSM2990655",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990656",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 32,
+   "column_name": "GSM2990656",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990657",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 33,
+   "column_name": "GSM2990657",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990658",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 34,
+   "column_name": "GSM2990658",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990659",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 35,
+   "column_name": "GSM2990659",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990660",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 36,
+   "column_name": "GSM2990660",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990661",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 37,
+   "column_name": "GSM2990661",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990662",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 38,
+   "column_name": "GSM2990662",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990663",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 39,
+   "column_name": "GSM2990663",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990664",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 40,
+   "column_name": "GSM2990664",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990665",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 41,
+   "column_name": "GSM2990665",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990666",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 42,
+   "column_name": "GSM2990666",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990667",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 43,
+   "column_name": "GSM2990667",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990668",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 44,
+   "column_name": "GSM2990668",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990669",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 45,
+   "column_name": "GSM2990669",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990670",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 46,
+   "column_name": "GSM2990670",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990671",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 47,
+   "column_name": "GSM2990671",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990672",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 48,
+   "column_name": "GSM2990672",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM2990673",
+   "file": "GSE110397_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 49,
+   "column_name": "GSM2990673",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358239",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358240",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358241",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358242",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358243",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358244",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358245",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358246",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE110397",
+   "sample": "GSM3358247",
+   "match": "no column"
+  }
+ ]
+}

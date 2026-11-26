@@ -1,0 +1,66 @@
+{
+ "table": {
+  "dataset": "GSE198660",
+  "count_table_state": "GEO uniform",
+  "source_file": "GSE198660_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+  "source_sha256": "bd9ad1f3dcd5933a233ae8abb50f5c1f0368ce4859494e01f6bf583905b305a3",
+  "gene_identifier_kind": "NCBI gene id",
+  "genes": 39376,
+  "samples_of_dataset": 6,
+  "samples_in_table": 4,
+  "column_match": "accession: 4",
+  "note": "39376 of 39376 gene identifiers are of the kind NCBI gene id; 2 samples have no column"
+ },
+ "columns": [
+  {
+   "dataset": "GSE198660",
+   "sample": "GSM5954499",
+   "file": "GSE198660_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 2,
+   "column_name": "GSM5954499",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE198660",
+   "sample": "GSM5954500",
+   "file": "GSE198660_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 3,
+   "column_name": "GSM5954500",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE198660",
+   "sample": "GSM5954501",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE198660",
+   "sample": "GSM5954502",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE198660",
+   "sample": "GSM5954503",
+   "file": "GSE198660_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 4,
+   "column_name": "GSM5954503",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE198660",
+   "sample": "GSM5954504",
+   "file": "GSE198660_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 5,
+   "column_name": "GSM5954504",
+   "match": "accession"
+  }
+ ]
+}

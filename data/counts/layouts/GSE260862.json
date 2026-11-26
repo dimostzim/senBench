@@ -1,0 +1,50 @@
+{
+ "request_sha256": "e0253d88a8de4c1288902686ae2fa00e7d67cc1738e9267c2008547c8b150be5",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE260862_gene_expression.xls.gz",
+    "sheet": "gene_expression",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8125776",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8125777",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8125778",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8125779",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8125780",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8125781",
+      "member": "",
+      "column": 16
+     }
+    ]
+   }
+  ],
+  "note": "Columns 11-16 are named \"_count\" and hold whole numbers (e.g. 11, 6, 14, 818), unlike the non-integer FPKM values in columns 5-10. All six samples are given, matched by the sample names in the column headers."
+ }
+}

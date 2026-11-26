@@ -1,0 +1,136 @@
+{
+ "table": {
+  "dataset": "E-MTAB-10969",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 24,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: All three count tables hold non-integer values with decimal commas (e.g. 3,171191008 and 26,89353769), so they are scaled or normalised values and not whole-number read counts. No file holds raw read counts, so no sample is given in sources."
+ },
+ "columns": [
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC20_CTL3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC20_CTL5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC20_UVB3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC20_UVB5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC26_SR",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC26_Y",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC27_CTL3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC27_CTL5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC27_UVB3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC27_UVB5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC33_SR",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC33_Y",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC44_CTL3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC44_CTL5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC44_UVB3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC44_UVB5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC66_SR",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC66_Y",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC6_CTL3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC6_CTL5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC6_UVB3J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC6_UVB5J",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC8_SR",
+   "match": "no column"
+  },
+  {
+   "dataset": "E-MTAB-10969",
+   "sample": "KC8_Y",
+   "match": "no column"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "table": {
+  "dataset": "GSE85085",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 8,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of BigWig (.bw) coverage tracks, which are normalised signal tracks and not per-gene count tables; no gene-level raw read counts are present for any sample."
+ },
+ "columns": [
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781951",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781952",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781953",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781954",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781955",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781956",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781957",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE85085",
+   "sample": "GSM2781958",
+   "match": "no column"
+  }
+ ]
+}

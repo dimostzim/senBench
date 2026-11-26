@@ -1,0 +1,107 @@
+{
+ "request_sha256": "fdb9d906c1a778c504f4fed7e3a456eda252e10f7fa9869aca572acbce65ab69",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE173592_A.annot.xls.gz",
+    "sheet": "A_vs_B.deseq2.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM5271501",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM5271502",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM5271503",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE173592_B.annot.xls.gz",
+    "sheet": "A_vs_B.deseq2.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM5271504",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM5271505",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM5271506",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE173592_C.annot.xls.gz",
+    "sheet": "B_vs_C.deseq2.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM5271507",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM5271508",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM5271509",
+      "member": "",
+      "column": 7
+     }
+    ]
+   },
+   {
+    "file": "GSE173592_D.annot.xls.gz",
+    "sheet": "B_vs_D.deseq2.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM5271510",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM5271511",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM5271512",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "Each workbook has per-sample \"_count\" columns holding small whole numbers (0, 1, 2, 7), separate from the \"_tpm\" columns with decimals, so the counts are raw. All 12 samples are given, each from its own file's columns 5-7, matched by column names."
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "table": {
+  "dataset": "GSE45833",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 27,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only supplementary file is a tar of per-position wiggle coverage tracks (position and scaled coverage such as 0.6, non-integer, size-factor normalised), not per-gene counts. No gene-level raw counts or normalised gene values are present for any sample."
+ },
+ "columns": [
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041191",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041192",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041193",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041194",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041195",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041196",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041197",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041198",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1041199",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047584",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047585",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047586",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047587",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047588",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047589",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047590",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1047591",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115083",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115084",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115085",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115086",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115087",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115204",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115207",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115210",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115213",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE45833",
+   "sample": "GSM1115216",
+   "match": "no column"
+  }
+ ]
+}

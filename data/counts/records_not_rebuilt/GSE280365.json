@@ -1,0 +1,76 @@
+{
+ "table": {
+  "dataset": "GSE280365",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 12,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The sample columns (PRO1-4, ESEN1-4, LSEN1-4) hold non-integer values that look like counts divided by per-sample size factors. In every row shown, a count of 1 gives the same value within a sample (ESEN2 = 0.9553, so size factor ≈ 1.047), which points to DESeq2-normalised counts and not raw counts. No raw counts are present, so no samples are listed in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595549",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595550",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595551",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595552",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595553",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595554",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595555",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595556",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595557",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595558",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595559",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE280365",
+   "sample": "GSM8595560",
+   "match": "no column"
+  }
+ ]
+}

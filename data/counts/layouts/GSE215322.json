@@ -1,0 +1,80 @@
+{
+ "request_sha256": "1f9d1e10912e8c74dcd10064af9a836c89dec536c1489115d2b6e5f049971254",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE215322_RAW.tar",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM6632437",
+      "member": "GSM6632437_CountsData_wcell_CW1.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632438",
+      "member": "GSM6632438_CountsData_wcell_CW2.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632439",
+      "member": "GSM6632439_CountsData_wcell_CW3.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632440",
+      "member": "GSM6632440_CountsData_wcell_IRW1.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632441",
+      "member": "GSM6632441_CountsData_wcell_IRW2.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632442",
+      "member": "GSM6632442_CountsData_wcell_IRW3.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632443",
+      "member": "GSM6632443_CountsData_wev_CW1.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632444",
+      "member": "GSM6632444_CountsData_wev_CW2.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632445",
+      "member": "GSM6632445_CountsData_wev_CW3.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632446",
+      "member": "GSM6632446_CountsData_wev_IRW1.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632447",
+      "member": "GSM6632447_CountsData_wev_IRW2.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM6632448",
+      "member": "GSM6632448_CountsData_wev_IRW3.txt.gz",
+      "column": 2
+     }
+    ]
+   }
+  ],
+  "note": "Each tar member is a per-sample file (\"CountsData\") with Ensembl gene IDs and whole-number values, including many zeros and small integers, so they are raw counts. The column header in each member matches the sample title, and all 12 samples are given."
+ }
+}

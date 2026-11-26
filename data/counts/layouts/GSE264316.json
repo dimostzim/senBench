@@ -1,0 +1,74 @@
+{
+ "request_sha256": "417f0dd97c9ff750bc9e783b929236112fd0b9d5338646b06627485e402c1ccf",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE264316_BLE_vs_CTR.deseq2.annot.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8215990",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8215991",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8215992",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8215987",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8215988",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8215989",
+      "member": "",
+      "column": 10
+     }
+    ]
+   },
+   {
+    "file": "GSE264316_BP_vs_BLE.deseq2.annot.xls.gz",
+    "sheet": "BP_vs_BLE.deseq2.annot",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8215993",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8215994",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8215995",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "Both files have whole-number \"_count\" columns per sample, separate from the \"_tpm\" columns (e.g. a count of 3 matches a TPM of 0.4), so these are raw counts. The BLEO-01..03 count columns in the BP_vs_BLE file repeat samples GSM8215990–92, which are already given from the BLE_vs_CTR file, so they are left out."
+ }
+}

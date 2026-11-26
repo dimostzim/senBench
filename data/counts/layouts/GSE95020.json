@@ -1,0 +1,1900 @@
+{
+ "request_sha256": "ae09dc448473dbd090319386fd9291b5a009e4229b3e487bebd41d2d61d9b2f0",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "note": "Each tar member is a headerless two-column table of Ensembl gene ID and an integer count, named \"Counts\", so these are raw per-gene read counts. All 376 samples are given; each has its own member, whose name carries the GSM accession and the sample title.",
+  "sources": [
+   {
+    "file": "GSE95020_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM2494324",
+      "member": "GSM2494324_Sample_MA10.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494325",
+      "member": "GSM2494325_Sample_MA11.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494326",
+      "member": "GSM2494326_Sample_MA12.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494327",
+      "member": "GSM2494327_Sample_MA13.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494328",
+      "member": "GSM2494328_Sample_MA14.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494329",
+      "member": "GSM2494329_Sample_MA15.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494330",
+      "member": "GSM2494330_Sample_MA16.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494331",
+      "member": "GSM2494331_Sample_MA17.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494332",
+      "member": "GSM2494332_Sample_MA18.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494333",
+      "member": "GSM2494333_Sample_MA19.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494334",
+      "member": "GSM2494334_Sample_MA1.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494335",
+      "member": "GSM2494335_Sample_MA20.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494336",
+      "member": "GSM2494336_Sample_MA21.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494337",
+      "member": "GSM2494337_Sample_MA22.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494338",
+      "member": "GSM2494338_Sample_MA23.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494339",
+      "member": "GSM2494339_Sample_MA24.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494340",
+      "member": "GSM2494340_Sample_MA25.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494341",
+      "member": "GSM2494341_Sample_MA26.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494342",
+      "member": "GSM2494342_Sample_MA27.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494343",
+      "member": "GSM2494343_Sample_MA28.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494344",
+      "member": "GSM2494344_Sample_MA29.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494345",
+      "member": "GSM2494345_Sample_MA2.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494346",
+      "member": "GSM2494346_Sample_MA30.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494347",
+      "member": "GSM2494347_Sample_MA31.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494348",
+      "member": "GSM2494348_Sample_MA32.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494349",
+      "member": "GSM2494349_Sample_MA33.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494350",
+      "member": "GSM2494350_Sample_MA34.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494351",
+      "member": "GSM2494351_Sample_MA35.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494352",
+      "member": "GSM2494352_Sample_MA36.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494353",
+      "member": "GSM2494353_Sample_MA37.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494354",
+      "member": "GSM2494354_Sample_MA38.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494355",
+      "member": "GSM2494355_Sample_MA39.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494356",
+      "member": "GSM2494356_Sample_MA3.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494357",
+      "member": "GSM2494357_Sample_MA40.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494358",
+      "member": "GSM2494358_Sample_MA41.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494359",
+      "member": "GSM2494359_Sample_MA42.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494360",
+      "member": "GSM2494360_Sample_MA43.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494361",
+      "member": "GSM2494361_Sample_MA44.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494362",
+      "member": "GSM2494362_Sample_MA45.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494363",
+      "member": "GSM2494363_Sample_MA46.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494364",
+      "member": "GSM2494364_Sample_MA47.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494365",
+      "member": "GSM2494365_Sample_MA48.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494366",
+      "member": "GSM2494366_Sample_MA49.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494367",
+      "member": "GSM2494367_Sample_MA4.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494368",
+      "member": "GSM2494368_Sample_MA50.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494369",
+      "member": "GSM2494369_Sample_MA51.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494370",
+      "member": "GSM2494370_Sample_MA52.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494371",
+      "member": "GSM2494371_Sample_MA53.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494372",
+      "member": "GSM2494372_Sample_MA54.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494373",
+      "member": "GSM2494373_Sample_MA55.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494374",
+      "member": "GSM2494374_Sample_MA56.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494375",
+      "member": "GSM2494375_Sample_MA57.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494376",
+      "member": "GSM2494376_Sample_MA58.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494377",
+      "member": "GSM2494377_Sample_MA59.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494378",
+      "member": "GSM2494378_Sample_MA5.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494379",
+      "member": "GSM2494379_Sample_MA60.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494380",
+      "member": "GSM2494380_Sample_MA61.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494381",
+      "member": "GSM2494381_Sample_MA62.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494382",
+      "member": "GSM2494382_Sample_MA63.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494383",
+      "member": "GSM2494383_Sample_MA64.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494384",
+      "member": "GSM2494384_Sample_MA65.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494385",
+      "member": "GSM2494385_Sample_MA66.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494386",
+      "member": "GSM2494386_Sample_MA67.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494387",
+      "member": "GSM2494387_Sample_MA68.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494388",
+      "member": "GSM2494388_Sample_MA69.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494389",
+      "member": "GSM2494389_Sample_MA6.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494390",
+      "member": "GSM2494390_Sample_MA70.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494391",
+      "member": "GSM2494391_Sample_MA71.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494392",
+      "member": "GSM2494392_Sample_MA72.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494393",
+      "member": "GSM2494393_Sample_MA73.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494394",
+      "member": "GSM2494394_Sample_MA74.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494395",
+      "member": "GSM2494395_Sample_MA75.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494396",
+      "member": "GSM2494396_Sample_MA76.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494397",
+      "member": "GSM2494397_Sample_MA77.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494398",
+      "member": "GSM2494398_Sample_MA78.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494399",
+      "member": "GSM2494399_Sample_MA79.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494400",
+      "member": "GSM2494400_Sample_MA7.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494401",
+      "member": "GSM2494401_Sample_MA80.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494402",
+      "member": "GSM2494402_Sample_MA81.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494403",
+      "member": "GSM2494403_Sample_MA82.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494404",
+      "member": "GSM2494404_Sample_MA83.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494405",
+      "member": "GSM2494405_Sample_MA84.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494406",
+      "member": "GSM2494406_Sample_MA85.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494407",
+      "member": "GSM2494407_Sample_MA86.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494408",
+      "member": "GSM2494408_Sample_MA87.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494409",
+      "member": "GSM2494409_Sample_MA88.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494410",
+      "member": "GSM2494410_Sample_MA89.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494411",
+      "member": "GSM2494411_Sample_MA8.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494412",
+      "member": "GSM2494412_Sample_MA90.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494413",
+      "member": "GSM2494413_Sample_MA91.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494414",
+      "member": "GSM2494414_Sample_MA92.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494415",
+      "member": "GSM2494415_Sample_MA93.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494416",
+      "member": "GSM2494416_Sample_MA94.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494417",
+      "member": "GSM2494417_Sample_MA95.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494418",
+      "member": "GSM2494418_Sample_MA96.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494419",
+      "member": "GSM2494419_Sample_MA9.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494420",
+      "member": "GSM2494420_Sample_B1_13.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494421",
+      "member": "GSM2494421_Sample_B1_19.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494422",
+      "member": "GSM2494422_Sample_B1_1.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494423",
+      "member": "GSM2494423_Sample_B1_20.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494424",
+      "member": "GSM2494424_Sample_B1_21.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494425",
+      "member": "GSM2494425_Sample_B1_22.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494426",
+      "member": "GSM2494426_Sample_B1_23.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494427",
+      "member": "GSM2494427_Sample_B1_24.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494428",
+      "member": "GSM2494428_Sample_B1_25.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494429",
+      "member": "GSM2494429_Sample_B1_26.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494430",
+      "member": "GSM2494430_Sample_B1_27.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494431",
+      "member": "GSM2494431_Sample_B1_28.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494432",
+      "member": "GSM2494432_Sample_B1_29.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494433",
+      "member": "GSM2494433_Sample_B1_2.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494434",
+      "member": "GSM2494434_Sample_B1_30.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494435",
+      "member": "GSM2494435_Sample_B1_31.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494436",
+      "member": "GSM2494436_Sample_B1_32.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494437",
+      "member": "GSM2494437_Sample_B1_33.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494438",
+      "member": "GSM2494438_Sample_B1_34.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494439",
+      "member": "GSM2494439_Sample_B1_35.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494440",
+      "member": "GSM2494440_Sample_B1_36.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494441",
+      "member": "GSM2494441_Sample_B1_37.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494442",
+      "member": "GSM2494442_Sample_B1_38.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494443",
+      "member": "GSM2494443_Sample_B1_39.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494444",
+      "member": "GSM2494444_Sample_B1_3.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494445",
+      "member": "GSM2494445_Sample_B1_40.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494446",
+      "member": "GSM2494446_Sample_B1_41.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494447",
+      "member": "GSM2494447_Sample_B1_42.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494448",
+      "member": "GSM2494448_Sample_B1_43.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494449",
+      "member": "GSM2494449_Sample_B1_44.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494450",
+      "member": "GSM2494450_Sample_B1_45.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494451",
+      "member": "GSM2494451_Sample_B1_46.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494452",
+      "member": "GSM2494452_Sample_B1_47.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494453",
+      "member": "GSM2494453_Sample_B1_48.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494454",
+      "member": "GSM2494454_Sample_B1_49.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494455",
+      "member": "GSM2494455_Sample_B1_4.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494456",
+      "member": "GSM2494456_Sample_B1_50.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494457",
+      "member": "GSM2494457_Sample_B1_51.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494458",
+      "member": "GSM2494458_Sample_B1_52.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494459",
+      "member": "GSM2494459_Sample_B1_53.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494460",
+      "member": "GSM2494460_Sample_B1_54.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494461",
+      "member": "GSM2494461_Sample_B1_55.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494462",
+      "member": "GSM2494462_Sample_B1_56.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494463",
+      "member": "GSM2494463_Sample_B1_57.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494464",
+      "member": "GSM2494464_Sample_B1_58.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494465",
+      "member": "GSM2494465_Sample_B1_59.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494466",
+      "member": "GSM2494466_Sample_B1_5.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494467",
+      "member": "GSM2494467_Sample_B1_60.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494468",
+      "member": "GSM2494468_Sample_B1_61.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494469",
+      "member": "GSM2494469_Sample_B1_62.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494470",
+      "member": "GSM2494470_Sample_B1_63.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494471",
+      "member": "GSM2494471_Sample_B1_64.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494472",
+      "member": "GSM2494472_Sample_B1_65.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494473",
+      "member": "GSM2494473_Sample_B1_66.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494474",
+      "member": "GSM2494474_Sample_B1_67.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494475",
+      "member": "GSM2494475_Sample_B1_68.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494476",
+      "member": "GSM2494476_Sample_B1_69.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494477",
+      "member": "GSM2494477_Sample_B1_6.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494478",
+      "member": "GSM2494478_Sample_B1_70.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494479",
+      "member": "GSM2494479_Sample_B1_71.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494480",
+      "member": "GSM2494480_Sample_B1_72.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494481",
+      "member": "GSM2494481_Sample_B1_73.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494482",
+      "member": "GSM2494482_Sample_B1_74.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494483",
+      "member": "GSM2494483_Sample_B1_75.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494484",
+      "member": "GSM2494484_Sample_B1_76.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494485",
+      "member": "GSM2494485_Sample_B1_77.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494486",
+      "member": "GSM2494486_Sample_B1_78.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494487",
+      "member": "GSM2494487_Sample_B1_79.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494488",
+      "member": "GSM2494488_Sample_B1_7.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494489",
+      "member": "GSM2494489_Sample_B1_80.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494490",
+      "member": "GSM2494490_Sample_B1_81.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494491",
+      "member": "GSM2494491_Sample_B1_82.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494492",
+      "member": "GSM2494492_Sample_B1_83.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494493",
+      "member": "GSM2494493_Sample_B1_84.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494494",
+      "member": "GSM2494494_Sample_B1_85.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494495",
+      "member": "GSM2494495_Sample_B1_86.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494496",
+      "member": "GSM2494496_Sample_B1_87.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494497",
+      "member": "GSM2494497_Sample_B1_88.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494498",
+      "member": "GSM2494498_Sample_B1_89.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494499",
+      "member": "GSM2494499_Sample_B1_8.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494500",
+      "member": "GSM2494500_Sample_B1_90.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494501",
+      "member": "GSM2494501_Sample_B1_91.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494502",
+      "member": "GSM2494502_Sample_B1_92.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494503",
+      "member": "GSM2494503_Sample_B1_93.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494504",
+      "member": "GSM2494504_Sample_B1_94.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494505",
+      "member": "GSM2494505_Sample_B1_95.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494506",
+      "member": "GSM2494506_Sample_B1_96.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494507",
+      "member": "GSM2494507_Sample_B1_9.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494508",
+      "member": "GSM2494508_Sample_B2_10.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494509",
+      "member": "GSM2494509_Sample_B2_11.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494510",
+      "member": "GSM2494510_Sample_B2_12.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494511",
+      "member": "GSM2494511_Sample_B2_13.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494512",
+      "member": "GSM2494512_Sample_B2_14.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494513",
+      "member": "GSM2494513_Sample_B2_15.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494514",
+      "member": "GSM2494514_Sample_B2_16.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494515",
+      "member": "GSM2494515_Sample_B2_17.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494516",
+      "member": "GSM2494516_Sample_B2_18.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494517",
+      "member": "GSM2494517_Sample_B2_19.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494518",
+      "member": "GSM2494518_Sample_B2_1.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494519",
+      "member": "GSM2494519_Sample_B2_20.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494520",
+      "member": "GSM2494520_Sample_B2_21.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494521",
+      "member": "GSM2494521_Sample_B2_22.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494522",
+      "member": "GSM2494522_Sample_B2_23.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494523",
+      "member": "GSM2494523_Sample_B2_24.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494524",
+      "member": "GSM2494524_Sample_B2_25.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494525",
+      "member": "GSM2494525_Sample_B2_26.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494526",
+      "member": "GSM2494526_Sample_B2_27.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494527",
+      "member": "GSM2494527_Sample_B2_28.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494528",
+      "member": "GSM2494528_Sample_B2_29.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494529",
+      "member": "GSM2494529_Sample_B2_2.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494530",
+      "member": "GSM2494530_Sample_B2_30.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494531",
+      "member": "GSM2494531_Sample_B2_31.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494532",
+      "member": "GSM2494532_Sample_B2_32.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494533",
+      "member": "GSM2494533_Sample_B2_33.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494534",
+      "member": "GSM2494534_Sample_B2_34.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494535",
+      "member": "GSM2494535_Sample_B2_35.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494536",
+      "member": "GSM2494536_Sample_B2_36.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494537",
+      "member": "GSM2494537_Sample_B2_37.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494538",
+      "member": "GSM2494538_Sample_B2_38.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494539",
+      "member": "GSM2494539_Sample_B2_39.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494540",
+      "member": "GSM2494540_Sample_B2_3.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494541",
+      "member": "GSM2494541_Sample_B2_40.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494542",
+      "member": "GSM2494542_Sample_B2_41.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494543",
+      "member": "GSM2494543_Sample_B2_42.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494544",
+      "member": "GSM2494544_Sample_B2_43.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494545",
+      "member": "GSM2494545_Sample_B2_44.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494546",
+      "member": "GSM2494546_Sample_B2_45.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494547",
+      "member": "GSM2494547_Sample_B2_46.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494548",
+      "member": "GSM2494548_Sample_B2_47.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494549",
+      "member": "GSM2494549_Sample_B2_48.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494550",
+      "member": "GSM2494550_Sample_B2_49.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494551",
+      "member": "GSM2494551_Sample_B2_4.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494552",
+      "member": "GSM2494552_Sample_B2_50.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494553",
+      "member": "GSM2494553_Sample_B2_51.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494554",
+      "member": "GSM2494554_Sample_B2_52.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494555",
+      "member": "GSM2494555_Sample_B2_53.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494556",
+      "member": "GSM2494556_Sample_B2_54.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494557",
+      "member": "GSM2494557_Sample_B2_55.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494558",
+      "member": "GSM2494558_Sample_B2_56.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494559",
+      "member": "GSM2494559_Sample_B2_57.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494560",
+      "member": "GSM2494560_Sample_B2_58.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494561",
+      "member": "GSM2494561_Sample_B2_59.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494562",
+      "member": "GSM2494562_Sample_B2_5.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494563",
+      "member": "GSM2494563_Sample_B2_60.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494564",
+      "member": "GSM2494564_Sample_B2_61.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494565",
+      "member": "GSM2494565_Sample_B2_62.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494566",
+      "member": "GSM2494566_Sample_B2_63.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494567",
+      "member": "GSM2494567_Sample_B2_64.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494568",
+      "member": "GSM2494568_Sample_B2_65.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494569",
+      "member": "GSM2494569_Sample_B2_66.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494570",
+      "member": "GSM2494570_Sample_B2_67.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494571",
+      "member": "GSM2494571_Sample_B2_68.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494572",
+      "member": "GSM2494572_Sample_B2_69.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494573",
+      "member": "GSM2494573_Sample_B2_6.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494574",
+      "member": "GSM2494574_Sample_B2_70.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494575",
+      "member": "GSM2494575_Sample_B2_71.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494576",
+      "member": "GSM2494576_Sample_B2_72.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494577",
+      "member": "GSM2494577_Sample_B2_73.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494578",
+      "member": "GSM2494578_Sample_B2_74.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494579",
+      "member": "GSM2494579_Sample_B2_75.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494580",
+      "member": "GSM2494580_Sample_B2_76.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494581",
+      "member": "GSM2494581_Sample_B2_77.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494582",
+      "member": "GSM2494582_Sample_B2_78.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494583",
+      "member": "GSM2494583_Sample_B2_79.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494584",
+      "member": "GSM2494584_Sample_B2_7.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494585",
+      "member": "GSM2494585_Sample_B2_80.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494586",
+      "member": "GSM2494586_Sample_B2_81.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494587",
+      "member": "GSM2494587_Sample_B2_82.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494588",
+      "member": "GSM2494588_Sample_B2_83.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494589",
+      "member": "GSM2494589_Sample_B2_84.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494590",
+      "member": "GSM2494590_Sample_B2_85.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494591",
+      "member": "GSM2494591_Sample_B2_86.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494592",
+      "member": "GSM2494592_Sample_B2_87.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494593",
+      "member": "GSM2494593_Sample_B2_88.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494594",
+      "member": "GSM2494594_Sample_B2_89.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494595",
+      "member": "GSM2494595_Sample_B2_8.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494596",
+      "member": "GSM2494596_Sample_B2_90.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494597",
+      "member": "GSM2494597_Sample_B2_91.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494598",
+      "member": "GSM2494598_Sample_B2_92.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494599",
+      "member": "GSM2494599_Sample_B2_93.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494600",
+      "member": "GSM2494600_Sample_B2_94.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494601",
+      "member": "GSM2494601_Sample_B2_95.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494602",
+      "member": "GSM2494602_Sample_B2_96.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494603",
+      "member": "GSM2494603_Sample_B2_9.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494604",
+      "member": "GSM2494604_Sample_EV_10.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494605",
+      "member": "GSM2494605_Sample_EV_11.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494606",
+      "member": "GSM2494606_Sample_EV_12.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494607",
+      "member": "GSM2494607_Sample_EV_13.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494608",
+      "member": "GSM2494608_Sample_EV_14.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494609",
+      "member": "GSM2494609_Sample_EV_15.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494610",
+      "member": "GSM2494610_Sample_EV_16.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494611",
+      "member": "GSM2494611_Sample_EV_17.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494612",
+      "member": "GSM2494612_Sample_EV_18.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494613",
+      "member": "GSM2494613_Sample_EV_19.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494614",
+      "member": "GSM2494614_Sample_EV_1.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494615",
+      "member": "GSM2494615_Sample_EV_20.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494617",
+      "member": "GSM2494617_Sample_EV_21.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494618",
+      "member": "GSM2494618_Sample_EV_22.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494620",
+      "member": "GSM2494620_Sample_EV_23.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494622",
+      "member": "GSM2494622_Sample_EV_24.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494624",
+      "member": "GSM2494624_Sample_EV_25.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494626",
+      "member": "GSM2494626_Sample_EV_26.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494628",
+      "member": "GSM2494628_Sample_EV_27.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494630",
+      "member": "GSM2494630_Sample_EV_28.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494632",
+      "member": "GSM2494632_Sample_EV_29.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494633",
+      "member": "GSM2494633_Sample_EV_2.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494634",
+      "member": "GSM2494634_Sample_EV_30.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494635",
+      "member": "GSM2494635_Sample_EV_31.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494636",
+      "member": "GSM2494636_Sample_EV_32.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494637",
+      "member": "GSM2494637_Sample_EV_3.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494638",
+      "member": "GSM2494638_Sample_EV_4.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494639",
+      "member": "GSM2494639_Sample_EV_5.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494640",
+      "member": "GSM2494640_Sample_EV_6.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494641",
+      "member": "GSM2494641_Sample_EV_7.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494642",
+      "member": "GSM2494642_Sample_EV_8.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494643",
+      "member": "GSM2494643_Sample_EV_9.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494644",
+      "member": "GSM2494644_Sample_OSKM_10.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494645",
+      "member": "GSM2494645_Sample_OSKM_11.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494646",
+      "member": "GSM2494646_Sample_OSKM_12.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494647",
+      "member": "GSM2494647_Sample_OSKM_13.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494648",
+      "member": "GSM2494648_Sample_OSKM_14.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494649",
+      "member": "GSM2494649_Sample_OSKM_15.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494650",
+      "member": "GSM2494650_Sample_OSKM_16.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494651",
+      "member": "GSM2494651_Sample_OSKM_17.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494652",
+      "member": "GSM2494652_Sample_OSKM_18.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494653",
+      "member": "GSM2494653_Sample_OSKM_19.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494654",
+      "member": "GSM2494654_Sample_OSKM_1.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494655",
+      "member": "GSM2494655_Sample_OSKM_20.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494656",
+      "member": "GSM2494656_Sample_OSKM_21.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494657",
+      "member": "GSM2494657_Sample_OSKM_22.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494658",
+      "member": "GSM2494658_Sample_OSKM_23.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494659",
+      "member": "GSM2494659_Sample_OSKM_24.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494660",
+      "member": "GSM2494660_Sample_OSKM_25.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494661",
+      "member": "GSM2494661_Sample_OSKM_26.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494662",
+      "member": "GSM2494662_Sample_OSKM_27.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494663",
+      "member": "GSM2494663_Sample_OSKM_28.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494664",
+      "member": "GSM2494664_Sample_OSKM_29.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494665",
+      "member": "GSM2494665_Sample_OSKM_2.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494666",
+      "member": "GSM2494666_Sample_OSKM_30.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494667",
+      "member": "GSM2494667_Sample_OSKM_31.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494668",
+      "member": "GSM2494668_Sample_OSKM_32.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494669",
+      "member": "GSM2494669_Sample_OSKM_33.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494670",
+      "member": "GSM2494670_Sample_OSKM_34.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494671",
+      "member": "GSM2494671_Sample_OSKM_35.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494672",
+      "member": "GSM2494672_Sample_OSKM_36.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494673",
+      "member": "GSM2494673_Sample_OSKM_37.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494674",
+      "member": "GSM2494674_Sample_OSKM_38.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494675",
+      "member": "GSM2494675_Sample_OSKM_39.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494676",
+      "member": "GSM2494676_Sample_OSKM_3.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494677",
+      "member": "GSM2494677_Sample_OSKM_40.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494678",
+      "member": "GSM2494678_Sample_OSKM_41.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494679",
+      "member": "GSM2494679_Sample_OSKM_42.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494680",
+      "member": "GSM2494680_Sample_OSKM_43.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494681",
+      "member": "GSM2494681_Sample_OSKM_44.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494682",
+      "member": "GSM2494682_Sample_OSKM_45.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494683",
+      "member": "GSM2494683_Sample_OSKM_46.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494684",
+      "member": "GSM2494684_Sample_OSKM_47.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494685",
+      "member": "GSM2494685_Sample_OSKM_48.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494686",
+      "member": "GSM2494686_Sample_OSKM_49.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494687",
+      "member": "GSM2494687_Sample_OSKM_4.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494688",
+      "member": "GSM2494688_Sample_OSKM_50.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494689",
+      "member": "GSM2494689_Sample_OSKM_51.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494690",
+      "member": "GSM2494690_Sample_OSKM_52.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494691",
+      "member": "GSM2494691_Sample_OSKM_53.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494692",
+      "member": "GSM2494692_Sample_OSKM_54.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494693",
+      "member": "GSM2494693_Sample_OSKM_55.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494694",
+      "member": "GSM2494694_Sample_OSKM_56.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494695",
+      "member": "GSM2494695_Sample_OSKM_57.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494696",
+      "member": "GSM2494696_Sample_OSKM_58.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494697",
+      "member": "GSM2494697_Sample_OSKM_59.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494698",
+      "member": "GSM2494698_Sample_OSKM_5.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494699",
+      "member": "GSM2494699_Sample_OSKM_60.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494700",
+      "member": "GSM2494700_Sample_OSKM_61.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494701",
+      "member": "GSM2494701_Sample_OSKM_62.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494702",
+      "member": "GSM2494702_Sample_OSKM_63.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494703",
+      "member": "GSM2494703_Sample_OSKM_64.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494704",
+      "member": "GSM2494704_Sample_OSKM_6.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494705",
+      "member": "GSM2494705_Sample_OSKM_7.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494706",
+      "member": "GSM2494706_Sample_OSKM_8.Counts.txt.gz",
+      "column": 2
+     },
+     {
+      "sample": "GSM2494707",
+      "member": "GSM2494707_Sample_OSKM_9.Counts.txt.gz",
+      "column": 2
+     }
+    ]
+   }
+  ]
+ }
+}

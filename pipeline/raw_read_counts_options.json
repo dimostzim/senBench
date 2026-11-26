@@ -1,0 +1,13 @@
+{
+  "defaults": {"paired": ["-p", "--countReadPairs"], "single": []},
+  "reads_of_pairs": {"paired": ["-p"], "single": []},
+  "multimapping": {"paired": ["-p", "--countReadPairs", "-M"], "single": ["-M"]},
+  "multimapping_fraction": {"paired": ["-p", "--countReadPairs", "-M", "--fraction"], "single": ["-M", "--fraction"]},
+  "overlapping": {"paired": ["-p", "--countReadPairs", "-O"], "single": ["-O"]},
+  "overlapping_fraction": {"paired": ["-p", "--countReadPairs", "-O", "--fraction"], "single": ["-O", "--fraction"]},
+  "both_reads_aligned": {"paired": ["-p", "--countReadPairs", "-B", "-C"], "single": []},
+  "strand_first": {"paired": ["-p", "--countReadPairs", "-s", "1"], "single": ["-s", "1"]},
+  "strand_second": {"paired": ["-p", "--countReadPairs", "-s", "2"], "single": ["-s", "2"]},
+  "multimapping_overlapping_fraction": {"paired": ["-p", "--countReadPairs", "-M", "-O", "--fraction"],
+                                        "single": ["-M", "-O", "--fraction"]}
+}

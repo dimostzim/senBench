@@ -1,0 +1,125 @@
+{
+ "request_sha256": "cc0b37583fdcc5444a7990d8aebe3d8cb50f11a9212eca3b5cb8406f47e10741",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE297560_HDF_ALL_compiles_counts.txt.gz",
+    "sheet": "",
+    "column_names_row": 2,
+    "first_values_row": 3,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8994797",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8994798",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8994799",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8994809",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8994810",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8994811",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8994806",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8994807",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8994808",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8994803",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM8994804",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM8994805",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM8994794",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM8994795",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM8994796",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM8994812",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM8994814",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM8994813",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM8994800",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM8994801",
+      "member": "",
+      "column": 26
+     },
+     {
+      "sample": "GSM8994802",
+      "member": "",
+      "column": 27
+     }
+    ]
+   }
+  ],
+  "note": "The file is featureCounts v2.0.3 output (with --countReadPairs) with small whole-number values per Ensembl gene, so these are raw read counts. All 21 samples are given; library names in the sample descriptions match the column headers, and 4Gamma_3 (column 23) comes before 4Gamma_2 (column 24) in the file."
+ }
+}

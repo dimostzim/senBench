@@ -1,0 +1,180 @@
+{
+ "request_sha256": "80c96346632bea7b8643ea3c22cc72412e9c70f4e63c45516474d239a4b9da33",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE313182_SenQuiAc_gene_count.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9363750",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM9363751",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM9363752",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM9363753",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM9363754",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM9363755",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM9363756",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM9363757",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM9363758",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM9363759",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM9363760",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM9363761",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM9363762",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM9363763",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM9363764",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM9363765",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM9363766",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM9363767",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM9363768",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM9363769",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM9363770",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM9363771",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM9363772",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM9363773",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM9363774",
+      "member": "",
+      "column": 26
+     },
+     {
+      "sample": "GSM9363775",
+      "member": "",
+      "column": 27
+     },
+     {
+      "sample": "GSM9363776",
+      "member": "",
+      "column": 28
+     },
+     {
+      "sample": "GSM9363777",
+      "member": "",
+      "column": 29
+     },
+     {
+      "sample": "GSM9363778",
+      "member": "",
+      "column": 30
+     },
+     {
+      "sample": "GSM9363779",
+      "member": "",
+      "column": 31
+     },
+     {
+      "sample": "GSM9363780",
+      "member": "",
+      "column": 32
+     },
+     {
+      "sample": "GSM9363781",
+      "member": "",
+      "column": 33
+     }
+    ]
+   }
+  ],
+  "note": "The file is named gene_count and holds whole-number values per Ensembl gene (e.g. 433034 for FN1), consistent with raw counts. Column headers are the library names given in the sample descriptions (QM1 to SV4ac), so all 32 samples are mapped."
+ }
+}

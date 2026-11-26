@@ -1,0 +1,106 @@
+{
+ "table": {
+  "dataset": "GSE163178",
+  "count_table_state": "GEO uniform",
+  "source_file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+  "source_sha256": "b87533933067fb14142430b51a0e0d250f485f4f692fe4c3caa7c876a77945c6",
+  "gene_identifier_kind": "NCBI gene id",
+  "genes": 39376,
+  "samples_of_dataset": 12,
+  "samples_in_table": 6,
+  "column_match": "accession: 6",
+  "note": "39376 of 39376 gene identifiers are of the kind NCBI gene id; 6 samples have no column"
+ },
+ "columns": [
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974127",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974128",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974129",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974130",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974131",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974132",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974133",
+   "file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 2,
+   "column_name": "GSM4974133",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974134",
+   "file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 3,
+   "column_name": "GSM4974134",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974135",
+   "file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 4,
+   "column_name": "GSM4974135",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974136",
+   "file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 5,
+   "column_name": "GSM4974136",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974137",
+   "file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 6,
+   "column_name": "GSM4974137",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE163178",
+   "sample": "GSM4974138",
+   "file": "GSE163178_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 7,
+   "column_name": "GSM4974138",
+   "match": "accession"
+  }
+ ]
+}

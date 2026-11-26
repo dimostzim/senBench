@@ -1,0 +1,60 @@
+{
+ "request_sha256": "b2b1d0d39db91062b2c98e8ac2d44e6f784c0dfcdc6733c17d633dc4aa226570",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE267782_A549_count_matrix.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8278693",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8278694",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8278695",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8278696",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8278697",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8278698",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8278699",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8278700",
+      "member": "",
+      "column": 9
+     }
+    ]
+   }
+  ],
+  "note": "The matrix holds whole-number values per gene symbol (e.g. TSPAN6 152, 28, 187), consistent with raw read counts. All eight samples are given; columns A549_1 to A549_8 match the numeric suffixes in the sample titles."
+ }
+}

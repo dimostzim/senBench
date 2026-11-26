@@ -1,0 +1,110 @@
+{
+ "request_sha256": "7e85fddbb06940498dbc5d1252dcd60a7f9552564677a6615005486eae0c9e8e",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE306839_raw_counts.csv.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9210479",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM9210480",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM9210481",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM9210482",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM9210483",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM9210484",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM9210485",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM9210486",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM9210487",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM9210488",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM9210489",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM9210490",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM9210491",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM9210492",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM9210493",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM9210494",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM9210495",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM9210496",
+      "member": "",
+      "column": 19
+     }
+    ]
+   }
+  ],
+  "note": "GSE306839_raw_counts.csv.gz holds whole-number per-gene Ensembl counts that match the featureCounts values in the per-sample tar members, whereas the TPM file holds decimals. Samples map to columns via library names SV19–SV36 (description field, confirmed by the tar member names); all 18 samples are given, and the tar members duplicate the same counts so they are left out."
+ }
+}

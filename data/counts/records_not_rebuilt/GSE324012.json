@@ -1,0 +1,86 @@
+{
+ "table": {
+  "dataset": "GSE324012",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 14,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: Both workbooks hold non-integer values with many zeros and small magnitudes (e.g. 1.325, 0.1077, 1.246), which are normalised or transformed expression values, not whole-number read counts. No raw counts are given, so no samples are listed in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566735",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566736",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566737",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566738",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566739",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566740",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566741",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566742",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566743",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566744",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566745",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566746",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566747",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE324012",
+   "sample": "GSM9566748",
+   "match": "no column"
+  }
+ ]
+}

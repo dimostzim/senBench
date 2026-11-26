@@ -1,0 +1,35 @@
+{
+ "request_sha256": "55961bb65aab9afa0e306ecc436752071a23ce8a626d7a035e818577dfbc137f",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE196828_2_FullTable.xlsx",
+    "sheet": "Detail",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM5901577",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM5901578",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM5901576",
+      "member": "",
+      "column": 4
+     }
+    ]
+   }
+  ],
+  "note": "The \"Expected count\" columns are RSEM expected read counts, which are estimated counts and not scaled. They are separate from the TPM and FPKM columns, but some values are fractional (e.g. 78.57), so they are not strictly whole numbers. The samples map by the column labels: Y is GSM5901576, S is GSM5901577, and S-C (S+C) is GSM5901578. All three samples are given."
+ }
+}

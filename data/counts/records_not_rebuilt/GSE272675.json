@@ -1,0 +1,96 @@
+{
+ "table": {
+  "dataset": "GSE272675",
+  "count_table_state": "authors raw counts",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 16,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no table: no column was matched to a sample; agent: GSE272675_featureCount_results.txt.gz holds featureCounts output: whole-number values per NCBI gene ID, with zeros and small integers, so these are raw read counts. No sample is listed because the columns are named only \"Sample 1\" to \"Sample 16\", and nothing in the file or the GEO sample fields links these names to GSM accessions. Matching them by order alone is not allowed."
+ },
+ "columns": [
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8408999",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409000",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409001",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409002",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409003",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409004",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409005",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409006",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409007",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409008",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409009",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409010",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409011",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409012",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409013",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE272675",
+   "sample": "GSM8409014",
+   "match": "no column"
+  }
+ ]
+}

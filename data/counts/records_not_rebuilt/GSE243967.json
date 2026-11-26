@@ -1,0 +1,71 @@
+{
+ "table": {
+  "dataset": "GSE243967",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 11,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: The only file is GSE243967_gene_fpkm.xlsx, which holds non-integer FPKM values (e.g. 5665.593969) and no raw read counts. No other supplementary files are present."
+ },
+ "columns": [
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802490",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802491",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802492",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802493",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802494",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802495",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802496",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802497",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802498",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802499",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE243967",
+   "sample": "GSM7802500",
+   "match": "no column"
+  }
+ ]
+}

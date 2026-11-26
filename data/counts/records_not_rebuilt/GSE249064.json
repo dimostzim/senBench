@@ -1,0 +1,161 @@
+{
+ "table": {
+  "dataset": "GSE249064",
+  "count_table_state": "authors raw counts",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 29,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no table: no column was matched to a sample; agent: GSE249064_rawcounts.csv.gz holds whole-number per-gene counts (many zeros, small integers) under gene symbols, so they are raw read counts. Every library is split over two lane columns (L001 and L002), so no single column holds the counts of a whole sample and no sample is given in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925794",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925795",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925796",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925797",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925798",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925799",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925800",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925801",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925802",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925803",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925804",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925805",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925806",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925807",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925808",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925809",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925810",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925811",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925812",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925813",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925814",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925815",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925816",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925817",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925818",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925819",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925820",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925821",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE249064",
+   "sample": "GSM7925822",
+   "match": "no column"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "table": {
+  "dataset": "GSE189209",
+  "count_table_state": "none",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 4,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no supplementary file"
+ },
+ "columns": [
+  {
+   "dataset": "GSE189209",
+   "sample": "GSM5696144",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE189209",
+   "sample": "GSM5696145",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE189209",
+   "sample": "GSM5696146",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE189209",
+   "sample": "GSM5696147",
+   "match": "no column"
+  }
+ ]
+}

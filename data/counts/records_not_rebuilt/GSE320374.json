@@ -1,0 +1,136 @@
+{
+ "table": {
+  "dataset": "GSE320374",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE320374_Read_Count_Matrix.tsv.gz",
+  "source_sha256": "e66d2463f6be724a32b3ee41053a5a06794029c0205287b3c3135c3f89cf4ab7",
+  "gene_identifier_kind": "Ensembl gene",
+  "genes": 60649,
+  "samples_of_dataset": 12,
+  "samples_in_table": 12,
+  "column_match": "agent: 12",
+  "note": "60649 of 60649 gene identifiers are of the kind Ensembl gene; 88 rows repeat a gene identifier; agent: Read_Count_Matrix.tsv.gz holds whole-number values per Ensembl gene (e.g. 0, 1, 2, 3, 9), which are raw counts; the FPKM matrix has decimal values and is normalised. All 12 samples are given, matched by column names (the X prefix is added to names starting with a digit)."
+ },
+ "columns": [
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541951",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 5,
+   "column_name": "X559_Criz_1",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541952",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 6,
+   "column_name": "X559_Criz_2",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541953",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 7,
+   "column_name": "X559_Ctrl_1",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541954",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 8,
+   "column_name": "X559_Ctrl_2",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541955",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 9,
+   "column_name": "X827_Criz_1",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541956",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 10,
+   "column_name": "X827_Criz_2",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541957",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 11,
+   "column_name": "X827_Ctrl_1",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541958",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 12,
+   "column_name": "X827_Ctrl_2",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541959",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 13,
+   "column_name": "X1005_Criz_1",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541960",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 14,
+   "column_name": "X1005_Criz_2",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541961",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 15,
+   "column_name": "X1005_Ctrl_1",
+   "match": "agent"
+  },
+  {
+   "dataset": "GSE320374",
+   "sample": "GSM9541962",
+   "file": "GSE320374_Read_Count_Matrix.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 16,
+   "column_name": "X1005_Ctrl_2",
+   "match": "agent"
+  }
+ ]
+}

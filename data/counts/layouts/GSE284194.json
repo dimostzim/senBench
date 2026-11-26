@@ -1,0 +1,90 @@
+{
+ "request_sha256": "621fe0b6a1d5bc2c390273c69d5fe9dcd0b54cef888ea4efa43035b7e269ce44",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE284194_RAW.tar",
+    "sheet": "",
+    "column_names_row": 0,
+    "first_values_row": 1,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8328987",
+      "member": "GSM8328987_SP_1.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328988",
+      "member": "GSM8328988_SP_2.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328989",
+      "member": "GSM8328989_SP_3.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328990",
+      "member": "GSM8328990_SP_4.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328991",
+      "member": "GSM8328991_control_Rep1.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328992",
+      "member": "GSM8328992_control_Rep2.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328993",
+      "member": "GSM8328993_siBANF1_Rep1.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328994",
+      "member": "GSM8328994_siBANF1_Rep2.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328995",
+      "member": "GSM8328995_siSRRM2_Rep1.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8328996",
+      "member": "GSM8328996_siSRRM2_Rep2.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8607128",
+      "member": "GSM8607128_CTCFcontrol_Rep1.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8607129",
+      "member": "GSM8607129_CTCFcontrol_Rep2.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8607130",
+      "member": "GSM8607130_siCTCF_Rep1.txt.gz",
+      "column": 3
+     },
+     {
+      "sample": "GSM8607131",
+      "member": "GSM8607131_siCTCF_Rep2.txt.gz",
+      "column": 3
+     }
+    ]
+   }
+  ],
+  "note": "Each per-sample tab-delimited member has no header, a gene symbol in columns 1 and 2, and whole-number values in column 3 (e.g. 245, 0, 5940), which are raw counts. Samples were matched by the GSM accession in the member name; the file labels for GSM8328993–96 (siBANF1 / siSRRM2) are swapped relative to the sample titles, but the accession identifies the file. The other members (bigWig and narrowPeak files) are not gene counts."
+ }
+}

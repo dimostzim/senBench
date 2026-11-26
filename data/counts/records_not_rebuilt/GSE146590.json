@@ -1,0 +1,26 @@
+{
+ "table": {
+  "dataset": "GSE146590",
+  "count_table_state": "authors raw counts",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 2,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "no table: no column was matched to a sample; agent: The per-sample MatrixMarket files (header \"coordinate integer general\", Cell Ranger 3.0.2) hold integer UMI counts per gene (features.tsv, Ensembl IDs) per cell (barcodes.tsv), so they are raw counts. This is single-cell data: the columns of each matrix are cells, not samples, so no single column holds a whole sample's counts and neither GSM4396313 nor GSM4396314 is given in sources."
+ },
+ "columns": [
+  {
+   "dataset": "GSE146590",
+   "sample": "GSM4396313",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE146590",
+   "sample": "GSM4396314",
+   "match": "no column"
+  }
+ ]
+}

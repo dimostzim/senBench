@@ -1,0 +1,50 @@
+{
+ "request_sha256": "a212af45e81eef934389449db070f4c0229421d5e3a7fe7181dd5c206279764c",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE326321_allsamples.count.xlsx",
+    "sheet": "allsamples.count",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM9629085",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM9629086",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM9629087",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM9629088",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM9629089",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM9629090",
+      "member": "",
+      "column": 7
+     }
+    ]
+   }
+  ],
+  "note": "The sheet \"allsamples.count\" holds whole-number values per gene symbol (e.g. WASH7P 223, 286, 227), many zeros, which indicates raw counts. Columns are matched to samples by the library names in the sample descriptions (Control_1 to shMTR4_3); all six samples are given."
+ }
+}

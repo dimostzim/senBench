@@ -1,0 +1,110 @@
+{
+ "request_sha256": "83af76abf61ed1d6c7a3295f4199086bdb0b897cd94bd00508ff045308cdd7c3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE307082_CellStates_count_matrix.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 6,
+    "sample_columns": [
+     {
+      "sample": "GSM9215481",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM9215487",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM9215493",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM9215484",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM9215490",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM9215496",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM9215482",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM9215488",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM9215494",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM9215485",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM9215491",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM9215497",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM9215483",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM9215489",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM9215495",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM9215486",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM9215492",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM9215498",
+      "member": "",
+      "column": 25
+     }
+    ]
+   }
+  ],
+  "note": "The file is a count matrix with whole-number values per gene (many zeros, values like 107, 91, 129), consistent with raw read counts. All 18 samples are given, matched by the sample titles in the column names (P#_State_Treatment)."
+ }
+}

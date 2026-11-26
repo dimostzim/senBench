@@ -1,0 +1,245 @@
+{
+ "request_sha256": "257d73df8993c0c357382d667f8b118d35b218fc11dd49d6659bcdc8d4b728ab",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE287953_count_matrix_bulk.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM8756130",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM8756131",
+      "member": "",
+      "column": 23
+     },
+     {
+      "sample": "GSM8756132",
+      "member": "",
+      "column": 34
+     },
+     {
+      "sample": "GSM8756133",
+      "member": "",
+      "column": 41
+     },
+     {
+      "sample": "GSM8756134",
+      "member": "",
+      "column": 42
+     },
+     {
+      "sample": "GSM8756135",
+      "member": "",
+      "column": 43
+     },
+     {
+      "sample": "GSM8756136",
+      "member": "",
+      "column": 44
+     },
+     {
+      "sample": "GSM8756137",
+      "member": "",
+      "column": 45
+     },
+     {
+      "sample": "GSM8756138",
+      "member": "",
+      "column": 46
+     },
+     {
+      "sample": "GSM8756139",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM8756140",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM8756141",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM8756142",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM8756143",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM8756144",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM8756145",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM8756146",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM8756147",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM8756148",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM8756149",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM8756150",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM8756151",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM8756152",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM8756153",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM8756154",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM8756155",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM8756156",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM8756157",
+      "member": "",
+      "column": 21
+     },
+     {
+      "sample": "GSM8756158",
+      "member": "",
+      "column": 22
+     },
+     {
+      "sample": "GSM8756159",
+      "member": "",
+      "column": 24
+     },
+     {
+      "sample": "GSM8756160",
+      "member": "",
+      "column": 25
+     },
+     {
+      "sample": "GSM8756161",
+      "member": "",
+      "column": 26
+     },
+     {
+      "sample": "GSM8756162",
+      "member": "",
+      "column": 27
+     },
+     {
+      "sample": "GSM8756163",
+      "member": "",
+      "column": 28
+     },
+     {
+      "sample": "GSM8756164",
+      "member": "",
+      "column": 29
+     },
+     {
+      "sample": "GSM8756165",
+      "member": "",
+      "column": 30
+     },
+     {
+      "sample": "GSM8756166",
+      "member": "",
+      "column": 31
+     },
+     {
+      "sample": "GSM8756167",
+      "member": "",
+      "column": 32
+     },
+     {
+      "sample": "GSM8756168",
+      "member": "",
+      "column": 33
+     },
+     {
+      "sample": "GSM8756169",
+      "member": "",
+      "column": 35
+     },
+     {
+      "sample": "GSM8756170",
+      "member": "",
+      "column": 36
+     },
+     {
+      "sample": "GSM8756171",
+      "member": "",
+      "column": 37
+     },
+     {
+      "sample": "GSM8756172",
+      "member": "",
+      "column": 38
+     },
+     {
+      "sample": "GSM8756173",
+      "member": "",
+      "column": 39
+     },
+     {
+      "sample": "GSM8756174",
+      "member": "",
+      "column": 40
+     }
+    ]
+   }
+  ],
+  "note": "The matrix holds whole-number, unscaled values per Ensembl gene (e.g. 1836, 2, 0), which are raw counts. The header row has 45 names and the data rows have 46 fields, so column 1 is the gene ID and each name sits one column to the right. Names are the library names, which match the sample descriptions, so all 45 samples are given."
+ }
+}

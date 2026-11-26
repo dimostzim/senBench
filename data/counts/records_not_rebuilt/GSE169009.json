@@ -1,0 +1,121 @@
+{
+ "table": {
+  "dataset": "GSE169009",
+  "count_table_state": "GEO uniform",
+  "source_file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+  "source_sha256": "6b9588044013f647fe874c90d35545645f7dc9ceaea05a827851d699bb218315",
+  "gene_identifier_kind": "NCBI gene id",
+  "genes": 39376,
+  "samples_of_dataset": 12,
+  "samples_in_table": 9,
+  "column_match": "accession: 9",
+  "note": "39376 of 39376 gene identifiers are of the kind NCBI gene id; 3 samples have no column"
+ },
+ "columns": [
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173898",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173899",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 2,
+   "column_name": "GSM5173899",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173900",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173901",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 3,
+   "column_name": "GSM5173901",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173902",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 4,
+   "column_name": "GSM5173902",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173903",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 5,
+   "column_name": "GSM5173903",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173904",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 6,
+   "column_name": "GSM5173904",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173905",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 7,
+   "column_name": "GSM5173905",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173906",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 8,
+   "column_name": "GSM5173906",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173907",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173908",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 9,
+   "column_name": "GSM5173908",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE169009",
+   "sample": "GSM5173909",
+   "file": "GSE169009_raw_counts_GRCh38.p13_NCBI.tsv.gz",
+   "member": "",
+   "sheet": "",
+   "column": 10,
+   "column_name": "GSM5173909",
+   "match": "accession"
+  }
+ ]
+}

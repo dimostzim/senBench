@@ -1,0 +1,120 @@
+{
+ "request_sha256": "75172e7b82e09cdb8935e25055d66f0bdc2fbcc94f935970da2bd5532e53d983",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "answer": {
+  "content": "raw read counts",
+  "sources": [
+   {
+    "file": "GSE210140_UJ3100_exp_gene_level_count.txt.gz",
+    "sheet": "",
+    "column_names_row": 1,
+    "first_values_row": 2,
+    "gene_identifier_column": 1,
+    "sample_columns": [
+     {
+      "sample": "GSM6422725",
+      "member": "",
+      "column": 2
+     },
+     {
+      "sample": "GSM6422726",
+      "member": "",
+      "column": 3
+     },
+     {
+      "sample": "GSM6422727",
+      "member": "",
+      "column": 4
+     },
+     {
+      "sample": "GSM6422728",
+      "member": "",
+      "column": 5
+     },
+     {
+      "sample": "GSM6422729",
+      "member": "",
+      "column": 6
+     },
+     {
+      "sample": "GSM6422730",
+      "member": "",
+      "column": 7
+     },
+     {
+      "sample": "GSM6422731",
+      "member": "",
+      "column": 8
+     },
+     {
+      "sample": "GSM6422732",
+      "member": "",
+      "column": 9
+     },
+     {
+      "sample": "GSM6422733",
+      "member": "",
+      "column": 10
+     },
+     {
+      "sample": "GSM6422734",
+      "member": "",
+      "column": 11
+     },
+     {
+      "sample": "GSM6422735",
+      "member": "",
+      "column": 12
+     },
+     {
+      "sample": "GSM6422736",
+      "member": "",
+      "column": 13
+     },
+     {
+      "sample": "GSM6422737",
+      "member": "",
+      "column": 14
+     },
+     {
+      "sample": "GSM6422738",
+      "member": "",
+      "column": 15
+     },
+     {
+      "sample": "GSM6422739",
+      "member": "",
+      "column": 16
+     },
+     {
+      "sample": "GSM6422740",
+      "member": "",
+      "column": 17
+     },
+     {
+      "sample": "GSM6422741",
+      "member": "",
+      "column": 18
+     },
+     {
+      "sample": "GSM6422742",
+      "member": "",
+      "column": 19
+     },
+     {
+      "sample": "GSM6422743",
+      "member": "",
+      "column": 20
+     },
+     {
+      "sample": "GSM6422744",
+      "member": "",
+      "column": 21
+     }
+    ]
+   }
+  ],
+  "note": "The count file holds whole-number values per Ensembl gene (e.g. 0, 1, 2, 6, 7), while the companion file is TPM with decimals. Columns w1–z5 are matched to samples through the sample titles (UJ-3100-w1 etc.); all 20 samples are given, and the TPM file is left out as normalised."
+ }
+}

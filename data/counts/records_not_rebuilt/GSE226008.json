@@ -1,0 +1,176 @@
+{
+ "table": {
+  "dataset": "GSE226008",
+  "count_table_state": "authors normalised values only",
+  "source_file": "",
+  "source_sha256": "",
+  "gene_identifier_kind": "",
+  "genes": "",
+  "samples_of_dataset": 32,
+  "samples_in_table": 0,
+  "column_match": "",
+  "note": "agent: Each RNA-seq sample has one per-sample file named \"_normalized.txt.gz\" with non-integer values (e.g. 17.4492738391336), so these are normalised values, not raw counts. The MatrixMarket integer matrices in the tar belong to single-cell samples (GSM8866219-222, GSM8950693-696) that are not in the sample list, and the CUT&Tag files are peaks and bigWigs."
+ },
+ "columns": [
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061572",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061573",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061574",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061575",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061576",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061577",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061578",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7061579",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7329325",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7329326",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7329327",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7329328",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950045",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950046",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950047",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950048",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950049",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950050",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950051",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950052",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950058",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950059",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950060",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM7950061",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866211",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866212",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866213",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866214",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866215",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866216",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866217",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE226008",
+   "sample": "GSM8866218",
+   "match": "no column"
+  }
+ ]
+}

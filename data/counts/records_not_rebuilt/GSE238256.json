@@ -1,0 +1,231 @@
+{
+ "table": {
+  "dataset": "GSE238256",
+  "count_table_state": "authors raw counts",
+  "source_file": "GSE238256_RAW.tar",
+  "source_sha256": "fbcaba28fb581b67177a713d79de24a42cfe5c324b668f480bec3ffda5c719e5",
+  "gene_identifier_kind": "gene symbol",
+  "genes": 55299,
+  "samples_of_dataset": 31,
+  "samples_in_table": 12,
+  "column_match": "accession: 12",
+  "note": "38885 of 55299 gene identifiers are of the kind gene symbol; 20 rows of reads that were not assigned to a gene were left out, summed over the files and members read; 27705 genes have no count in some samples, because the sources hold different genes; 19 samples have no column; agent: The factory_seq members are featureCounts outputs (header names the tool) with integer counts in column 7, and the SP_1–4 members hold integer per-gene counts (e.g. 245, 5940) in column 3 with no header row. GSM7661145–153 are not given because their mRNA tables split counts across several region columns (5_UTR, CDS, 3_UTR, ...), so no single column holds a whole-sample count; GSM7661154–163 have no matching file in the archive."
+ },
+ "columns": [
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661145",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661146",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661147",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661148",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661149",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661150",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661151",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661152",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661153",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661154",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661155",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661156",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661157",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661158",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661159",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661160",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661161",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661162",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661163",
+   "match": "no column"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661170",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661170_young_rep1_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "young_rep1_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661171",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661171_young_rep2_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "young_rep2_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661172",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661172_ICM_3days_rep1_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "ICM_3days_rep1_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661173",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661173_ICM_3days_rep2_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "ICM_3days_rep2_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661174",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661174_ICM_6days_rep1_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "ICM_6days_rep1_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661175",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661175_ICM_6days_rep2_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "ICM_6days_rep2_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661176",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661176_MetaICM_rep1_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "MetaICM_rep1_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7661177",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7661177_MetaICM_rep2_factory_seq.count.txt.gz",
+   "sheet": "",
+   "column": 7,
+   "column_name": "MetaICM_rep2_factory_seq_sorted.bam",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7971865",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7971865_SP_1.txt.gz",
+   "sheet": "",
+   "column": 3,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7971866",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7971866_SP_2.txt.gz",
+   "sheet": "",
+   "column": 3,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7971867",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7971867_SP_3.txt.gz",
+   "sheet": "",
+   "column": 3,
+   "column_name": "",
+   "match": "accession"
+  },
+  {
+   "dataset": "GSE238256",
+   "sample": "GSM7971868",
+   "file": "GSE238256_RAW.tar",
+   "member": "GSM7971868_SP_4.txt.gz",
+   "sheet": "",
+   "column": 3,
+   "column_name": "",
+   "match": "accession"
+  }
+ ]
+}
