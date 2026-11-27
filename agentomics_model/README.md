@@ -23,9 +23,9 @@ The model gives each sample the probability that it is senescent. It uses the sa
 
 ## Input and output
 
-The input is a folder holding `data.csv`: one row per sample, a column `id`, and one column per gene with the sample's raw read count (whole numbers, not normalised). Genes are named by their symbol in GEO's annotation table `Human.GRCh38.p13.annot.tsv.gz`; a symbol shared by several genes becomes `<symbol>_<GeneID>`, and a gene without a symbol `GeneID_<id>`. A cell is `NA` where the count table of the sample's study has no row for the gene. The model reads 9,804 genes; other columns are ignored, and a gene missing from the header counts as `NA`. The folders `train/input`, `validation/input` and `test/input` of the senBench dataset (`docs/data.md`) have this form.
+The input is a folder holding `data.csv`: one row per sample, a column `id`, and one column per gene with the sample's raw read count (whole numbers, not normalised). Genes are named by their symbol in GEO's annotation table `Human.GRCh38.p13.annot.tsv.gz`; a symbol shared by several genes becomes `<symbol>_<GeneID>`, and a gene without a symbol `GeneID_<id>`. A cell is `NA` where the count table of the sample's study has no row for the gene. The model reads 9,804 genes; other columns are ignored, and a gene missing from the header counts as `NA`. The folders `train/input`, `validation/input` and `test/input` of the senBench dataset (`pipeline/README.md`) have this form.
 
-The output is a CSV file with one row per input row, in the input order: `id`, `prediction` (1 for senescent, when the probability is at least 0.5, otherwise 0), `probability_0` (not senescent) and `probability_1` (senescent). The benchmark scores `probability_1`. `predictions/Agentomics.tsv` holds `probability_1` of every labelled `test` sample, by dataset and sample.
+The output is a CSV file with one row per input row, in the input order: `id`, `prediction` (1 for senescent, when the probability is at least 0.5, otherwise 0), `probability_0` (not senescent) and `probability_1` (senescent). The benchmark scores `probability_1`. `agentomics_model/predictions.tsv` holds `probability_1` of every labelled `test` sample, by dataset and sample.
 
 ## How to use it
 

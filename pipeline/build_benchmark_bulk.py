@@ -7,10 +7,9 @@ from pathlib import Path
 
 import pandas as pd
 
-from accessions import sample_keys
 from build_count_tables import (AUTHORS_EXPECTED_COUNTS, AUTHORS_RAW_COUNTS, COUNTED_FROM_RAW_READS, GEO_UNIFORM,
                                 NO_COLUMN)
-from list_bulk_human_datasets import BULK_RNA_SEQ_ASSAYS
+from build_sample_table import BULK_RNA_SEQ_ASSAYS
 
 HUMAN = "Homo sapiens"
 STATES = ("senescent", "not senescent")
@@ -25,6 +24,22 @@ LEFT_OUT_NAME = "benchmark_bulk_left_out.tsv"
 COUNTS_NAME = "benchmark_bulk_counts.tsv.gz"
 COUNTS_FOLDER = "counts"
 GENOMIC_DNA_REASON = "reads on nearly every gene, as with genomic DNA in the libraries"
+GEO_SAMPLE = re.compile(r"GSM\d+")
+
+
+def sample_key(dataset, sample):
+    """Return the key that names one sample across datasets.
+
+    A GEO sample accession names the same sample in every series that holds it, such as a SuperSeries and its
+    SubSeries. Any other sample name, such as the source name of an ArrayExpress sample sheet, names a sample of its own
+    dataset only, so its key is the dataset and the sample.
+    """
+    return sample if GEO_SAMPLE.fullmatch(sample) else f"{dataset}/{sample}"
+
+
+def sample_keys(datasets, samples):
+    """Return sample_key() of each pair of a dataset and a sample."""
+    return [sample_key(dataset, sample) for dataset, sample in zip(datasets, samples, strict=True)]
 
 
 def _read(path, **options):

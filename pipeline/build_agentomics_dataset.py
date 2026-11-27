@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from accessions import sample_keys
+from build_benchmark_bulk import sample_keys
 
 SEED = 20261124
 TRAIN = "train"

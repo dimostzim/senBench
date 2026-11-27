@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # Clones SenCID at the commit the benchmark used, builds the environment of its wrapper and installs SenCID into it
 # from the clone, in an install folder.
-# Usage: bash setup.sh <install folder>
+# Usage: bash setup.sh [install folder]   (default: build/tools/ in the repository's folder)
 # The wrapper reads its paths from config.sh, which names the folders of the benchmark's host. So the wrapper runs
-# from a copy in <install folder>/wrappers/sencid/, whose config.sh names this install folder; every other file of
-# the copy equals the wrapper. The conda and pip packages come from the wrapper's two locks; SenCID is installed as
-# the wrapper's install_env.sh installs it.
+# from a copy of its three scripts in <install folder>/wrappers/sencid/, whose config.sh names this install folder;
+# the other two equal the wrapper's. The conda and pip packages come from the wrapper's two locks; SenCID is installed
+# from the clone as the benchmark installed it.
 set -euo pipefail
 
-install_dir=$(realpath --canonicalize-missing "$1")
 here=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+install_dir=$(realpath --canonicalize-missing "${1:-$here/../../build/tools}")
 source "$here/../common.sh"
 clone=$install_dir/SenCID
 commit=f93cba19b9d44e84f89504ecc6aaeb108ce8e508
@@ -21,10 +21,10 @@ prepare_install_dir "$install_dir"
 source "$install_dir/envs/env.sh"
 export PYTHONNOUSERSITE=1
 clone_tool https://github.com/JackieHanLab/SenCID "$commit" "$clone"
-create_env_from_lock "$env_prefix" "$here/wrapper/environment.explicit.lock"
+create_env_from_lock "$env_prefix" "$here/environment.explicit.lock"
 # pip writes a temporary file into the current folder.
 cd "$TMPDIR"
-micromamba run --prefix "$env_prefix" python -m pip install --no-deps -r "$here/wrapper/environment.pip.lock"
+micromamba run --prefix "$env_prefix" python -m pip install --no-deps -r "$here/environment.pip.lock"
 
 # pip builds inside the source folder, so SenCID is installed from a copy of the commit.
 build_dir=$(mktemp -d "$TMPDIR/sencid-build.XXXXXX")
@@ -38,8 +38,8 @@ diff -r --exclude=__pycache__ --exclude=demo "$clone/SenCID" "$installed_dir"
 printf '{"repository": "https://github.com/JackieHanLab/SenCID", "commit": "%s"}\n' "$commit" \
     > "$env_prefix/sencid_source.json"
 
-mkdir -p "$(dirname "$wrapper_copy")"
-cp -r "$here/wrapper" "$wrapper_copy"
+mkdir -p "$wrapper_copy"
+cp "$here/config.sh" "$here/run_tool.sh" "$here/run_sencid.py" "$wrapper_copy/"
 sed -i -e "s|^ENVS_SETUP=.*|ENVS_SETUP=$install_dir/envs/env.sh|" -e "s|^ENV_DIR=.*|ENV_DIR=$env_prefix|" \
     -e "s|^TOOL_CLONE=.*|TOOL_CLONE=$clone|" "$wrapper_copy/config.sh"
 grep --quiet "^TOOL_COMMIT=$commit$" "$wrapper_copy/config.sh"

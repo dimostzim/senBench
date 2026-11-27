@@ -1,23 +1,28 @@
 #!/usr/bin/env python3
-"""Build one count table per GEO dataset (genes by samples; raw read counts, or expected counts after rounding),
-check it and record its source."""
+"""Build one count table per dataset (genes by samples; raw read counts, or expected counts after rounding), check it
+and record its source; then write the table of all count tables and the table of their columns.
+
+A table is built from GEO's uniform counts, from our counts of the raw reads, or, through the stored layout of the
+dataset, from the submitters' supplementary files: delimited text, workbooks and the members of tar archives.
+"""
 
 import argparse
 import collections
 import csv
 import gzip
 import hashlib
+import io
 import json
 import re
+import tarfile
+import zipfile
 from concurrent.futures import ProcessPoolExecutor
+from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
 
 import pandas as pd
-
-from count_files import TAR, ContentProblem, list_data_files, open_content, open_tar, read_table
-from count_layout import NORMALISED_VALUES_ONLY, RAW_READ_COUNTS
-from count_values_layout import VALUES_PER_SAMPLE
+import xlrd
 
 GEO_UNIFORM = "GEO uniform"
 COUNTED_FROM_RAW_READS = "counted from raw reads"
@@ -34,8 +39,6 @@ KEPT = "kept"
 REASSIGNED = "reassigned"
 SUBMITTERS_RAW_COUNTS = "submitters' raw counts"
 LEFT_OUT = "left out"
-REASSIGNMENT_COLUMNS = ("dataset", "sample", "title", "state", "outcome", "count_source_file", "count_source_column",
-                        "source_own_correlation", "source_assigned_correlation", "reason", "round")
 ENSEMBL_GENE = "Ensembl gene"
 NCBI_GENE_ID = "NCBI gene id"
 GENE_SYMBOL = "gene symbol"
@@ -55,8 +58,9 @@ UNIDENTIFIED_ROWS = "rows without a gene identifier"
 CHECK_FAILED = "check failed:"
 UNIFORM_TABLE_PRESENT = "present"
 SUPPLEMENTARY_FOLDER = "suppl"
+# The folder of GEO's uniform count tables in the folder of download.sh.
+UNIFORM_FOLDER = "geo_uniform_counts"
 GENE_COLUMN = "gene_identifier"
-RECORDS_FOLDER = "records"
 TABLES_NAME = "count_tables.tsv"
 COLUMNS_NAME = "count_table_columns.tsv.gz"
 UNITS_NAME = "units.tsv"
@@ -64,6 +68,169 @@ TABLE_COLUMNS = ("dataset", "count_table_state", "source_file", "source_sha256",
                  "samples_of_dataset", "samples_in_table", "column_match", "note")
 COLUMN_COLUMNS = ("dataset", "sample", "file", "member", "sheet", "column", "column_name", "match")
 CHUNK_BYTES = 1 << 20
+# The `content` of a stored layout. In a layout of values per sample, each source states its `values`.
+RAW_READ_COUNTS = "raw read counts"
+NORMALISED_VALUES_ONLY = "normalised values only"
+VALUES_PER_SAMPLE = "values per sample"
+# The kinds of content of a supplementary file or tar member.
+TEXT, WORKBOOK, TAR, OTHER = "text", "workbook", "tar", "other"
+# GEO's list of the members of a tar; not a data file.
+MEMBER_LIST_NAME = "filelist.txt"
+SEPARATORS = {"tab": "\t", "comma": ",", "semicolon": ";", "whitespace": r"\s+"}
+_GZIP_START = b"\x1f\x8b"
+_WORKBOOK_STARTS = (b"PK\x03\x04", b"\xd0\xcf\x11\xe0")
+_TAR_MARK = slice(257, 262)
+_SNIFF_BYTES = 8192
+# The first non-empty lines of a text content, which give its delimiter.
+_FIRST_ROWS = 4
+_MAX_LINE_CHARS = 50_000_000
+
+csv.field_size_limit(_MAX_LINE_CHARS)
+
+
+class ContentProblem(Exception):
+    """A file or tar member that cannot be read as its kind."""
+
+
+@dataclass(frozen=True)
+class Table:
+    """The values of some columns of one file, member or sheet, as text."""
+    # Column number (counted in the rows of values, from 1) to the name of the column; empty without a names row.
+    column_names: dict
+    values: pd.DataFrame
+
+
+def list_data_files(folder):
+    """Return the data files of a supplementary folder, sorted by name; a missing folder has none."""
+    if not folder.is_dir():
+        return []
+    return sorted(path for path in folder.iterdir() if path.is_file() and path.name != MEMBER_LIST_NAME)
+
+
+def open_content(opener):
+    """Return the kind of a file or tar member and a handle at the start of its content, uncompressed."""
+    handle = opener()
+    try:
+        if handle.peek(len(_GZIP_START)).startswith(_GZIP_START):
+            handle = io.BufferedReader(gzip.GzipFile(fileobj=handle))
+        start = handle.peek(_SNIFF_BYTES)[:_SNIFF_BYTES]
+    except (gzip.BadGzipFile, EOFError) as problem:
+        raise ContentProblem(f"gzip: {problem}") from None
+    if start.startswith(_WORKBOOK_STARTS):
+        return WORKBOOK, handle
+    if start[_TAR_MARK] == b"ustar":
+        return TAR, handle
+    if start and b"\x00" not in start:
+        return TEXT, handle
+    return OTHER, handle
+
+
+def open_tar(handle):
+    """Open the content of a tar for reading single members."""
+    try:
+        return tarfile.open(fileobj=handle, mode="r:")
+    except tarfile.TarError as problem:
+        raise ContentProblem(f"tar: {problem}") from None
+
+
+def _read_lines(handle):
+    """Yield (line number, line) for the lines of a text content that are not empty."""
+    text = io.TextIOWrapper(handle, encoding="utf-8-sig", errors="replace")
+    number = 0
+    try:
+        while line := text.readline(_MAX_LINE_CHARS):
+            number += 1
+            if len(line) == _MAX_LINE_CHARS:
+                raise ContentProblem(f"line {number} has more than {_MAX_LINE_CHARS} characters")
+            if line.strip():
+                yield number, line.rstrip("\r\n")
+    except (gzip.BadGzipFile, EOFError) as problem:
+        raise ContentProblem(f"gzip: {problem}") from None
+
+
+def _find_delimiter(lines):
+    for name in ("tab", "comma", "semicolon"):
+        if any(SEPARATORS[name] in line for line in lines):
+            return name
+    return "whitespace"
+
+
+def _split_line(line, delimiter):
+    if delimiter == "whitespace":
+        return line.split()
+    return next(csv.reader([line], delimiter=SEPARATORS[delimiter]))
+
+
+def _read_text_rows(handle):
+    """Return the delimiter of a text content and its first non-empty lines as (line number, fields)."""
+    lines = [numbered for numbered, _ in zip(_read_lines(handle), range(_FIRST_ROWS))]
+    delimiter = _find_delimiter([line for _, line in lines])
+    return delimiter, [(number, _split_line(line, delimiter)) for number, line in lines]
+
+
+def _read_sheet(handle, sheet):
+    """Return one sheet of a workbook as text."""
+    try:
+        frame = pd.read_excel(io.BytesIO(handle.read()), sheet_name=sheet, header=None, dtype=str, na_filter=False)
+    except (gzip.BadGzipFile, EOFError, zipfile.BadZipFile, xlrd.XLRDError, ValueError, KeyError) as problem:
+        raise ContentProblem(f"workbook: {problem}") from None
+    # Some workbooks give a number or a missing value for a cell although text was asked for.
+    return frame.map(lambda cell: "" if pd.isna(cell) else str(cell))
+
+
+def _name_columns(names, width, columns):
+    """Return the names of columns of the rows of values; a names row may lack the name of the first column."""
+    offset = width - len(names)
+    if offset not in (0, 1):
+        raise ContentProblem(f"the row of column names has {len(names)} fields, the first row of values {width}")
+    return {column: names[column - 1 - offset].strip() if column > offset else "" for column in columns}
+
+
+def _read_text_table(opener, column_names_row, first_values_row, columns):
+    rows = {}
+    delimiter = _read_text_rows(open_content(opener)[1])[0]
+    for number, line in _read_lines(open_content(opener)[1]):
+        if number in (column_names_row, first_values_row):
+            rows[number] = _split_line(line, delimiter)
+        if number >= first_values_row:
+            break
+    if first_values_row not in rows or (column_names_row and column_names_row not in rows):
+        raise ContentProblem(f"no fields in row {column_names_row} or row {first_values_row}")
+    names = _name_columns(rows[column_names_row], len(rows[first_values_row]), columns) if column_names_row else {}
+    try:
+        values = pd.read_csv(open_content(opener)[1], sep=SEPARATORS[delimiter], header=None,
+                             skiprows=first_values_row - 1, usecols=[column - 1 for column in columns], dtype=str,
+                             na_filter=False, skip_blank_lines=False, encoding="utf-8-sig",
+                             encoding_errors="replace")
+    except (gzip.BadGzipFile, EOFError, ValueError) as problem:
+        raise ContentProblem(f"text: {problem}") from None
+    return names, values.rename(columns=lambda position: position + 1)
+
+
+def _read_sheet_table(opener, sheet, column_names_row, first_values_row, columns):
+    frame = _read_sheet(open_content(opener)[1], sheet)
+    if first_values_row > len(frame) or max(columns) > frame.shape[1]:
+        raise ContentProblem(f"the sheet has {len(frame)} rows and {frame.shape[1]} columns")
+    names = ({column: frame.iat[column_names_row - 1, column - 1].strip() for column in columns}
+             if column_names_row else {})
+    values = frame.iloc[first_values_row - 1:, [column - 1 for column in columns]]
+    return names, values.set_axis(columns, axis=1)
+
+
+def read_table(opener, sheet, column_names_row, first_values_row, columns):
+    """Return the names and the values of the given columns of a text content or of a sheet of a workbook.
+
+    Rows and columns are numbered from 1; `column_names_row` is 0 where there is no row of column names.
+    Rows in which every given column is empty are left out.
+    """
+    kind = open_content(opener)[0]
+    if kind == TEXT and not sheet:
+        names, values = _read_text_table(opener, column_names_row, first_values_row, columns)
+    elif kind == WORKBOOK and sheet:
+        names, values = _read_sheet_table(opener, sheet, column_names_row, first_values_row, columns)
+    else:
+        raise ContentProblem(f"the content is of kind {kind} and the sheet is {sheet!r}")
+    return Table(names, values[(values != "").any(axis=1)].reset_index(drop=True))
 
 
 class _CheckProblem(Exception):
@@ -244,24 +411,24 @@ def _write_table(frames, left_out, matches, titles, symbols, target):
             "column_match": _summarise_matches(matches), "note": "; ".join(notes)}
 
 
-def _read_layout(path):
-    """Return the agent's layout; a layout of values per sample whose sources all hold raw read counts is taken as a
-    layout of raw read counts."""
-    layout = json.loads(path.read_text())["answer"]
+def _read_layout(record):
+    """Return the agent's layout from its stored record; a layout of values per sample whose sources all hold raw read
+    counts is taken as a layout of raw read counts."""
+    layout = record["answer"]
     if layout["content"] == VALUES_PER_SAMPLE and all(source["values"] == RAW_READ_COUNTS
                                                        for source in layout["sources"]):
         return {**layout, "content": RAW_READ_COUNTS}
     return layout
 
 
-def build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, layout_path, symbols, out_dir,
+def build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, layout_record, symbols, out_dir,
                   uniform_state=GEO_UNIFORM):
     """Build the count table of one dataset; return its row of the table of count tables and its column rows.
 
     `titles` maps every sample of the dataset to its title; `uniform_table` is a table in the layout of GEO uniform
     tables, None where there is none or where the table is built from the submitters' raw counts instead, and
     `uniform_state` is its `count_table_state`. `source_columns` maps a sample to the accession of the column of that
-    table that it takes (a sample not named has no column).
+    table that it takes (a sample not named has no column). `layout_record` is the stored layout of the dataset.
     """
     row = dict.fromkeys(TABLE_COLUMNS, "")
     row.update({"dataset": dataset, "samples_of_dataset": len(titles), "samples_in_table": 0})
@@ -284,7 +451,7 @@ def build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, 
     if not list_data_files(suppl_folder):
         row.update({"count_table_state": NO_COUNT_TABLE, "note": "no supplementary file"})
         return row, []
-    layout = _read_layout(layout_path)
+    layout = _read_layout(layout_record)
     agent_note = f"agent: {layout['note']}"
     if layout["content"] != RAW_READ_COUNTS:
         state = AUTHORS_NORMALISED_ONLY if layout["content"] == NORMALISED_VALUES_ONLY else NO_COUNT_TABLE
@@ -320,10 +487,6 @@ def build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, 
     return row, matches
 
 
-def _has_failed_check(record):
-    return json.loads(record.read_text())["table"]["note"].startswith(CHECK_FAILED)
-
-
 def read_reassignments(path):
     """Return the datasets whose table is built from the submitters' raw counts, and per other dataset of the table
     of column reassignments the accession of the GEO uniform column that each sample with a column takes."""
@@ -343,35 +506,31 @@ def read_reassignments(path):
     return from_submitters, source_columns
 
 
-def _build_unit(datasets_titles, uniform_files, geo_dir, uniform_dir, layouts_dir, symbols, out_dir,
-                retry_failed_checks, from_submitters, reassigned_columns, counted_dir, dataset):
-    """Build one dataset unless its record exists; return (dataset, status, note) for the units table."""
-    record = out_dir / RECORDS_FOLDER / f"{dataset}.json"
-    if record.exists() and not (retry_failed_checks and _has_failed_check(record)):
-        return dataset, "skipped", "built by an earlier run"
-    suppl_folder = geo_dir / dataset / SUPPLEMENTARY_FOLDER
-    layout_path = layouts_dir / f"{dataset}.json"
+def _build_unit(datasets_titles, repositories, uniform_files, downloads_dir, layouts, symbols, out_dir, from_submitters,
+                reassigned_columns, counted_dir, dataset):
+    """Build one dataset; return (dataset, status, note) for the units table and its record (None if it failed)."""
+    suppl_folder = downloads_dir / repositories[dataset] / dataset / SUPPLEMENTARY_FOLDER
     uses_uniform = dataset in uniform_files and dataset not in from_submitters
-    uniform_table = uniform_dir / dataset / uniform_files[dataset] if uses_uniform else None
+    uniform_table = downloads_dir / UNIFORM_FOLDER / dataset / uniform_files[dataset] if uses_uniform else None
     uniform_state = GEO_UNIFORM
-    if counted_dir is not None and (counted_dir / f"{dataset}.tsv.gz").exists():
+    if (counted_dir / f"{dataset}.tsv.gz").exists():
         uniform_table, uniform_state = counted_dir / f"{dataset}.tsv.gz", COUNTED_FROM_RAW_READS
-    if uniform_table is None and list_data_files(suppl_folder) and not layout_path.exists():
-        return dataset, "failed", "no layout from the agent"
+    if uniform_table is None and list_data_files(suppl_folder) and dataset not in layouts:
+        return dataset, "failed", "no layout from the agent", None
     titles = datasets_titles[dataset]
     source_columns = reassigned_columns.get(dataset, {sample: sample for sample in titles})
-    row, matches = build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, layout_path, symbols,
-                                 out_dir, uniform_state)
+    row, matches = build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, layouts.get(dataset),
+                                 symbols, out_dir, uniform_state)
     matched = {match["sample"]: match for match in matches}
     columns = [{"dataset": dataset, **matched.get(sample, {"sample": sample, "match": NO_COLUMN})} for sample in titles]
-    record.write_text(json.dumps({"table": row, "columns": columns}, ensure_ascii=False, indent=1))
     note = f"{row['count_table_state']}; {row['samples_in_table']} of {row['samples_of_dataset']} samples"
-    return dataset, "ok", note
+    return dataset, "ok", note, {"table": row, "columns": columns}
 
 
-def write_summary_tables(out_dir):
-    """Write the table of count tables and the table of their columns from the records of all datasets built."""
-    records = [json.loads(path.read_text()) for path in sorted((out_dir / RECORDS_FOLDER).glob("*.json"))]
+def write_summary_tables(records, out_dir):
+    """Write the table of count tables and the table of their columns from the records of all datasets, in the order
+    of the datasets."""
+    records = sorted(records, key=lambda record: record["table"]["dataset"])
     tables = pd.DataFrame([record["table"] for record in records], columns=TABLE_COLUMNS)
     tables.to_csv(out_dir / TABLES_NAME, sep="\t", index=False)
     columns = pd.DataFrame([column for record in records for column in record["columns"]], columns=COLUMN_COLUMNS)
@@ -382,32 +541,30 @@ def write_summary_tables(out_dir):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--datasets", type=Path, required=True, help="table with a column `dataset`")
+    parser.add_argument("--datasets", type=Path, required=True,
+                        help="table with the columns `dataset` and `repository`, the folder of --downloads-dir that "
+                             "holds the dataset's folder")
     parser.add_argument("--uniform-state", type=Path, required=True,
                         help="table with the columns `dataset`, `geo_uniform_count_table` and `url`")
-    parser.add_argument("--label-inputs", type=Path, required=True, help="output of prepare_label_inputs.py")
-    parser.add_argument("--geo-dir", type=Path, required=True, help="folder with one folder per GEO dataset")
-    parser.add_argument("--uniform-dir", type=Path, required=True,
-                        help="folder with one folder per dataset that has a GEO uniform table")
+    parser.add_argument("--label-inputs", type=Path, required=True, help="label_inputs.jsonl.gz of the sample table")
+    parser.add_argument("--downloads-dir", type=Path, required=True, help="the folder of download.sh")
     parser.add_argument("--annotation", type=Path, required=True, help="GEO's human gene annotation table")
-    parser.add_argument("--layouts-dir", type=Path, required=True, help="output of read_count_layouts.py")
-    parser.add_argument("--out-dir", type=Path, required=True,
-                        help="a dataset that has a record in this folder is not built again")
-    parser.add_argument("--units-dir", type=Path, required=True)
+    parser.add_argument("--layouts", type=Path, required=True, help="JSON: the stored layout of each dataset")
+    parser.add_argument("--records-not-rebuilt", type=Path, required=True,
+                        help="JSON: the records of the datasets whose tables are not built, for the summary tables")
+    parser.add_argument("--column-reassignments", type=Path, required=True,
+                        help="its datasets take their GEO uniform columns as it assigns them, or are built from the "
+                             "submitters' raw counts with their stored layout")
+    parser.add_argument("--counted-dir", type=Path, required=True,
+                        help="our count tables of raw reads, `<dataset>.tsv.gz`: a dataset with one is built from it, "
+                             "with the state `counted from raw reads`")
+    parser.add_argument("--out-dir", type=Path, required=True)
     parser.add_argument("--workers", type=int, default=16)
-    parser.add_argument("--retry-failed-checks", action="store_true",
-                        help="build again the datasets whose record holds a failed check; the record is replaced")
-    parser.add_argument("--column-reassignments", type=Path,
-                        help="output of reassign_count_columns.py: its datasets take their GEO uniform columns as it "
-                             "assigns them, or are built from the submitters' raw counts with the layout of "
-                             "--layouts-dir")
-    parser.add_argument("--counted-dir", type=Path,
-                        help="count tables of count_raw_reads.py, `<dataset>.tsv.gz`: a dataset with one is built "
-                             "from it, with the state `counted from raw reads`")
     args = parser.parse_args()
 
     with args.datasets.open(newline="") as handle:
-        datasets = [row["dataset"] for row in csv.DictReader(handle, delimiter="\t")]
+        repositories = {row["dataset"]: row["repository"] for row in csv.DictReader(handle, delimiter="\t")}
+    datasets = list(repositories)
     with args.uniform_state.open(newline="") as handle:
         uniform_files = {row["dataset"]: row["url"].rsplit("/", 1)[1]
                          for row in csv.DictReader(handle, delimiter="\t")
@@ -416,21 +573,24 @@ def main():
         titles = {record["dataset"]: {sample["sample"]: sample["title"] for sample in record["samples"]}
                   for record in map(json.loads, handle)}
     symbols = set(pd.read_csv(args.annotation, sep="\t", usecols=["Symbol"], dtype=str, na_filter=False)["Symbol"])
-    from_submitters, reassigned_columns = (read_reassignments(args.column_reassignments) if args.column_reassignments
-                                           else (set(), {}))
-    (args.out_dir / RECORDS_FOLDER).mkdir(parents=True, exist_ok=True)
+    from_submitters, reassigned_columns = read_reassignments(args.column_reassignments)
+    layouts = json.loads(args.layouts.read_text())
+    records = list(json.loads(args.records_not_rebuilt.read_text()).values())
+    args.out_dir.mkdir(parents=True, exist_ok=True)
 
-    build = partial(_build_unit, titles, uniform_files, args.geo_dir, args.uniform_dir, args.layouts_dir, symbols,
-                    args.out_dir, args.retry_failed_checks, from_submitters, reassigned_columns, args.counted_dir)
+    build = partial(_build_unit, titles, repositories, uniform_files, args.downloads_dir, layouts, symbols,
+                    args.out_dir, from_submitters, reassigned_columns, args.counted_dir)
     failed = []
-    units = args.units_dir / UNITS_NAME
-    with ProcessPoolExecutor(max_workers=args.workers) as pool, units.open("w", newline="") as units_handle:
-        for done, (dataset, status, note) in enumerate(pool.map(build, datasets), start=1):
+    with ProcessPoolExecutor(max_workers=args.workers) as pool, \
+            (args.out_dir / UNITS_NAME).open("w", newline="") as units_handle:
+        for done, (dataset, status, note, record) in enumerate(pool.map(build, datasets), start=1):
             csv.writer(units_handle, delimiter="\t", lineterminator="\n").writerow((dataset, status, note))
             print(f"PROGRESS {done}/{len(datasets)} {dataset} {status}: {note}", flush=True)
             if status == "failed":
                 failed.append(dataset)
-    tables = write_summary_tables(args.out_dir)
+            else:
+                records.append(record)
+    tables = write_summary_tables(records, args.out_dir)
     print(tables[tables["dataset"].isin(datasets)]["count_table_state"].value_counts().to_string())
     if failed:
         raise SystemExit(f"failed units ({len(failed)}): {' '.join(failed)}")

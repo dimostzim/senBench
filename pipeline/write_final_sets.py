@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""Write the training data and `test` set of round all980_v10 (task M.6, phase B; after write_final_sets_all980_v9.py),
-from the round's split and sample table and kb/data/label_corrections.tsv (fourth version); reads no score and writes
-none.
+"""Write the training data and `test` set of round all980_v10 from the round's split and sample table and the label
+corrections; reads no score and writes none.
 
 - training_data_samples.tsv: every sample of `development` and of the studies `not in set 1`, with `state` (the
   round's label) and `state_for_training`: the round's label with every correction that names the sample applied
@@ -21,8 +20,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from accessions import sample_keys
-from build_benchmark_bulk import STATES
+from build_benchmark_bulk import STATES, sample_keys
 from build_study_split import DEVELOPMENT, NOT_IN_SET_1, TEST
 
 EXCLUDED = "excluded"
@@ -110,7 +108,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--split-dir", type=Path, required=True, help="split folder of the round (study_split.tsv)")
     parser.add_argument("--samples", type=Path, required=True, help="benchmark_bulk_samples.tsv of the round")
-    parser.add_argument("--label-corrections", type=Path, required=True, help="kb/data/label_corrections.tsv")
+    parser.add_argument("--label-corrections", type=Path, required=True, help="label_corrections.tsv")
     arguments = parser.parse_args()
     out = arguments.split_dir
     for name in (TRAINING_NAME, TEST_NAME, CHECKSUMS_NAME):

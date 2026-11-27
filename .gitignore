@@ -1,4 +1,4 @@
-# Downloads (download.sh), build outputs and environments (build.sh; the examples of the READMEs write here too)
+# Downloads (download.sh); build outputs, environments, tool installs and prediction runs (build.sh, setup.sh, predict.py)
 /downloads/
 /build/
 # Written by agentomics_model/train.py next to itself

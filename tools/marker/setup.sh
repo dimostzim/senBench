@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # Clones markeR at the commit the benchmark used and builds the environment of its wrapper, in an install folder.
-# Usage: bash setup.sh <install folder>
-# The conda packages come from the wrapper's lock. markeR is installed from its commit as the wrapper's setup_env.sh
-# installs it (through git archive, so the clone is not written to), and the versions of the R packages must equal
-# the wrapper's r_package_versions.tsv.
+# Usage: bash setup.sh [install folder]   (default: build/tools/ in the repository's folder)
+# The conda packages come from the wrapper's lock. markeR is installed from its commit as the benchmark installed it
+# (through git archive, so the clone is not written to), and the versions of the R packages must equal the wrapper's
+# r_package_versions.tsv.
 set -euo pipefail
 
-install_dir=$(realpath --canonicalize-missing "$1")
 here=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+install_dir=$(realpath --canonicalize-missing "${1:-$here/../../build/tools}")
 source "$here/../common.sh"
 clone=$install_dir/markeR
 commit=c6528f0fa1570602b077e4688865dcd68af3d058
@@ -17,7 +17,7 @@ build_dir=$env_prefix/markeR_build
 prepare_install_dir "$install_dir"
 source "$install_dir/envs/env.sh"
 clone_tool https://github.com/DiseaseTranscriptomicsLab/markeR "$commit" "$clone"
-create_env_from_lock "$env_prefix" "$here/wrapper/conda_explicit_lock.txt"
+create_env_from_lock "$env_prefix" "$here/conda_explicit_lock.txt"
 
 mkdir "$build_dir"
 git -C "$clone" archive "$commit" | tar -x -C "$build_dir"
@@ -31,6 +31,6 @@ printf 'url\tcommit\n%s\t%s\n' "$(git -C "$clone" remote get-url origin)" "$comm
 "$env_prefix/bin/Rscript" --vanilla -e \
     'p <- installed.packages()[, c("Package", "Version")]; write.table(p[order(p[, "Package"]), ], sep = "\t", quote = FALSE, row.names = FALSE)' \
     > "$env_prefix/r_package_versions.tsv"
-diff "$here/wrapper/r_package_versions.tsv" "$env_prefix/r_package_versions.tsv"
+diff "$here/r_package_versions.tsv" "$env_prefix/r_package_versions.tsv"
 check_clone "$clone" "$commit"
 echo "markeR is ready: clone $clone, environment $env_prefix"
