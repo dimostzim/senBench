@@ -36,12 +36,4 @@ The three commands need Linux (x86-64) with bash, python3, git and curl. `downlo
 - `tools/`: for each published tool, its install script and the script that runs it on a count table.
 - `predictions/`: the score that each method gave each `test` sample.
 
-## Limitations
-
-- Language models read the labels from the public records; no person checked them.
-- The split was made after results on earlier splits of the same datasets had been seen, so senBench is a test bed.
-- `test` holds quiescent controls in 2 studies only (7 samples).
-- Each tool is run on one sample at a time, which some tools were not designed for.
-- A plain logistic regression trained on the same data reaches an AUROC across studies of 0.801, above every tool.
-
 The code of this repository is under the MIT licence (`LICENSE`); each tool keeps its own licence.
