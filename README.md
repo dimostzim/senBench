@@ -14,20 +14,12 @@ The three commands need Linux (x86-64) with bash, python3, git and curl. `downlo
 
 ## Results
 
-| Method | AUROC across studies | Pooled AUROC | Pooled AUPRC |
-| --- | --- | --- | --- |
-| Agentomics | 0.834 (0.775 to 0.883) | 0.864 (0.797 to 0.913) | 0.878 (0.819 to 0.923) |
-| hUSI | 0.772 (0.716 to 0.824) | 0.800 (0.728 to 0.862) | 0.822 (0.750 to 0.883) |
-| SenCID | 0.752 (0.691 to 0.808) | 0.777 (0.708 to 0.837) | 0.795 (0.727 to 0.857) |
-| SenCat | 0.750 (0.699 to 0.800) | 0.761 (0.697 to 0.821) | 0.772 (0.715 to 0.832) |
-| SENCAN | 0.721 (0.669 to 0.768) | 0.722 (0.678 to 0.771) | 0.710 (0.628 to 0.784) |
-| markeR | 0.663 (0.615 to 0.711) | 0.702 (0.635 to 0.766) | 0.725 (0.636 to 0.799) |
-| SenFinder | 0.621 (0.589 to 0.656) | 0.636 (0.593 to 0.689) | 0.609 (0.572 to 0.662) |
+![Results on test](results.png)
 
 - **AUROC across studies:** the probability that a senescent sample of one study scores higher than a not senescent sample of a study from another laboratory group, averaged over all such pairs of studies.
 - **Pooled AUROC:** the probability that a senescent sample scores higher than a not senescent sample, with all samples in one ranking.
 - **Pooled AUPRC:** the average precision with which that ranking finds the senescent samples; a random score gives about 0.5.
-- **Brackets:** the 95% interval over 2,000 resamples of the laboratory groups. markeR gave no score for 42 samples and is scored on the other 645. `results.tsv` also holds Agentomics minus each tool.
+- **Error bars:** the 95% interval over 2,000 resamples of the laboratory groups. The dashed line is the score of a random method. markeR gave no score for 42 samples and is scored on the other 645. `results.tsv` holds every value with its interval, and Agentomics minus each tool.
 
 ## Folders
 
