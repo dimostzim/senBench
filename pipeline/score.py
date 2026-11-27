@@ -8,10 +8,11 @@ import pandas as pd
 
 SENESCENT = "senescent"
 NOT_SENESCENT = "not senescent"
+AUROC_WITHIN = "AUROC within studies"
 AUROC_ACROSS = "AUROC across studies"
 POOLED_AUROC = "pooled AUROC"
 POOLED_AUPRC = "pooled AUPRC"
-MEASURES = (AUROC_ACROSS, POOLED_AUROC, POOLED_AUPRC)
+MEASURES = (AUROC_WITHIN, AUROC_ACROSS, POOLED_AUROC, POOLED_AUPRC)
 PREDICTION_COLUMNS = ["dataset", "sample", "score"]
 ROOT = Path(__file__).resolve().parent.parent
 TEST_SAMPLES = ROOT / "pipeline" / "test_samples.tsv"
@@ -93,6 +94,16 @@ def resample_auroc_across_studies(table):
     return table.mean_over(valid), resampled
 
 
+def resample_auroc_within_studies(table):
+    comparisons = np.diag(table.comparisons)
+    valid = comparisons > 0
+    probability = np.diag(table.wins)[valid] / comparisons[valid]
+    weights = weigh_studies(table.groups)[:, valid]
+    with np.errstate(invalid="ignore", divide="ignore"):
+        resampled = (weights @ probability) / weights.sum(axis=1)
+    return float(probability.mean()), resampled
+
+
 def split_states(samples):
     return samples[samples.state == SENESCENT], samples[samples.state == NOT_SENESCENT]
 
@@ -153,6 +164,7 @@ def compute_average_precision(scores, positive, weights):
 
 def resample_measures(rows, studies):
     table = tabulate_pairs(*split_states(rows), studies)
+    within, within_draws = resample_auroc_within_studies(table)
     across, across_draws = resample_auroc_across_studies(table)
     study_weights = weigh_studies(table.groups)
     with np.errstate(invalid="ignore", divide="ignore"):
@@ -162,7 +174,8 @@ def resample_measures(rows, studies):
     positive = (rows.state == SENESCENT).to_numpy()
     precision_draws = compute_average_precision(scores, positive,
                                                 weigh_studies(rows.laboratory_group.to_numpy()))
-    return {AUROC_ACROSS: (across, across_draws),
+    return {AUROC_WITHIN: (within, within_draws),
+            AUROC_ACROSS: (across, across_draws),
             POOLED_AUROC: (float(table.wins.sum() / table.comparisons.sum()), pooled_draws),
             POOLED_AUPRC: (float(compute_average_precision(scores, positive, np.ones((1, len(rows))))[0]),
                            precision_draws)}

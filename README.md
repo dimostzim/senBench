@@ -17,10 +17,10 @@ The four commands need Linux (x86-64) with bash, python3, git and curl. `install
 
 ![Results on test](results.png)
 
-- **AUROC across studies:** the probability that a senescent sample of one study scores higher than a not senescent sample of a study from another laboratory group, averaged over all such pairs of studies.
-- **Pooled AUROC:** the probability that a senescent sample scores higher than a not senescent sample, with all samples in one ranking.
-- **Pooled AUPRC:** the average precision with which that ranking finds the senescent samples; a random score gives about 0.5.
-- **Error bars:** the 95% interval over 2,000 resamples of the laboratory groups. The dashed line is the score of a random method. markeR gave no score for 42 samples and is scored on the other 645. `results.tsv` holds every value with its interval, and Agentomics minus each tool.
+- **AUROC within studies (a):** the probability that a senescent sample scores higher than a not senescent sample of the same study, averaged over the studies, each study counted once.
+- **AUROC across studies (b):** the probability that a senescent sample of one study scores higher than a not senescent sample of a study from another laboratory group, averaged over all such pairs of studies. It asks whether a score means the same in different laboratories.
+- **Error bars:** the 95% interval over 2,000 resamples of the laboratory groups. The dashed line is the score of a random method. markeR gave no score for 42 samples and is scored on the other 645.
+- `results.tsv` holds every value with its interval, the pooled AUROC and pooled AUPRC, and the Agentomics model minus each tool.
 
 ## Folders
 
