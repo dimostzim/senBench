@@ -1,8 +1,3 @@
-"""Prepare the train and validation splits of the senBench dataset for train.py, as Agentomics-ML prepares them.
-
-Each prepared split links the dataset's input/ folder and holds labels.csv with the columns id and numeric_label
-(1 for the dataset's positive class, 0 for its negative class, as metadata.json names them).
-"""
 import argparse
 import csv
 import json
@@ -25,7 +20,7 @@ def prepare_split(dataset_dir: Path, out_dir: Path, split: str, label_to_number:
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
+    parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument('--dataset-dir', type=Path, required=True,
                         help='the dataset folder with metadata.json, train/ and validation/')
     parser.add_argument('--out-dir', type=Path, required=True, help='a folder that does not exist yet')

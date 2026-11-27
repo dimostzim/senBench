@@ -1,12 +1,8 @@
-# Scores the samples of one count table with hUSI, using the functions and gene weights of the hUSI repository.
-# Usage: Rscript --vanilla score_husi.R <counts.tsv.gz> <annotation.tsv.gz> <hUSI repository> <its commit> <out dir>
-
-.libPaths(.Library)  # no library outside the environment
+.libPaths(.Library)
 
 TOOL <- "hUSI"
 SCALED_SCORE <- "hUSI"
 UNSCALED_SCORE <- "hUSI_unscaled"
-# SSE_hUSI returns 1 for the samples above its threshold and 0 for the others.
 SSE_CLASS_NAMES <- c("0" = "not senescent", "1" = "senescent")
 
 read_counts <- function(counts_path) {
@@ -29,8 +25,6 @@ read_annotation <- function(annotation_path) {
     annotation
 }
 
-# Returns TPM with gene symbols as row names. Genes without an annotation row are left out, and of the genes
-# that share a symbol the first is kept, as ID2symbol of the hUSI repository does (R/functions.R).
 convert_counts_to_symbol_tpm <- function(counts, annotation) {
     annotation <- annotation[match(rownames(counts), annotation$GeneID), ]
     keep <- !is.na(annotation$GeneID) & !duplicated(annotation$Symbol)
@@ -44,15 +38,12 @@ convert_counts_to_symbol_tpm <- function(counts, annotation) {
     tpm
 }
 
-# sc/hUSI.R loads the gene weights from a path relative to the repository and defines cal_hUSI, minmax and SSE_hUSI.
 source_husi_functions <- function(tool_repository) {
     previous_directory <- setwd(tool_repository)
     on.exit(setwd(previous_directory))
     source("sc/hUSI.R")
 }
 
-# scoreOCLR is the function of the authors' analysis scripts that returns the correlation before scaling. Only
-# its definition is evaluated, because the rest of R/functions_new.R loads packages that scoring does not need.
 define_scoreOCLR <- function(tool_repository) {
     expressions <- parse(file.path(tool_repository, "R", "functions_new.R"), keep.source = FALSE)
     is_definition <- vapply(expressions, function(expression) {
@@ -64,14 +55,12 @@ define_scoreOCLR <- function(tool_repository) {
 }
 
 arguments <- commandArgs(trailingOnly = TRUE)
-stopifnot(length(arguments) == 5)
+stopifnot(length(arguments) == 4)
 counts_path <- arguments[1]
 annotation_path <- arguments[2]
 tool_repository <- arguments[3]
-tool_commit <- arguments[4]
-out_dir <- arguments[5]
+out_dir <- arguments[4]
 
-start_time <- proc.time()[["elapsed"]]
 counts <- read_counts(counts_path)
 annotation <- read_annotation(annotation_path)
 tpm <- convert_counts_to_symbol_tpm(counts, annotation)
@@ -98,32 +87,5 @@ scores <- rbind(
                score = unname(husi_unscaled), call = "")
 )
 
-tool_genes <- names(SenOCLR$w)
-genes_without_annotation <- sum(!rownames(counts) %in% annotation$GeneID)
-run_info <- list(
-    tool = TOOL,
-    tool_repository = tool_repository,
-    tool_commit = tool_commit,
-    main_score = SCALED_SCORE,
-    counts = list(path = normalizePath(counts_path), md5 = unname(tools::md5sum(counts_path))),
-    annotation = list(path = normalizePath(annotation_path), md5 = unname(tools::md5sum(annotation_path))),
-    samples = ncol(counts),
-    genes_in_counts = nrow(counts),
-    genes_in_counts_without_annotation = genes_without_annotation,
-    genes_in_counts_with_repeated_symbol = nrow(counts) - genes_without_annotation - nrow(tpm),
-    genes_in_tpm = nrow(tpm),
-    tool_genes = length(tool_genes),
-    tool_genes_found = sum(tool_genes %in% rownames(tpm)),
-    tool_genes_missing = sum(!tool_genes %in% rownames(tpm)),
-    r_version = R.version.string,
-    package_versions = lapply(
-        c(dplyr = "dplyr", mclust = "mclust", jsonlite = "jsonlite"),
-        function(package) as.character(packageVersion(package))
-    ),
-    library_paths = .libPaths(),
-    seconds = round(proc.time()[["elapsed"]] - start_time, 1)
-)
-
 stopifnot(dir.create(out_dir, recursive = TRUE))
 write.table(scores, file.path(out_dir, "scores.tsv"), sep = "\t", quote = FALSE, row.names = FALSE)
-jsonlite::write_json(run_info, file.path(out_dir, "run_info.json"), auto_unbox = TRUE, pretty = TRUE)

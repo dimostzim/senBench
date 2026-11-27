@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""Build a dataset for Agentomics-ML from the final training data and `test` of a round of the bulk benchmark.
-
-The dataset folder holds `train/`, `validation/` and `test/`; Agentomics hides `test/` from the agent and scores the
-final model of every run on it. A second folder holds the key from each anonymous id to its sample; it is never given
-to the agent.
-
-Every split holds `input/data.csv` (column `id` and one column per gene: the read count as in the count table, not
-normalized; `NA` where the sample's count table has no row for the gene) and `labels.csv` (`id`, `label`). The columns
-are every gene with a value in at least one sample of the training data (train and validation together; never `test`).
-Validation holds a drawn share of the laboratory groups of `development`; train holds the rest of the training data.
-"""
-
 import argparse
 import hashlib
 import json
@@ -76,7 +64,6 @@ for a time and can divide again (quiescent cells) are not senescent.
 
 
 def list_samples(training, test):
-    """Return one row per labelled sample of the training data and of `test`, with its key and label."""
     training = training[training.state_for_training.isin(LABELS)].assign(label=lambda t: t.state_for_training.map(LABELS))
     test = test[test.state.isin(LABELS)].assign(label=lambda t: t.state.map(LABELS), part=TEST, split=TEST)
     samples = pd.concat([training.assign(split=TRAIN), test], ignore_index=True)
@@ -87,7 +74,6 @@ def list_samples(training, test):
 
 
 def draw_validation(samples, share, seed):
-    """Return the samples with the drawn laboratory groups of `development` moved from train to validation."""
     groups = np.sort(samples.loc[samples.part == DEVELOPMENT, "laboratory_group"].unique())
     drawn = np.random.default_rng(seed).permutation(groups)[:round(share * len(groups))]
     in_validation = (samples.split == TRAIN) & samples.laboratory_group.isin(drawn)
@@ -95,7 +81,6 @@ def draw_validation(samples, share, seed):
 
 
 def validate_splits(samples):
-    """Raise when a laboratory group or a study has samples in two splits."""
     for column in ("laboratory_group", "study"):
         splits = samples.groupby(column).split.nunique()
         if (splits > 1).any():
@@ -103,12 +88,10 @@ def validate_splits(samples):
 
 
 def choose_genes(counts, keys):
-    """Return the genes with a value in at least one of the samples named by `keys`."""
     return counts.index[counts[keys].notna().any(axis=1)]
 
 
 def validate_counts(counts):
-    """Raise when a count is negative or not a whole number."""
     values = counts.to_numpy()
     values = values[~np.isnan(values)]
     if (values < 0).any() or (values % 1 != 0).any():
@@ -116,8 +99,6 @@ def validate_counts(counts):
 
 
 def name_genes(gene_ids, annotation):
-    """Return a column name per gene: its symbol; symbol and gene id where the symbol is not unique; `GeneID_<id>`
-    where it has none."""
     symbols = annotation.reindex(gene_ids).fillna("")
     repeated = symbols.duplicated(keep=False)
     return [f"GeneID_{gene}" if not symbol else f"{symbol}_{gene}" if clash else symbol
@@ -125,14 +106,12 @@ def name_genes(gene_ids, annotation):
 
 
 def assign_ids(samples, seed):
-    """Return the samples in a shuffled order, with anonymous ids that say nothing of split, study or label."""
     order = np.random.default_rng(seed).permutation(len(samples))
     shuffled = samples.iloc[order].reset_index(drop=True)
     return shuffled.assign(**{ID_COLUMN: [f"sample_{number:04d}" for number in range(1, len(shuffled) + 1)]})
 
 
 def write_split(folder, samples, values):
-    """Write `input/data.csv` and `labels.csv` of one split."""
     (folder / INPUT_FILE).parent.mkdir(parents=True)
     data = values[samples.key].T.set_axis(samples[ID_COLUMN].values)
     data.rename_axis(ID_COLUMN).to_csv(folder / INPUT_FILE, float_format="%.0f", na_rep="NA")
@@ -152,7 +131,7 @@ def _read(path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser()
     parser.add_argument("--counts", type=Path, required=True, help="benchmark_bulk_counts.tsv.gz of the round")
     parser.add_argument("--training", type=Path, required=True, help="split/training_data_samples.tsv")
     parser.add_argument("--test", type=Path, required=True, help="split/test_samples.tsv")

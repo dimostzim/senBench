@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""Write the training data and `test` set of round all980_v10 from the round's split and sample table and the label
-corrections; reads no score and writes none.
-
-- training_data_samples.tsv: every sample of `development` and of the studies `not in set 1`, with `state` (the
-  round's label) and `state_for_training`: the round's label with every correction that names the sample applied
-  (`label check`, `trial` and `test reading` rows). A correction to a state other than `senescent` or `not senescent`
-  gives `excluded`; two corrections of one sample must have the same effect.
-- test_samples.tsv: the labelled samples of `test`, with `state`: the round's label with only the `test reading` rows
-  applied (one label column). A `test` dataset left with labelled samples of one state or none leaves `test`, by the
-  rule of the earlier rounds.
-- final_sets_sha256.txt: the sha256 of both tables.
-The `trial` rows are in the round's labels already, so none may name a sample of the round; the `test reading` rows of
-M.4 are in the round's labels too, so each of them that names a sample of the round must give its state. Studies left
-out of both parts are in neither table. Refuses existing outputs."""
-
 import argparse
 import hashlib
 from pathlib import Path
@@ -37,8 +22,6 @@ def _read(path):
 
 
 def correct_states(samples, corrections):
-    """Return the state of every sample with the corrections that name it applied; a correction to a state other than
-    STATES gives `excluded`, and two corrections of one sample must give the same state then."""
     corrections = corrections[["dataset", "sample", "state"]].merge(samples[["dataset", "sample"]]).assign(
         state=lambda table: table.state.where(table.state.isin(STATES), EXCLUDED)).drop_duplicates()
     if corrections.duplicated(["dataset", "sample"]).any():
@@ -49,8 +32,6 @@ def correct_states(samples, corrections):
 
 
 def validate_corrections(samples, corrections):
-    """Refuse a `trial` row that names a sample of the round, an M.4 row with another state than the round's, and a
-    correction that names a sample of the round only under another dataset."""
     keys = set(sample_keys(samples.dataset, samples["sample"]))
     trial = corrections[corrections.selection == TRIAL]
     if set(sample_keys(trial.dataset, trial["sample"])) & keys:
@@ -67,7 +48,6 @@ def validate_corrections(samples, corrections):
 
 
 def keep_datasets_with_both_states(test):
-    """Return the labelled samples of the datasets that keep both states, and the datasets that leave."""
     labelled = test[test.state.isin(STATES)]
     states = labelled.groupby("dataset").state.nunique()
     both = set(states.index[states == len(STATES)])
@@ -75,7 +55,6 @@ def keep_datasets_with_both_states(test):
 
 
 def build_final_sets(samples, studies, corrections):
-    """Return the table of the training data, the table of `test`, and the `test` datasets that leave `test`."""
     validate_corrections(samples, corrections)
     samples = samples.merge(studies[["study", "laboratory_group", "part"]], on="study", how="left", validate="m:1")
     order = ["study", "dataset", "sample"]
@@ -89,7 +68,6 @@ def build_final_sets(samples, studies, corrections):
 
 
 def summarise(table, state_column, by):
-    """Return per value of `by` (and in all) the studies, laboratory groups and samples per state of a column."""
     rows = []
     for name, rows_of in [*table.groupby(by), ("together", table)]:
         labelled = rows_of[rows_of[state_column].isin(STATES)]

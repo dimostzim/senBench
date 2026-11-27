@@ -1,58 +1,58 @@
-dataset	sample	title	state	outcome	count_source_file	count_source_column	source_own_correlation	source_assigned_correlation	reason	round
-GSE76125	GSM1974764	Prolif_Replicate_1	not senescent	kept	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974764	0.958	0.958	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE76125	GSM1974765	Prolif_Replicate_2	not senescent	kept	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974765	0.962	0.962	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE76125	GSM1974766	Prolif_Replicate_3	not senescent	kept	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974766	0.960	0.960	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE76125	GSM1974767	Senes_Untreated_Replicate_1	senescent	reassigned	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974770	-0.498	0.962	the GEO column of GSM1974770 matches this sample's submitters' column at 0.962, its own sample's at -0.498, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE76125	GSM1974768	Senes_Untreated_Replicate_2	senescent	reassigned	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974771	-0.458	0.952	the GEO column of GSM1974771 matches this sample's submitters' column at 0.952, its own sample's at -0.458, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE76125	GSM1974769	Senes_Untreated_Replicate_3	senescent	reassigned	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974772	-0.522	0.964	the GEO column of GSM1974772 matches this sample's submitters' column at 0.964, its own sample's at -0.522, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE76125	GSM1974770	Senes_Treated_Replicate_1	excluded	reassigned	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974767	-0.498	0.964	the GEO column of GSM1974767 matches this sample's submitters' column at 0.964, its own sample's at -0.498, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE76125	GSM1974771	Senes_Treated_Replicate_2	excluded	reassigned	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974768	-0.476	0.960	the GEO column of GSM1974768 matches this sample's submitters' column at 0.960, its own sample's at -0.476, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE76125	GSM1974772	Senes_Treated_Replicate_3	excluded	reassigned	GSE76125_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM1974769	-0.523	0.964	the GEO column of GSM1974769 matches this sample's submitters' column at 0.964, its own sample's at -0.523, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE156761	GSM4743604	dpamine-neuron-48h-H-1	senescent	reassigned	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743607	0.782	0.942	placed by independent evidence, not by the correlation margin: the run of the GEO column of GSM4743607 (SRR12508025) holds 15,719 SARS-CoV-2 reads in NCBI's taxonomy analysis of the runs (kb/data/count_column_papers.md), so it is an infected culture, and the authors' own series GSE174745 gives the same run the title H-1 (GSM5325439); the GEO column of GSM4743607 matches this sample's submitters' column at 0.942, its own sample's at 0.782	all980_v5
-GSE156761	GSM4743605	dpamine-neuron-48h-H-2	senescent	reassigned	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743608	0.313	0.871	the GEO column of GSM4743608 matches this sample's submitters' column at 0.871, its own sample's at 0.313, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE156761	GSM4743606	dpamine-neuron-48h-H-3	senescent	reassigned	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743609	0.910	0.948	placed by independent evidence, not by the correlation margin: the run of the GEO column of GSM4743609 (SRR12508027) holds 2,405 SARS-CoV-2 reads in NCBI's taxonomy analysis of the runs (kb/data/count_column_papers.md), so it is an infected culture, and the authors' own series GSE174745 gives the same run the title H-3 (GSM5325441); the GEO column of GSM4743609 matches this sample's submitters' column at 0.948, its own sample's at 0.910	all980_v5
-GSE156761	GSM4743607	dpamine-neuron-48h-mock-1	not senescent	reassigned	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743604	0.789	0.950	placed by independent evidence, not by the correlation margin: the run of the GEO column of GSM4743604 (SRR12508022) holds no SARS-CoV-2 read in NCBI's taxonomy analysis of the runs (kb/data/count_column_papers.md), so it is a mock culture, and the authors' own series GSE174745 gives the same run the title mock-1 (GSM5325436); the GEO column of GSM4743604 matches this sample's submitters' column at 0.950, its own sample's at 0.789	all980_v5
-GSE156761	GSM4743608	dpamine-neuron-48h-mock-2	not senescent	reassigned	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743605	0.451	0.938	the GEO column of GSM4743605 matches this sample's submitters' column at 0.938, its own sample's at 0.451, and is the best GEO column for this sample's submitters' column	all980_v5
-GSE156761	GSM4743609	dpamine-neuron-48h-mock-3	not senescent	reassigned	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743606	0.910	0.953	placed by independent evidence, not by the correlation margin: the run of the GEO column of GSM4743606 (SRR12508024) holds no SARS-CoV-2 read in NCBI's taxonomy analysis of the runs (kb/data/count_column_papers.md), so it is a mock culture, and the authors' own series GSE174745 gives the same run the title mock-3 (GSM5325438); the GEO column of GSM4743606 matches this sample's submitters' column at 0.953, its own sample's at 0.910	all980_v5
-GSE156761	GSM4743610	dopamine-DMSO1	senescent	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743610	0.911	0.911	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743611	dopamine-DMSO2	senescent	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743611	0.946	0.946	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743612	dopamine-DMSO3	senescent	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743612	0.919	0.919	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743613	dopamine-Riluzole1	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743613	0.944	0.944	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743614	dopamine-Riluzole2	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743614	0.938	0.938	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743615	dopamine-Riluzole3	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743615	0.900	0.900	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743616	dopamine-imatinib1	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743616	0.911	0.911	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743617	dopamine-imatinib2	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743617	0.905	0.905	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743618	dopamine-imatinib3	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743618	0.904	0.904	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743619	dopamine-Metformin1	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743619	0.868	0.868	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743620	dopamine-Metformin2	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743620	0.903	0.903	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE156761	GSM4743621	dopamine-Metformin3	excluded	kept	GSE156761_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM4743621	0.917	0.917	the GEO column of this accession matches this sample's submitters' column best, both ways	all980_v5
-GSE125632	GSM3579173	MSC_1	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579173	0.577	0.577	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579174	MSC_2	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579174	0.477	0.477	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579175	MSC_3	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579175	0.265	0.265	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579176	MSC_4	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579176	0.508	0.508	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579177	MSC_5	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579177	0.033	0.033	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579178	MSC_senescent_1	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579178	0.369	0.369	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579179	MSC_senescent_2	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579179	0.184	0.184	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579180	MSC_senescent_3	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579180	0.038	0.038	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579181	MSC_senescent_4	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579181	0.634	0.634	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579182	MSC_senescent_5	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579182	0.150	0.150	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579183	iMSC_1	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579183	0.862	0.862	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579184	iMSC_2	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579184	0.189	0.189	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579185	iMSC_3	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579185	0.177	0.177	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579186	iMSC_4	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579186	0.260	0.260	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579187	iMSC_5	not senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579187	0.575	0.575	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579188	iMSC_senescent_1	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579188	0.295	0.295	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579189	iMSC_senescent_2	senescent	left out					left out after the hand check of H.2: recorded female (donor 2), but GEO's column holds male reads (RPS4Y1 232 counts per million, XIST 0), as does the submitters' table	all980_v5
-GSE125632	GSM3579190	iMSC_senescent_3	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579190	0.056	0.056	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579191	iMSC_senescent_4	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579191	0.114	0.114	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE125632	GSM3579192	iMSC_senescent_5	senescent	kept	GSE125632_raw_counts_GRCh38.p13_NCBI.tsv.gz	GSM3579192	0.590	0.590	kept as attached after the hand check of H.2: GEO's columns as attached agree with the recorded sex in 19 of 20 samples and with the GSTM1 result of each of the 5 primary donors; C.4's exchange comes from the order of the submitters' table	all980_v5
-GSE159551	GSM4832438	control, replicate 1 [rna.M3]	not senescent	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.ctr.siCTR.1			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates -0.036 with it and 0.946 with that of GSM4832440 (senescent)	all980_v5
-GSE159551	GSM4832439	control, replicate 2 [rna.M3]	not senescent	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.ctr.siCTR.2			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.023 with it and 0.947 with that of GSM4832441 (senescent)	all980_v5
-GSE159551	GSM4832440	senescent, control knockout, replicate 1 [rna.M3]	senescent	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siCTR.1			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates -0.031 with it and 0.951 with that of GSM4832438 (not senescent)	all980_v5
-GSE159551	GSM4832441	senescent, control knockout, replicate 2 [rna.M3]	senescent	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siCTR.2			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.025 with it and 0.946 with that of GSM4832439 (not senescent)	all980_v5
-GSE159551	GSM4832442	senescent, METTL3 knockout, replicate 1 [rna.M3]	excluded	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siMETTL3.vec.1			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.918 with it and 0.918 with that of GSM4832442 (excluded)	all980_v5
-GSE159551	GSM4832443	senescent, METTL3 knockout, replicate 2 [rna.M3]	excluded	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siMETTL3.vec.2			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.909 with it and 0.909 with that of GSM4832443 (excluded)	all980_v5
-GSE159551	GSM4832444	senescent, METTL3 knockout, wild type METTL3 knock-in, replicate 1 [rna.M3]	excluded	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siMETTL3.WT.1			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.927 with it and 0.927 with that of GSM4832444 (excluded)	all980_v5
-GSE159551	GSM4832445	senescent, METTL3 knockout, wild type METTL3 knock-in, replicate 2 [rna.M3]	excluded	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siMETTL3.WT.2			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.934 with it and 0.934 with that of GSM4832445 (excluded)	all980_v5
-GSE159551	GSM4832446	senescent, METTL3 knockout, mutant METTL3 knock-in, replicate 1 [rna.M3]	excluded	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siMETTL3.MT.1			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.944 with it and 0.944 with that of GSM4832446 (excluded)	all980_v5
-GSE159551	GSM4832447	senescent, METTL3 knockout, mutant METTL3 knock-in, replicate 2 [rna.M3]	excluded	submitters' raw counts	GSE159551_RNAseq_counts_M3.txt.gz	rna.M3.RAS.siMETTL3.MT.2			the submitters' column that C.4's layout gives to this sample (match: agent); GEO's column of this accession correlates 0.948 with it and 0.948 with that of GSM4832447 (excluded)	all980_v5
+dataset	sample	outcome	count_source_column
+GSE76125	GSM1974764	kept	GSM1974764
+GSE76125	GSM1974765	kept	GSM1974765
+GSE76125	GSM1974766	kept	GSM1974766
+GSE76125	GSM1974767	reassigned	GSM1974770
+GSE76125	GSM1974768	reassigned	GSM1974771
+GSE76125	GSM1974769	reassigned	GSM1974772
+GSE76125	GSM1974770	reassigned	GSM1974767
+GSE76125	GSM1974771	reassigned	GSM1974768
+GSE76125	GSM1974772	reassigned	GSM1974769
+GSE156761	GSM4743604	reassigned	GSM4743607
+GSE156761	GSM4743605	reassigned	GSM4743608
+GSE156761	GSM4743606	reassigned	GSM4743609
+GSE156761	GSM4743607	reassigned	GSM4743604
+GSE156761	GSM4743608	reassigned	GSM4743605
+GSE156761	GSM4743609	reassigned	GSM4743606
+GSE156761	GSM4743610	kept	GSM4743610
+GSE156761	GSM4743611	kept	GSM4743611
+GSE156761	GSM4743612	kept	GSM4743612
+GSE156761	GSM4743613	kept	GSM4743613
+GSE156761	GSM4743614	kept	GSM4743614
+GSE156761	GSM4743615	kept	GSM4743615
+GSE156761	GSM4743616	kept	GSM4743616
+GSE156761	GSM4743617	kept	GSM4743617
+GSE156761	GSM4743618	kept	GSM4743618
+GSE156761	GSM4743619	kept	GSM4743619
+GSE156761	GSM4743620	kept	GSM4743620
+GSE156761	GSM4743621	kept	GSM4743621
+GSE125632	GSM3579173	kept	GSM3579173
+GSE125632	GSM3579174	kept	GSM3579174
+GSE125632	GSM3579175	kept	GSM3579175
+GSE125632	GSM3579176	kept	GSM3579176
+GSE125632	GSM3579177	kept	GSM3579177
+GSE125632	GSM3579178	kept	GSM3579178
+GSE125632	GSM3579179	kept	GSM3579179
+GSE125632	GSM3579180	kept	GSM3579180
+GSE125632	GSM3579181	kept	GSM3579181
+GSE125632	GSM3579182	kept	GSM3579182
+GSE125632	GSM3579183	kept	GSM3579183
+GSE125632	GSM3579184	kept	GSM3579184
+GSE125632	GSM3579185	kept	GSM3579185
+GSE125632	GSM3579186	kept	GSM3579186
+GSE125632	GSM3579187	kept	GSM3579187
+GSE125632	GSM3579188	kept	GSM3579188
+GSE125632	GSM3579189	left out	
+GSE125632	GSM3579190	kept	GSM3579190
+GSE125632	GSM3579191	kept	GSM3579191
+GSE125632	GSM3579192	kept	GSM3579192
+GSE159551	GSM4832438	submitters' raw counts	rna.M3.ctr.siCTR.1
+GSE159551	GSM4832439	submitters' raw counts	rna.M3.ctr.siCTR.2
+GSE159551	GSM4832440	submitters' raw counts	rna.M3.RAS.siCTR.1
+GSE159551	GSM4832441	submitters' raw counts	rna.M3.RAS.siCTR.2
+GSE159551	GSM4832442	submitters' raw counts	rna.M3.RAS.siMETTL3.vec.1
+GSE159551	GSM4832443	submitters' raw counts	rna.M3.RAS.siMETTL3.vec.2
+GSE159551	GSM4832444	submitters' raw counts	rna.M3.RAS.siMETTL3.WT.1
+GSE159551	GSM4832445	submitters' raw counts	rna.M3.RAS.siMETTL3.WT.2
+GSE159551	GSM4832446	submitters' raw counts	rna.M3.RAS.siMETTL3.MT.1
+GSE159551	GSM4832447	submitters' raw counts	rna.M3.RAS.siMETTL3.MT.2

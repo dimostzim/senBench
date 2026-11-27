@@ -1,13 +1,8 @@
-# Classifies the samples of one count table with the released SenFinder script and model.
-# Usage: Rscript --vanilla score_senfinder.R <counts.tsv.gz> <annotation.tsv.gz> <SenFinder repository> <its commit>
-#            <model_genes.tsv> <set absent genes to zero: TRUE or FALSE> <out dir>
-
-.libPaths(.Library)  # no library outside the environment
+.libPaths(.Library)
 
 TOOL <- "SenFinder"
 STATUS_SCORE <- "Senescence_status"
 PROBABILITY_SCORE <- "Senescence_probability"
-# senFinder.R writes Yes for the class X1 of the model and No for the class X0.
 SENESCENT_CLASS <- "X1"
 NOT_SENESCENT_CLASS <- "X0"
 STATUS_SCORES <- c(No = 0, Yes = 1)
@@ -39,7 +34,6 @@ read_annotation <- function(annotation_path) {
     annotation
 }
 
-# Returns TPM with GeneID as row names. Genes without an annotation row have no length and are left out.
 convert_counts_to_tpm <- function(counts, annotation) {
     annotation <- annotation[match(rownames(counts), annotation$GeneID), ]
     keep <- !is.na(annotation$GeneID)
@@ -59,9 +53,6 @@ read_model_genes <- function(model_genes_path, model) {
     model_genes
 }
 
-# Adds GeneID and matched_by to the table of model genes. A model gene is matched to the annotation row with its
-# Ensembl identifier, or, when no row has that identifier, to the row with its symbol. GeneID is NA when the
-# annotation table has no such row or the count table has no such GeneID.
 find_model_genes <- function(model_genes, annotation, count_gene_ids) {
     find_one <- function(ensembl_gene_id, symbol) {
         by_ensembl <- annotation$GeneID[annotation$EnsemblGeneID == ensembl_gene_id]
@@ -86,7 +77,6 @@ build_model_input <- function(tpm, model_genes) {
     cbind(setNames(data.frame(colnames(tpm)), SAMPLE_COLUMN), as.data.frame(values))
 }
 
-# Runs senFinder.R of the repository as its README does. The script writes its result to the working directory.
 run_released_script <- function(tool_repository, work_dir) {
     previous_directory <- setwd(work_dir)
     on.exit(setwd(previous_directory))
@@ -99,16 +89,13 @@ run_released_script <- function(tool_repository, work_dir) {
     read.csv(RELEASED_OUTPUT, colClasses = "character")
 }
 
-# The class probabilities of the model, for the features as senFinder.R reads them.
 predict_class_probabilities <- function(model, model_input_path) {
     new_data <- read.csv(model_input_path)
     features <- new_data[, -which(names(new_data) == SAMPLE_COLUMN)]
     predict(model, newdata = features, type = "prob")
 }
 
-score_samples <- function(counts_path, annotation_path, tool_repository, tool_commit, model_genes_path,
-                          set_absent_genes_to_zero, out_dir) {
-    start_time <- proc.time()[["elapsed"]]
+score_samples <- function(counts_path, annotation_path, tool_repository, model_genes_path, out_dir) {
     counts <- read_counts(counts_path)
     annotation <- read_annotation(annotation_path)
     tpm <- convert_counts_to_tpm(counts, annotation)
@@ -117,12 +104,6 @@ score_samples <- function(counts_path, annotation_path, tool_repository, tool_co
     model_path <- file.path(tool_repository, RELEASED_MODEL)
     model <- readRDS(model_path)
     model_genes <- find_model_genes(read_model_genes(model_genes_path, model), annotation, rownames(tpm))
-    absent <- is.na(model_genes$GeneID)
-    if (any(absent) && !set_absent_genes_to_zero) {
-        stop("the count table has no gene for ", sum(absent), " of the ", nrow(model_genes),
-             " genes of the model, and the model needs a value for each of them: ",
-             toString(sprintf("%s (%s)", model_genes$model_column[absent], model_genes$ensembl_gene_id[absent])))
-    }
 
     work_dir <- tempfile("senfinder_")
     stopifnot(dir.create(work_dir))
@@ -139,7 +120,6 @@ score_samples <- function(counts_path, annotation_path, tool_repository, tool_co
         status[[STATUS_SCORE]] %in% names(STATUS_SCORES),
         nrow(probabilities) == length(samples),
         all(is.finite(probabilities[[SENESCENT_CLASS]])),
-        # caret calls the class with the higher probability, so the two outputs must agree.
         identical(status[[STATUS_SCORE]] == "Yes",
                   probabilities[[SENESCENT_CLASS]] > probabilities[[NOT_SENESCENT_CLASS]])
     )
@@ -151,43 +131,15 @@ score_samples <- function(counts_path, annotation_path, tool_repository, tool_co
         data.frame(sample = samples, tool = TOOL, score_name = PROBABILITY_SCORE,
                    score = probabilities[[SENESCENT_CLASS]], call = "")
     )
-    packages <- c("caret", "kernlab", "e1071", "dplyr", "tidyr", "ggplot2", "lattice", "jsonlite")
-    run_info <- list(
-        tool = TOOL,
-        tool_repository = tool_repository,
-        tool_commit = tool_commit,
-        model = list(path = model_path, md5 = unname(tools::md5sum(model_path))),
-        main_score = STATUS_SCORE,
-        counts = list(path = normalizePath(counts_path), md5 = unname(tools::md5sum(counts_path))),
-        annotation = list(path = normalizePath(annotation_path), md5 = unname(tools::md5sum(annotation_path))),
-        samples = ncol(counts),
-        genes_in_counts = nrow(counts),
-        genes_in_counts_without_annotation = nrow(counts) - nrow(tpm),
-        genes_in_tpm = nrow(tpm),
-        tool_genes = nrow(model_genes),
-        tool_genes_found = sum(!absent),
-        tool_genes_missing = sum(absent),
-        tool_genes_set_to_zero = model_genes$model_column[absent],
-        tool_gene_table = model_genes,
-        r_version = R.version.string,
-        package_versions = lapply(setNames(packages, packages), function(package) as.character(packageVersion(package))),
-        library_paths = .libPaths(),
-        seconds = round(proc.time()[["elapsed"]] - start_time, 1)
-    )
-
     stopifnot(dir.create(out_dir, recursive = TRUE))
     write.table(scores, file.path(out_dir, "scores.tsv"), sep = "\t", quote = FALSE, row.names = FALSE)
-    stopifnot(file.copy(file.path(work_dir, c(MODEL_INPUT, RELEASED_OUTPUT)), out_dir))
-    jsonlite::write_json(run_info, file.path(out_dir, "run_info.json"), auto_unbox = TRUE, pretty = TRUE,
-                         na = "null")
 }
 
-suppressPackageStartupMessages(library(caret))  # the class of the model and its predict method
+suppressPackageStartupMessages(library(caret))
 
 arguments <- commandArgs(trailingOnly = TRUE)
-stopifnot(length(arguments) == 7, arguments[6] %in% c("TRUE", "FALSE"))
+stopifnot(length(arguments) == 5)
 score_samples(
     counts_path = arguments[1], annotation_path = arguments[2], tool_repository = arguments[3],
-    tool_commit = arguments[4], model_genes_path = arguments[5],
-    set_absent_genes_to_zero = as.logical(arguments[6]), out_dir = arguments[7]
+    model_genes_path = arguments[4], out_dir = arguments[5]
 )

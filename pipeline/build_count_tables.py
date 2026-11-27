@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Build one count table per dataset (genes by samples; raw read counts, or expected counts after rounding), check it
-and record its source; then write the table of all count tables and the table of their columns.
-
-A table is built from GEO's uniform counts, from our counts of the raw reads, or, through the stored layout of the
-dataset, from the submitters' supplementary files: delimited text, workbooks and the members of tar archives.
-"""
-
 import argparse
 import collections
 import csv
@@ -34,7 +27,6 @@ MATCH_ACCESSION = "accession"
 MATCH_EXACT = "exact"
 MATCH_AGENT = "agent"
 NO_COLUMN = "no column"
-# Outcomes of a sample in the table of column reassignments; `reassigned` is also the `match` of such a column.
 KEPT = "kept"
 REASSIGNED = "reassigned"
 SUBMITTERS_RAW_COUNTS = "submitters' raw counts"
@@ -45,43 +37,33 @@ GENE_SYMBOL = "gene symbol"
 OTHER_IDENTIFIER = "other"
 ENSEMBL_GENE_PATTERN = r"ENS[A-Z]*G\d{11}(\.\d+)?"
 NCBI_GENE_ID_PATTERN = r"\d+"
-# The start of an Ensembl or RefSeq transcript accession.
 TRANSCRIPT_PATTERN = r"ENS[A-Z]*T\d{11}|[NX][MR]_\d+"
-# Rows that HTSeq and STAR write next to the genes: reads that were not assigned to a gene.
 UNASSIGNED_READS_PATTERN = (r"__.*|N_(unmapped|multimapping|noFeature|ambiguous)"
                             r"|no_feature|ambiguous|too_low_aQual|not_aligned|alignment_not_unique")
-# Up to this share of the rows of a table may lack a gene identifier (they are left out) or repeat one (they are
-# kept); a table with more such rows does not hold one count per gene.
 MAX_FAULTY_ROW_SHARE = 0.05
 UNASSIGNED_ROWS = "rows of reads that were not assigned to a gene"
 UNIDENTIFIED_ROWS = "rows without a gene identifier"
 CHECK_FAILED = "check failed:"
 UNIFORM_TABLE_PRESENT = "present"
 SUPPLEMENTARY_FOLDER = "suppl"
-# The folder of GEO's uniform count tables in the folder of download.sh.
 UNIFORM_FOLDER = "geo_uniform_counts"
 GENE_COLUMN = "gene_identifier"
 TABLES_NAME = "count_tables.tsv"
 COLUMNS_NAME = "count_table_columns.tsv.gz"
-UNITS_NAME = "units.tsv"
 TABLE_COLUMNS = ("dataset", "count_table_state", "source_file", "source_sha256", "gene_identifier_kind", "genes",
                  "samples_of_dataset", "samples_in_table", "column_match", "note")
 COLUMN_COLUMNS = ("dataset", "sample", "file", "member", "sheet", "column", "column_name", "match")
 CHUNK_BYTES = 1 << 20
-# The `content` of a stored layout. In a layout of values per sample, each source states its `values`.
 RAW_READ_COUNTS = "raw read counts"
 NORMALISED_VALUES_ONLY = "normalised values only"
 VALUES_PER_SAMPLE = "values per sample"
-# The kinds of content of a supplementary file or tar member.
 TEXT, WORKBOOK, TAR, OTHER = "text", "workbook", "tar", "other"
-# GEO's list of the members of a tar; not a data file.
 MEMBER_LIST_NAME = "filelist.txt"
 SEPARATORS = {"tab": "\t", "comma": ",", "semicolon": ";", "whitespace": r"\s+"}
 _GZIP_START = b"\x1f\x8b"
 _WORKBOOK_STARTS = (b"PK\x03\x04", b"\xd0\xcf\x11\xe0")
 _TAR_MARK = slice(257, 262)
 _SNIFF_BYTES = 8192
-# The first non-empty lines of a text content, which give its delimiter.
 _FIRST_ROWS = 4
 _MAX_LINE_CHARS = 50_000_000
 
@@ -89,26 +71,22 @@ csv.field_size_limit(_MAX_LINE_CHARS)
 
 
 class ContentProblem(Exception):
-    """A file or tar member that cannot be read as its kind."""
+    pass
 
 
 @dataclass(frozen=True)
 class Table:
-    """The values of some columns of one file, member or sheet, as text."""
-    # Column number (counted in the rows of values, from 1) to the name of the column; empty without a names row.
     column_names: dict
     values: pd.DataFrame
 
 
 def list_data_files(folder):
-    """Return the data files of a supplementary folder, sorted by name; a missing folder has none."""
     if not folder.is_dir():
         return []
     return sorted(path for path in folder.iterdir() if path.is_file() and path.name != MEMBER_LIST_NAME)
 
 
 def open_content(opener):
-    """Return the kind of a file or tar member and a handle at the start of its content, uncompressed."""
     handle = opener()
     try:
         if handle.peek(len(_GZIP_START)).startswith(_GZIP_START):
@@ -126,7 +104,6 @@ def open_content(opener):
 
 
 def open_tar(handle):
-    """Open the content of a tar for reading single members."""
     try:
         return tarfile.open(fileobj=handle, mode="r:")
     except tarfile.TarError as problem:
@@ -134,7 +111,6 @@ def open_tar(handle):
 
 
 def _read_lines(handle):
-    """Yield (line number, line) for the lines of a text content that are not empty."""
     text = io.TextIOWrapper(handle, encoding="utf-8-sig", errors="replace")
     number = 0
     try:
@@ -162,24 +138,20 @@ def _split_line(line, delimiter):
 
 
 def _read_text_rows(handle):
-    """Return the delimiter of a text content and its first non-empty lines as (line number, fields)."""
     lines = [numbered for numbered, _ in zip(_read_lines(handle), range(_FIRST_ROWS))]
     delimiter = _find_delimiter([line for _, line in lines])
     return delimiter, [(number, _split_line(line, delimiter)) for number, line in lines]
 
 
 def _read_sheet(handle, sheet):
-    """Return one sheet of a workbook as text."""
     try:
         frame = pd.read_excel(io.BytesIO(handle.read()), sheet_name=sheet, header=None, dtype=str, na_filter=False)
     except (gzip.BadGzipFile, EOFError, zipfile.BadZipFile, xlrd.XLRDError, ValueError, KeyError) as problem:
         raise ContentProblem(f"workbook: {problem}") from None
-    # Some workbooks give a number or a missing value for a cell although text was asked for.
     return frame.map(lambda cell: "" if pd.isna(cell) else str(cell))
 
 
 def _name_columns(names, width, columns):
-    """Return the names of columns of the rows of values; a names row may lack the name of the first column."""
     offset = width - len(names)
     if offset not in (0, 1):
         raise ContentProblem(f"the row of column names has {len(names)} fields, the first row of values {width}")
@@ -218,11 +190,6 @@ def _read_sheet_table(opener, sheet, column_names_row, first_values_row, columns
 
 
 def read_table(opener, sheet, column_names_row, first_values_row, columns):
-    """Return the names and the values of the given columns of a text content or of a sheet of a workbook.
-
-    Rows and columns are numbered from 1; `column_names_row` is 0 where there is no row of column names.
-    Rows in which every given column is empty are left out.
-    """
     kind = open_content(opener)[0]
     if kind == TEXT and not sheet:
         names, values = _read_text_table(opener, column_names_row, first_values_row, columns)
@@ -234,7 +201,7 @@ def read_table(opener, sheet, column_names_row, first_values_row, columns):
 
 
 class _CheckProblem(Exception):
-    """A table that is not one count or one expected count per gene and sample."""
+    pass
 
 
 def _sha256(path):
@@ -246,11 +213,6 @@ def _sha256(path):
 
 
 def _check_expected_counts(genes, numbers, where):
-    """Raise unless values that are not all whole numbers are expected counts per gene.
-
-    Expected counts keep whole numbers for the genes whose reads are assigned without ambiguity; values that were
-    divided by a factor or transformed do not.
-    """
     transcripts = genes.str.match(TRANSCRIPT_PATTERN).sum()
     if transcripts > MAX_FAULTY_ROW_SHARE * len(genes):
         raise _CheckProblem(f"{where}: values are not whole numbers, and {transcripts} of {len(genes)} rows are "
@@ -263,11 +225,6 @@ def _check_expected_counts(genes, numbers, where):
 
 
 def _check_counts(frame, where):
-    """Return the rows of genes of a frame with whole numbers as counts, the numbers of rows left out by kind, and
-    the number of values that were not whole numbers and were rounded half to even.
-
-    Raises where a value is neither a count nor an expected count.
-    """
     genes = frame[GENE_COLUMN].str.strip()
     unassigned = genes.str.fullmatch(UNASSIGNED_READS_PATTERN)
     unidentified = genes == ""
@@ -286,7 +243,6 @@ def _check_counts(frame, where):
             sample = wrong.any().idxmax()
             raise _CheckProblem(f"{where}: {wrong.sum().sum()} values {problem}, the first "
                                 f"{text[sample][wrong[sample]].iat[0]!r} of {sample}")
-    # pd.to_numeric can miss a number by its last bit, which decides the rounding of a value next to a half.
     numbers = text.astype("float64")
     not_whole = int((numbers % 1 != 0).sum().sum())
     if not_whole:
@@ -297,7 +253,6 @@ def _check_counts(frame, where):
 
 
 def _join_frames(frames):
-    """Join checked frames by gene identifier; return the table and the number of genes that a frame lacks."""
     first = frames[0][GENE_COLUMN]
     if all(first.equals(frame[GENE_COLUMN]) for frame in frames):
         return pd.concat([frames[0]] + [frame.drop(columns=GENE_COLUMN) for frame in frames[1:]], axis=1), 0
@@ -310,7 +265,6 @@ def _join_frames(frames):
 
 
 def _classify_identifiers(genes, symbols):
-    """Return the kind of most gene identifiers, and how many are of that kind."""
     counts = {ENSEMBL_GENE: genes.str.fullmatch(ENSEMBL_GENE_PATTERN).sum(),
               NCBI_GENE_ID: genes.str.fullmatch(NCBI_GENE_ID_PATTERN).sum(), GENE_SYMBOL: genes.isin(symbols).sum()}
     kind = max(counts, key=counts.get)
@@ -320,7 +274,6 @@ def _classify_identifiers(genes, symbols):
 
 
 def match_column(sample, title, member, column_name):
-    """Return how a column is known to belong to a sample."""
     if column_name == sample or re.match(rf"{sample}(?!\d)", member):
         return MATCH_ACCESSION
     if column_name and column_name == title.strip():
@@ -329,8 +282,6 @@ def match_column(sample, title, member, column_name):
 
 
 def _read_source(folder, source, titles):
-    """Return the checked frames of one source of a layout, the rows left out, the number of values rounded, and
-    one row per sample column."""
     path = folder / source["file"]
     opener = partial(path.open, "rb")
     kind, handle = open_content(opener)
@@ -361,12 +312,6 @@ def _read_source(folder, source, titles):
 
 
 def _read_uniform_table(path, titles, source_columns):
-    """Return the checked frame of a GEO uniform table, the rows left out, one row per column of a sample of the
-    dataset, and the number of columns that are not samples of the dataset.
-
-    `source_columns` maps a sample of the dataset to the sample accession of the column it takes; a sample that it
-    does not name has no column.
-    """
     frame = pd.read_csv(path, sep="\t", dtype=str, na_filter=False)
     samples = [sample for sample in titles if source_columns.get(sample) in frame.columns]
     matches = [{"sample": sample, "file": path.name, "member": "", "sheet": "",
@@ -388,7 +333,6 @@ def _summarise_matches(matches):
 
 
 def _write_table(frames, left_out, matches, titles, symbols, target):
-    """Check the joined table, write it, and return the table fields that describe it."""
     table, lacking = _join_frames(frames)
     genes = table[GENE_COLUMN]
     repeated = int(genes.duplicated(keep=False).sum())
@@ -411,10 +355,7 @@ def _write_table(frames, left_out, matches, titles, symbols, target):
             "column_match": _summarise_matches(matches), "note": "; ".join(notes)}
 
 
-def _read_layout(record):
-    """Return the agent's layout from its stored record; a layout of values per sample whose sources all hold raw read
-    counts is taken as a layout of raw read counts."""
-    layout = record["answer"]
+def _read_layout(layout):
     if layout["content"] == VALUES_PER_SAMPLE and all(source["values"] == RAW_READ_COUNTS
                                                        for source in layout["sources"]):
         return {**layout, "content": RAW_READ_COUNTS}
@@ -423,13 +364,6 @@ def _read_layout(record):
 
 def build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, layout_record, symbols, out_dir,
                   uniform_state=GEO_UNIFORM):
-    """Build the count table of one dataset; return its row of the table of count tables and its column rows.
-
-    `titles` maps every sample of the dataset to its title; `uniform_table` is a table in the layout of GEO uniform
-    tables, None where there is none or where the table is built from the submitters' raw counts instead, and
-    `uniform_state` is its `count_table_state`. `source_columns` maps a sample to the accession of the column of that
-    table that it takes (a sample not named has no column). `layout_record` is the stored layout of the dataset.
-    """
     row = dict.fromkeys(TABLE_COLUMNS, "")
     row.update({"dataset": dataset, "samples_of_dataset": len(titles), "samples_in_table": 0})
     target = out_dir / f"{dataset}.tsv.gz"
@@ -488,8 +422,6 @@ def build_dataset(dataset, titles, uniform_table, source_columns, suppl_folder, 
 
 
 def read_reassignments(path):
-    """Return the datasets whose table is built from the submitters' raw counts, and per other dataset of the table
-    of column reassignments the accession of the GEO uniform column that each sample with a column takes."""
     table = pd.read_csv(path, sep="\t", dtype=str, keep_default_na=False)
     unknown = set(table.outcome) - {KEPT, REASSIGNED, SUBMITTERS_RAW_COUNTS, LEFT_OUT}
     if unknown:
@@ -508,7 +440,6 @@ def read_reassignments(path):
 
 def _build_unit(datasets_titles, repositories, uniform_files, downloads_dir, layouts, symbols, out_dir, from_submitters,
                 reassigned_columns, counted_dir, dataset):
-    """Build one dataset; return (dataset, status, note) for the units table and its record (None if it failed)."""
     suppl_folder = downloads_dir / repositories[dataset] / dataset / SUPPLEMENTARY_FOLDER
     uses_uniform = dataset in uniform_files and dataset not in from_submitters
     uniform_table = downloads_dir / UNIFORM_FOLDER / dataset / uniform_files[dataset] if uses_uniform else None
@@ -528,8 +459,6 @@ def _build_unit(datasets_titles, repositories, uniform_files, downloads_dir, lay
 
 
 def write_summary_tables(records, out_dir):
-    """Write the table of count tables and the table of their columns from the records of all datasets, in the order
-    of the datasets."""
     records = sorted(records, key=lambda record: record["table"]["dataset"])
     tables = pd.DataFrame([record["table"] for record in records], columns=TABLE_COLUMNS)
     tables.to_csv(out_dir / TABLES_NAME, sep="\t", index=False)
@@ -559,7 +488,7 @@ def main():
                         help="our count tables of raw reads, `<dataset>.tsv.gz`: a dataset with one is built from it, "
                              "with the state `counted from raw reads`")
     parser.add_argument("--out-dir", type=Path, required=True)
-    parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument("--workers", type=int, required=True)
     args = parser.parse_args()
 
     with args.datasets.open(newline="") as handle:
@@ -581,10 +510,8 @@ def main():
     build = partial(_build_unit, titles, repositories, uniform_files, args.downloads_dir, layouts, symbols,
                     args.out_dir, from_submitters, reassigned_columns, args.counted_dir)
     failed = []
-    with ProcessPoolExecutor(max_workers=args.workers) as pool, \
-            (args.out_dir / UNITS_NAME).open("w", newline="") as units_handle:
+    with ProcessPoolExecutor(max_workers=args.workers) as pool:
         for done, (dataset, status, note, record) in enumerate(pool.map(build, datasets), start=1):
-            csv.writer(units_handle, delimiter="\t", lineterminator="\n").writerow((dataset, status, note))
             print(f"PROGRESS {done}/{len(datasets)} {dataset} {status}: {note}", flush=True)
             if status == "failed":
                 failed.append(dataset)

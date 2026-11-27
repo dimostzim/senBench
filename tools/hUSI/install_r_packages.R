@@ -1,10 +1,6 @@
-# Installs the R packages of the hUSI wrapper into the library of the running R and writes their versions.
-# Usage: Rscript --vanilla install_r_packages.R <lock file to write>
-
-.libPaths(.Library)  # no library outside the environment
+.libPaths(.Library)
 
 SNAPSHOT <- "https://packagemanager.posit.co/cran/2023-12-15"
-# dplyr and mclust: loaded by sc/hUSI.R, versions as in the hUSI README. jsonlite: writes run_info.json.
 PINNED <- c(dplyr = "1.1.4", mclust = "6.0.1", jsonlite = "1.8.8")
 CPUS <- 8
 

@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-"""Build the bulk benchmark table: labelled samples of cultured human cells with raw counts, one count table per dataset."""
-
 import argparse
 import re
 from pathlib import Path
@@ -28,17 +26,10 @@ GEO_SAMPLE = re.compile(r"GSM\d+")
 
 
 def sample_key(dataset, sample):
-    """Return the key that names one sample across datasets.
-
-    A GEO sample accession names the same sample in every series that holds it, such as a SuperSeries and its
-    SubSeries. Any other sample name, such as the source name of an ArrayExpress sample sheet, names a sample of its own
-    dataset only, so its key is the dataset and the sample.
-    """
     return sample if GEO_SAMPLE.fullmatch(sample) else f"{dataset}/{sample}"
 
 
 def sample_keys(datasets, samples):
-    """Return sample_key() of each pair of a dataset and a sample."""
     return [sample_key(dataset, sample) for dataset, sample in zip(datasets, samples, strict=True)]
 
 
@@ -47,7 +38,6 @@ def _read(path, **options):
 
 
 def select_samples(labels, dataset_labels, organisms, count_tables, count_columns):
-    """Return the labelled human samples that have a column of raw counts, and the samples left out with the reason."""
     table = labels[["dataset", "sample", *LABEL_COLUMNS]].merge(organisms, on=["dataset", "sample"], how="left",
                                                                  validate="1:1")
     if table.organism.isna().any():
@@ -72,11 +62,6 @@ def select_samples(labels, dataset_labels, organisms, count_tables, count_column
 
 
 def assign_samples_to_datasets(eligible):
-    """Keep every sample once: the dataset with the most eligible samples takes its samples first.
-
-    A sample of a SuperSeries is also a sample of a SubSeries. A sample whose state is `senescent` in one dataset
-    and `not senescent` in another is left out. A dataset stays only if it keeps samples of both states.
-    """
     keys = pd.Series(sample_keys(eligible.dataset, eligible["sample"]), index=eligible.index)
     states_per_sample = eligible.groupby(keys).state.nunique()
     contradicted = keys.map(states_per_sample) > 1
@@ -98,7 +83,6 @@ def assign_samples_to_datasets(eligible):
 
 
 def name_studies(all_labels, kept):
-    """Give every kept dataset a study: datasets that share a sample, directly or through other datasets, are one study."""
     parent = {dataset: dataset for dataset in all_labels.dataset.unique()}
 
     def find(dataset):
@@ -115,13 +99,11 @@ def name_studies(all_labels, kept):
     for dataset in parent:
         members.setdefault(find(dataset), []).append(dataset)
     sizes = all_labels.groupby("dataset").size()
-    # A study is named after its dataset with the most samples, which is the SuperSeries where there is one.
     names = {root: max(datasets, key=lambda dataset: (sizes[dataset], dataset)) for root, datasets in members.items()}
     return kept.dataset.map(lambda dataset: names[find(dataset)])
 
 
 def map_to_ncbi_gene_ids(counts, annotation):
-    """Return the counts with NCBI gene ids as rows; counts of rows that map to the same gene are added."""
     by_ensembl = annotation[annotation.EnsemblGeneID != ""].drop_duplicates("EnsemblGeneID").set_index(
         "EnsemblGeneID").GeneID
     by_symbol = annotation.drop_duplicates("Symbol").set_index("Symbol").GeneID
@@ -143,7 +125,6 @@ def map_to_ncbi_gene_ids(counts, annotation):
 
 
 def build_dataset_counts(dataset, samples, counts_dir, annotation):
-    """Return the count table of the kept samples of one dataset with NCBI gene ids, and what was left out of it."""
     table = _read(counts_dir / f"{dataset}.tsv.gz")
     table = table.set_index(table.columns[0])[list(samples)]
     complete = (table != "").all(axis=1)
@@ -171,8 +152,8 @@ def main():
         raise SystemExit(f"{args.out_dir} exists")
 
     labels = _read(args.sample_labels)
-    organisms = _read(args.samples, usecols=["dataset", "level", "sample", "organism", "assay"])
-    organisms = organisms[(organisms.level == "sample") & organisms.assay.isin(BULK_RNA_SEQ_ASSAYS)][
+    organisms = _read(args.samples, usecols=["dataset", "sample", "organism", "assay"])
+    organisms = organisms[organisms.assay.isin(BULK_RNA_SEQ_ASSAYS)][
         ["dataset", "sample", "organism"]]
     eligible, left_out = select_samples(labels, _read(args.dataset_labels), organisms, _read(args.count_tables),
                                         _read(args.count_columns))

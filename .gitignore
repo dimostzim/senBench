@@ -1,7 +1,5 @@
-# Downloads (download.sh); build outputs, environments, tool installs and prediction runs (build.sh, setup.sh, predict.py)
 /downloads/
 /build/
-# Written by agentomics_model/train.py next to itself
 /agentomics_model/validation_predictions.csv
 __pycache__/
 *.pyc

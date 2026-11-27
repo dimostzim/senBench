@@ -13,7 +13,7 @@ from sklearn.metrics import average_precision_score, confusion_matrix, matthews_
 from sklearn.utils.extmath import randomized_svd
 from threadpoolctl import threadpool_limits
 
-from helpers.training_reporter import TrainingReporter
+from training_reporter import TrainingReporter
 from pipeline import LinearClassifier, MODEL_NAME, load_pipeline, save_pipeline
 from representation import fit_quadratic_design, load_labels, iter_quadratic_features
 from inference import _scorer, COLUMNS

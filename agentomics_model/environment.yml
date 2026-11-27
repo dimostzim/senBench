@@ -1,7 +1,3 @@
-# Environment of the Agentomics model: the packages of the Agentomics-ML agent's environment in which the model
-# was trained and scored, at the agent's versions (all conda packages; from pip, torch 2.9.0 and the packages it
-# needs). The code imports numpy, scipy, scikit-learn, pandas, joblib and threadpoolctl. When torch finds a CUDA GPU,
-# the code fits and scores on it, as the agent's run did; without one it computes on the CPU.
 channels:
   - conda-forge
 dependencies:

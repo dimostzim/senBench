@@ -1,0 +1,26 @@
+list_method
+hUSI
+SenCID
+SENCAN
+Hernandez-Segura signature
+SenCat ML score
+PreCSenM
+Mahmud 2024 classifier (called SenFinder by Bridge 2026)
+Fridman and Tainsky 2008 gene set
+CellAge signature, expression signature
+CellAge signature, database genes
+SenMayo
+CoreScence
+SenSet
+Senescence eigengenes (Dehkordi 2021), canonical senescence pathway
+Senescence eigengenes (Dehkordi 2021), senescence initiating pathway
+Senescence eigengenes (Dehkordi 2021), senescence response pathway
+OIS-SP
+CSGene
+GenAge (ageing genes, used as a comparator gene set)
+MSigDB GO and Reactome senescence sets, GOBP_CELLULAR_SENESCENCE
+MSigDB GO and Reactome senescence sets, REACTOME_CELLULAR_SENESCENCE
+De Cecco SASP gene set
+BuckSenOvary
+SenSASP
+Casella signature

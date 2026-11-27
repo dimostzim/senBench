@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""Compare the outputs of a build with the sha256 of our own build (checksums.tsv) and write one row per output:
-`equal`, `differs` or `missing`. A gzip file is compared by its uncompressed content, because gzip stores the time of
-writing. Exits with 1 if an output differs or is missing."""
-
 import argparse
 import csv
 import gzip
@@ -19,7 +15,6 @@ CHUNK_BYTES = 1 << 20
 
 
 def compute_sha256(path, hashed):
-    """Return the sha256 of a file, or of its uncompressed content."""
     digest = hashlib.sha256()
     with (gzip.open if hashed == UNCOMPRESSED else open)(path, "rb") as handle:
         for chunk in iter(lambda: handle.read(CHUNK_BYTES), b""):
@@ -28,7 +23,6 @@ def compute_sha256(path, hashed):
 
 
 def compare_outputs(checksums, build_dir):
-    """Return the rows of the checksum table with the sha256 of the build and the outcome."""
     rows = []
     for row in checksums:
         path = build_dir / row["path"]
