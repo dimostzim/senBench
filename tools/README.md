@@ -1,6 +1,6 @@
 # The published tools
 
-`bash run.sh <tool>` installs one tool and scores `test` with it; the tool is `hUSI`, `SenCID`, `SenCat`, `SENCAN`, `markeR` or `SenFinder`. The tools' own code is not in this repository.
+`bash install.sh <tool>` installs one tool and `bash run.sh <tool>` scores `test` with it; the tool is `hUSI`, `SenCID`, `SenCat`, `SENCAN`, `markeR` or `SenFinder`. The tools' own code is not in this repository.
 
 ## Install
 

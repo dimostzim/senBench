@@ -1,16 +1,17 @@
 # senBench
 
-senBench is a benchmark of methods that call a bulk RNA-seq sample of cultured human cells senescent or not senescent. A method receives the raw read counts of one sample and returns a score that is higher for senescent samples. senBench holds public datasets from GEO and ArrayExpress with a label for every sample and a split of the datasets by laboratory. It compares Agentomics, a model that the agent system Agentomics-ML built on the training data, with six published tools on the held-out part `test` (687 samples of 78 datasets from 71 laboratory groups).
+senBench is a benchmark of methods that call a bulk RNA-seq sample of cultured human cells senescent or not senescent. A method receives the raw read counts of one sample and returns a score that is higher for senescent samples. senBench holds public datasets from GEO and ArrayExpress with a label for every sample and a split of the datasets by laboratory. It compares the Agentomics model, which the agent system Agentomics-ML built on the training data, with six published tools on the held-out part `test` (687 samples of 78 datasets from 71 laboratory groups).
 
 ## Quick start
 
 ```
+bash install.sh
 bash download.sh
 bash build.sh
 bash run.sh
 ```
 
-The three commands need Linux (x86-64) with bash, python3, git and curl. `download.sh` downloads the public files into `downloads/` (18.76 GiB). `build.sh` builds the count tables, the split, the training data and `test` into `build/`, and compares each output with the sha256 of our build. `run.sh` installs our model and the six tools, scores `test` with each into `predictions/`, and writes `results.tsv`; `bash run.sh SenCID` runs one method.
+The four commands need Linux (x86-64) with bash, python3, git and curl. `install.sh` installs micromamba and the environments of the pipeline, the Agentomics model and the six tools into `build/envs/` (about 20 GB), with each tool's code at the commit the benchmark used; `bash install.sh SenCID` installs one. `download.sh` downloads the public files into `downloads/` (18.76 GiB). `build.sh` builds the count tables, the split, the training data and `test` into `build/`, and compares each output with the sha256 of our build. `run.sh` scores `test` with the Agentomics model and each tool into `predictions/`, and writes `results.tsv`; `bash run.sh SenCID` runs one method.
 
 ## Results
 

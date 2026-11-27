@@ -34,7 +34,7 @@ The tables of `data/` are shipped, and `build.sh` does not make them again:
 
 ## Outputs
 
-`build.sh` installs micromamba 2.3.0 and the environment of `environment.yml` into `build/envs/`, and makes four folders in `build/`, in this order. A folder that exists is not made again; to make one again, delete it and the folders after it.
+`build.sh` uses the environment that `install.sh` makes from `environment.yml` in `build/envs/pipeline`, and makes four folders in `build/`, in this order. A folder that exists is not made again; to make one again, delete it and the folders after it.
 
 | Folder | Content |
 | --- | --- |
@@ -49,7 +49,7 @@ At the end `build.sh` writes `build/checksum_comparison.tsv`: for each of the 66
 
 ## Predictions and scores
 
-`run.sh` installs each method into `build/envs/` (Agentomics from `agentomics_model/environment.yml`, a tool with its `setup.sh`), then runs `predict.py <method>`, and at the end `score.py`.
+`install.sh` installs each method into `build/envs/` (the Agentomics model from `agentomics_model/environment.yml`, a tool with its `setup.sh`). `run.sh` runs `predict.py <method>` for each method, and at the end `score.py`.
 
 - `predict.py <method>` scores the samples of `build/all980_v10/split/test_samples.tsv` and writes `predictions/<method>.tsv` (columns `dataset`, `sample`, `score`), replacing the shipped file. For Agentomics it runs `agentomics_model/inference.py` on `build/agentomics/senescence_bulk_all980_v10/test/input`; for a tool, `tools/README.md` describes the call. On another processor, some probabilities of Agentomics differ from the shipped ones after the 15th decimal.
 - `score.py` scores every file of `predictions/` on the labels of `test_samples.tsv` and writes `results.tsv`: per method the AUROC across studies, the pooled AUROC and the pooled AUPRC with their 95% intervals from 2,000 resamples of the laboratory groups (seed 20261116), and Agentomics minus the method on the same resamples and on the samples both have a score for. It needs numpy and pandas (`build/envs/pipeline/bin/python pipeline/score.py`). On the shipped predictions it gives the shipped `results.tsv`.

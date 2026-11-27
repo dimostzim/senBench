@@ -55,8 +55,8 @@ build_agentomics_dataset() {
         --key-dir "$1/senescence_bulk_all980_v10_key"
 }
 
+require pipeline
 python3 "$pipeline/downloads.py" check
-install pipeline micromamba env create --yes --prefix "$envs/pipeline" --file "$pipeline/environment.yml"
 run_step sample_table build_sample_table
 run_step counts build_count_tables
 run_step all980_v10 build_round

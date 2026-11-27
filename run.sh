@@ -5,13 +5,9 @@ python=$envs/pipeline/bin/python
 methods=(Agentomics hUSI SenCID SenCat SENCAN markeR SenFinder)
 [ $# -eq 0 ] || methods=("$@")
 
+require pipeline
 for method in "${methods[@]}"; do
-    if [ "$method" = Agentomics ]; then
-        install Agentomics micromamba env create --yes --prefix "$envs/Agentomics" \
-            --file "$repo/agentomics_model/environment.yml"
-    else
-        install "$method" bash "$repo/tools/$method/setup.sh"
-    fi
+    require "$method"
     "$python" "$repo/pipeline/predict.py" "$method"
 done
 "$python" "$repo/pipeline/score.py"

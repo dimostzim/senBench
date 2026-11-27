@@ -4,7 +4,7 @@ Agentomics is the model that an agent of Agentomics-ML wrote and trained on the 
 
 ## Run
 
-`bash run.sh Agentomics` builds the environment of `environment.yml` in `build/envs/Agentomics` (7.2 GB, most of it torch), scores `test` and writes `predictions/Agentomics.tsv`. To score other samples:
+`bash install.sh Agentomics` builds the environment of `environment.yml` in `build/envs/Agentomics` (7.2 GB, most of it torch), and `bash run.sh Agentomics` scores `test` and writes `predictions/Agentomics.tsv`. To score other samples:
 
 ```
 build/envs/Agentomics/bin/python agentomics_model/inference.py --input <input folder> --output <predictions.csv>
